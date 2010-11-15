@@ -8,6 +8,7 @@ Aquest està associat a un compte on guardarà els seus crèdits obtinguts per p
 
 Aquest projecte serà realitzat com a Projecte de Xarxes de Computadors de la Facultat d'Informàtica de Barcelona i no tindrà cap ànim de lucre.
 Els components del grup (2) del projecte són:
+
 * Alba Rincón
 * Raul Diego
 * David Cortés
