@@ -13,6 +13,21 @@
 
 @synthesize window;
 
+#pragma mark -
+#pragma mark Controlador de l'inici de sessió
+
+- (IBAction)iniciaSessio{
+	NSLog(@"Botó apretat");
+	NSString *nom = [nombre text];
+	NSString *pass = [contrasena text];
+	/*
+	 NSLog(@"%@",nom);
+	 NSLog(@"%@",pass);
+	 */
+
+	NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:@"http://expresso.webservice/orders/ident_client/"]];
+	NSData *response = [NSURLConnection sendSynchronousRequest:request returningResponse:nil error:nil];
+}
 
 #pragma mark -
 #pragma mark Application lifecycle

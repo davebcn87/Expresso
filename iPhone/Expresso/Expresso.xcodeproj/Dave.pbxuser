@@ -2,17 +2,17 @@
 {
 	1D3623240D0F684500981E51 /* ExpressoAppDelegate.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1411, 698}}";
-			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 854}";
+			sepNavIntBoundsRect = "{{0, 0}, {1411, 689}}";
+			sepNavSelRange = "{1052, 0}";
+			sepNavVisRange = "{0, 1106}";
 			sepNavWindowFrame = "{{15, 123}, {853, 900}}";
 		};
 	};
 	1D3623250D0F684500981E51 /* ExpressoAppDelegate.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {2371, 2772}}";
-			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{6461, 1092}";
+			sepNavIntBoundsRect = "{{0, 0}, {1965, 3080}}";
+			sepNavSelRange = "{602, 0}";
+			sepNavVisRange = "{0, 1507}";
 		};
 	};
 	1D6058900D05DD3D006BFB54 /* Expresso */ = {
@@ -183,6 +183,9 @@
 		activeBuildConfigurationName = Debug;
 		activeExecutable = 554FAF6F12958E7600C79A65 /* Expresso */;
 		activeTarget = 1D6058900D05DD3D006BFB54 /* Expresso */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* Expresso */,
+		);
 		codeSenseManager = 554FAF8012958E7900C79A65 /* Code sense */;
 		executables = (
 			554FAF6F12958E7600C79A65 /* Expresso */,
@@ -210,18 +213,29 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 311793338;
-			PBXWorkspaceStateSaveDate = 311793338;
+			PBXPerProjectTemplateStateSaveDate = 312583417;
+			PBXWorkspaceStateSaveDate = 312583417;
 		};
 		perUserProjectItems = {
-			554FAF871295951400C79A65 /* XDModelBookmark */ = 554FAF871295951400C79A65 /* XDModelBookmark */;
-			554FAF881295951400C79A65 /* PBXTextBookmark */ = 554FAF881295951400C79A65 /* PBXTextBookmark */;
-			555E8562129596BF0024BABC /* PBXTextBookmark */ = 555E8562129596BF0024BABC /* PBXTextBookmark */;
-			555E856F129596C30024BABC /* PBXTextBookmark */ = 555E856F129596C30024BABC /* PBXTextBookmark */;
+			551CB3EF12A1A4FC005366AE /* PBXTextBookmark */ = 551CB3EF12A1A4FC005366AE /* PBXTextBookmark */;
+			55C856CF12A1945C00BED74B = 55C856CF12A1945C00BED74B /* PBXTextBookmark */;
+			55C856D012A1945C00BED74B = 55C856D012A1945C00BED74B /* PBXTextBookmark */;
+			55C856D212A1945C00BED74B = 55C856D212A1945C00BED74B /* PBXTextBookmark */;
+			55C856DB12A1A05C00BED74B = 55C856DB12A1A05C00BED74B /* PBXTextBookmark */;
 		};
 		sourceControlManager = 554FAF7F12958E7900C79A65 /* Source Control */;
 		userBuildSettings = {
 		};
+	};
+	551CB3EF12A1A4FC005366AE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* ExpressoAppDelegate.m */;
+		name = "ExpressoAppDelegate.m: 28";
+		rLen = 0;
+		rLoc = 602;
+		rType = 0;
+		vrLen = 1507;
+		vrLoc = 0;
 	};
 	554FAF6F12958E7600C79A65 /* Expresso */ = {
 		isa = PBXExecutable;
@@ -265,39 +279,51 @@
 		isa = PBXCodeSenseManager;
 		indexTemplatePath = "";
 	};
-	554FAF871295951400C79A65 /* XDModelBookmark */ = {
-		isa = XDModelBookmark;
-		fRef = 28C3AD890F43EF2300507BA6 /* Expresso.xcdatamodel */;
-		fallbackIsa = PBXBookmark;
-	};
-	554FAF881295951400C79A65 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 1D3623250D0F684500981E51 /* ExpressoAppDelegate.m */;
-		name = "ExpressoAppDelegate.m: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 1092;
-		vrLoc = 6461;
-	};
-	555E8562129596BF0024BABC /* PBXTextBookmark */ = {
+	55C856CF12A1945C00BED74B /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 1D3623240D0F684500981E51 /* ExpressoAppDelegate.h */;
-		name = "ExpressoAppDelegate.h: 1";
+		name = "ExpressoAppDelegate.h: 33";
 		rLen = 0;
-		rLoc = 0;
+		rLoc = 1052;
 		rType = 0;
-		vrLen = 854;
+		vrLen = 1106;
 		vrLoc = 0;
 	};
-	555E856F129596C30024BABC /* PBXTextBookmark */ = {
+	55C856D012A1945C00BED74B /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = 1D3623240D0F684500981E51 /* ExpressoAppDelegate.h */;
-		name = "ExpressoAppDelegate.h: 1";
-		rLen = 0;
-		rLoc = 0;
+		fRef = 55C856D112A1945C00BED74B /* NSURLRequest.h */;
+		name = "NSURLRequest.h: 169";
+		rLen = 75;
+		rLoc = 7011;
 		rType = 0;
-		vrLen = 854;
+		vrLen = 2135;
+		vrLoc = 6027;
+	};
+	55C856D112A1945C00BED74B /* NSURLRequest.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = NSURLRequest.h;
+		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSURLRequest.h;
+		sourceTree = "<absolute>";
+	};
+	55C856D212A1945C00BED74B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* ExpressoAppDelegate.m */;
+		name = "ExpressoAppDelegate.m: 28";
+		rLen = 10;
+		rLoc = 567;
+		rType = 0;
+		vrLen = 1486;
+		vrLoc = 0;
+	};
+	55C856DB12A1A05C00BED74B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* ExpressoAppDelegate.m */;
+		name = "ExpressoAppDelegate.m: 28";
+		rLen = 0;
+		rLoc = 602;
+		rType = 0;
+		vrLen = 1509;
 		vrLoc = 0;
 	};
 }
