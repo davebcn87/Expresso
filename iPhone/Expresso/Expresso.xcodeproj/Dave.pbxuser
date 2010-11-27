@@ -12,7 +12,7 @@
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1965, 3080}}";
 			sepNavSelRange = "{602, 0}";
-			sepNavVisRange = "{0, 1507}";
+			sepNavVisRange = "{0, 1499}";
 		};
 	};
 	1D6058900D05DD3D006BFB54 /* Expresso */ = {
