@@ -20,15 +20,37 @@
 	NSLog(@"Botó apretat");
 	NSString *nom = [nombre text];
 	NSString *pass = [contrasena text];
-	/*
+	
 	 NSLog(@"%@",nom);
 	 NSLog(@"%@",pass);
-	 */
-
-	NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:@"http://expresso.webservice/orders/ident_client/"]];
-	NSData *response = [NSURLConnection sendSynchronousRequest:request returningResponse:nil error:nil];
+	 
+	responseData = [[NSMutableData data] retain];
+	
+	NSMutableURLRequest *request = [NSMutableURLRequest 
+                                    requestWithURL:[NSURL URLWithString:@"http://expresso.webservice/orders/ident_client"]];
+													
+	NSString *params = [[NSString alloc] initWithFormat:@"user=%@&pass=%@",nom,pass];
+		NSLog(@"%@",params);
+	[request setHTTPMethod:@"POST"];
+	[request setHTTPBody:[params dataUsingEncoding:NSUTF8StringEncoding]];
+	[[NSURLConnection alloc] initWithRequest:request delegate:self];
 }
 
+#pragma mark -
+#pragma mark Delegat del NSURLConnection
+
+- (void)connection:(NSURLConnection *)connection didReceiveData:(NSData *)data
+{
+
+	NSString *datos = [[NSString alloc]  initWithBytes:[data bytes]
+												length:[data length] encoding: NSUTF8StringEncoding];
+	NSLog(@"%@",datos);
+}
+
+- (void)connection:(NSURLConnection *)connection didFailWithError:(NSError *)error
+{
+	NSLog(@"%@",error);
+}
 #pragma mark -
 #pragma mark Application lifecycle
 

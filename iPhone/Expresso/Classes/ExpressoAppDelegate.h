@@ -20,6 +20,7 @@
 	UITextField *nombre;
 	UITextField *contrasena;
 	UIButton *inicia;
+	NSMutableData *responseData;
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
@@ -33,6 +34,14 @@
 @property (nonatomic, retain) IBOutlet UITextField *inicia;
 
 - (NSString *)applicationDocumentsDirectory;
+
+-(IBAction) iniciaSessio;
+
+#pragma mark -
+#pragma mark Delegat del NSURLConnection
+
+- (void)connection:(NSURLConnection *)connection didReceiveData:(NSData *)data;
+- (void)connection:(NSURLConnection *)connection didFailWithError:(NSError *)error;
 
 @end
 

@@ -63,6 +63,7 @@
 			$this->set('data',$data);
 			$this->RequestHandler->renderAs($this,'xml');
 		}
+
 		
 		function ident_client()
 		{
@@ -70,7 +71,7 @@
 				$this->data['Client'] = $_POST[0];
 
 			//Sustituir por la llamada al webservice del servidr global
-			if($this->data['Client']['username']=='alba' && $this->data['Client']['password']=='albapass')
+			if($_POST['user']=='alba' && $_POST['pass']=='albapass')
 			{
 				$data['result'] = 1;
 				$data['message'] = 'Client exist';
