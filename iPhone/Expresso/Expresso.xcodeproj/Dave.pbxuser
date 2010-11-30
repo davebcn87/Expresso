@@ -2,17 +2,17 @@
 {
 	1D3623240D0F684500981E51 /* ExpressoAppDelegate.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1411, 733}}";
-			sepNavSelRange = "{1377, 0}";
-			sepNavVisRange = "{0, 1385}";
+			sepNavIntBoundsRect = "{{0, 0}, {1344, 685}}";
+			sepNavSelRange = "{921, 0}";
+			sepNavVisRange = "{0, 921}";
 			sepNavWindowFrame = "{{15, 123}, {853, 900}}";
 		};
 	};
 	1D3623250D0F684500981E51 /* ExpressoAppDelegate.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1965, 3472}}";
-			sepNavSelRange = "{1280, 0}";
-			sepNavVisRange = "{0, 1394}";
+			sepNavIntBoundsRect = "{{0, 0}, {1965, 2940}}";
+			sepNavSelRange = "{220, 0}";
+			sepNavVisRange = "{0, 2062}";
 		};
 	};
 	1D6058900D05DD3D006BFB54 /* Expresso */ = {
@@ -182,6 +182,7 @@
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
 		activeBuildConfigurationName = Debug;
 		activeExecutable = 554FAF6F12958E7600C79A65 /* Expresso */;
+		activeSDKPreference = iphonesimulator4.0;
 		activeTarget = 1D6058900D05DD3D006BFB54 /* Expresso */;
 		addToTargets = (
 			1D6058900D05DD3D006BFB54 /* Expresso */,
@@ -222,7 +223,7 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					1233,
+					1166,
 					20,
 					48,
 					43,
@@ -285,6 +286,68 @@
 			556E621912A564D0008064C5 /* PBXTextBookmark */ = 556E621912A564D0008064C5 /* PBXTextBookmark */;
 			556E621A12A564D0008064C5 /* PBXBookmark */ = 556E621A12A564D0008064C5 /* PBXBookmark */;
 			556E621B12A564D0008064C5 /* PBXTextBookmark */ = 556E621B12A564D0008064C5 /* PBXTextBookmark */;
+			556E622E12A56DFA008064C5 /* PBXTextBookmark */ = 556E622E12A56DFA008064C5 /* PBXTextBookmark */;
+			556E622F12A56DFA008064C5 /* PBXTextBookmark */ = 556E622F12A56DFA008064C5 /* PBXTextBookmark */;
+			556E623012A56DFA008064C5 /* PBXTextBookmark */ = 556E623012A56DFA008064C5 /* PBXTextBookmark */;
+			556E623112A56DFA008064C5 /* PBXTextBookmark */ = 556E623112A56DFA008064C5 /* PBXTextBookmark */;
+			556E623212A56DFA008064C5 /* PBXTextBookmark */ = 556E623212A56DFA008064C5 /* PBXTextBookmark */;
+			556E624212A56E18008064C5 /* PBXTextBookmark */ = 556E624212A56E18008064C5 /* PBXTextBookmark */;
+			556E625B12A56F28008064C5 /* XCBuildMessageTextBookmark */ = 556E625B12A56F28008064C5 /* XCBuildMessageTextBookmark */;
+			556E625E12A56F2C008064C5 /* PBXTextBookmark */ = 556E625E12A56F2C008064C5 /* PBXTextBookmark */;
+			556E625F12A56F2C008064C5 /* XCBuildMessageTextBookmark */ = 556E625F12A56F2C008064C5 /* XCBuildMessageTextBookmark */;
+			556E626012A56F2C008064C5 /* PBXTextBookmark */ = 556E626012A56F2C008064C5 /* PBXTextBookmark */;
+			556E626312A56F2C008064C5 /* PBXTextBookmark */ = 556E626312A56F2C008064C5 /* PBXTextBookmark */;
+			556E626712A56F4C008064C5 /* PBXTextBookmark */ = 556E626712A56F4C008064C5 /* PBXTextBookmark */;
+			556E626812A56F4C008064C5 /* PBXTextBookmark */ = 556E626812A56F4C008064C5 /* PBXTextBookmark */;
+			556E626912A56F4C008064C5 /* PBXTextBookmark */ = 556E626912A56F4C008064C5 /* PBXTextBookmark */;
+			556E626E12A56F91008064C5 /* PBXTextBookmark */ = 556E626E12A56F91008064C5 /* PBXTextBookmark */;
+			556E626F12A56F91008064C5 /* PBXTextBookmark */ = 556E626F12A56F91008064C5 /* PBXTextBookmark */;
+			556E627012A56F91008064C5 /* PBXTextBookmark */ = 556E627012A56F91008064C5 /* PBXTextBookmark */;
+			556E627112A56F91008064C5 /* PBXTextBookmark */ = 556E627112A56F91008064C5 /* PBXTextBookmark */;
+			556E627512A56FA4008064C5 /* PBXTextBookmark */ = 556E627512A56FA4008064C5 /* PBXTextBookmark */;
+			556E627612A56FA4008064C5 /* PBXTextBookmark */ = 556E627612A56FA4008064C5 /* PBXTextBookmark */;
+			556E627A12A56FCF008064C5 /* PBXTextBookmark */ = 556E627A12A56FCF008064C5 /* PBXTextBookmark */;
+			556E627B12A56FCF008064C5 /* PBXTextBookmark */ = 556E627B12A56FCF008064C5 /* PBXTextBookmark */;
+			556E627C12A56FCF008064C5 /* PBXTextBookmark */ = 556E627C12A56FCF008064C5 /* PBXTextBookmark */;
+			556E627D12A56FCF008064C5 /* PBXTextBookmark */ = 556E627D12A56FCF008064C5 /* PBXTextBookmark */;
+			556E628212A56FE8008064C5 /* PBXTextBookmark */ = 556E628212A56FE8008064C5 /* PBXTextBookmark */;
+			556E628312A56FE8008064C5 /* PBXTextBookmark */ = 556E628312A56FE8008064C5 /* PBXTextBookmark */;
+			556E628412A56FE8008064C5 /* PBXTextBookmark */ = 556E628412A56FE8008064C5 /* PBXTextBookmark */;
+			556E628512A56FE8008064C5 /* PBXTextBookmark */ = 556E628512A56FE8008064C5 /* PBXTextBookmark */;
+			556E628A12A570D2008064C5 /* PBXTextBookmark */ = 556E628A12A570D2008064C5 /* PBXTextBookmark */;
+			556E628B12A570D2008064C5 /* PBXTextBookmark */ = 556E628B12A570D2008064C5 /* PBXTextBookmark */;
+			556E628C12A570D2008064C5 /* PBXTextBookmark */ = 556E628C12A570D2008064C5 /* PBXTextBookmark */;
+			556E628D12A570D2008064C5 /* PBXTextBookmark */ = 556E628D12A570D2008064C5 /* PBXTextBookmark */;
+			556E628E12A570D2008064C5 /* PBXTextBookmark */ = 556E628E12A570D2008064C5 /* PBXTextBookmark */;
+			556E628F12A570D2008064C5 /* PBXTextBookmark */ = 556E628F12A570D2008064C5 /* PBXTextBookmark */;
+			556E629512A57130008064C5 /* PBXTextBookmark */ = 556E629512A57130008064C5 /* PBXTextBookmark */;
+			556E629612A57130008064C5 /* PBXTextBookmark */ = 556E629612A57130008064C5 /* PBXTextBookmark */;
+			556E629712A57130008064C5 /* PBXTextBookmark */ = 556E629712A57130008064C5 /* PBXTextBookmark */;
+			556E629812A57130008064C5 /* PBXTextBookmark */ = 556E629812A57130008064C5 /* PBXTextBookmark */;
+			556E629912A57130008064C5 /* PBXTextBookmark */ = 556E629912A57130008064C5 /* PBXTextBookmark */;
+			556E629A12A57130008064C5 /* PBXTextBookmark */ = 556E629A12A57130008064C5 /* PBXTextBookmark */;
+			556E629E12A5714D008064C5 /* PBXTextBookmark */ = 556E629E12A5714D008064C5 /* PBXTextBookmark */;
+			556E629F12A5714D008064C5 /* PBXTextBookmark */ = 556E629F12A5714D008064C5 /* PBXTextBookmark */;
+			556E62A012A5714D008064C5 /* PBXTextBookmark */ = 556E62A012A5714D008064C5 /* PBXTextBookmark */;
+			556E62A112A5714D008064C5 /* PBXTextBookmark */ = 556E62A112A5714D008064C5 /* PBXTextBookmark */;
+			556E62A512A57195008064C5 /* PBXTextBookmark */ = 556E62A512A57195008064C5 /* PBXTextBookmark */;
+			556E62A612A57195008064C5 /* PBXTextBookmark */ = 556E62A612A57195008064C5 /* PBXTextBookmark */;
+			556E62A712A57195008064C5 /* PBXTextBookmark */ = 556E62A712A57195008064C5 /* PBXTextBookmark */;
+			556E62A812A57195008064C5 /* PBXTextBookmark */ = 556E62A812A57195008064C5 /* PBXTextBookmark */;
+			556E62A912A57195008064C5 /* PBXTextBookmark */ = 556E62A912A57195008064C5 /* PBXTextBookmark */;
+			556E62AA12A57195008064C5 /* PBXTextBookmark */ = 556E62AA12A57195008064C5 /* PBXTextBookmark */;
+			556E62AD12A571C7008064C5 /* PBXTextBookmark */ = 556E62AD12A571C7008064C5 /* PBXTextBookmark */;
+			556E62AE12A571C7008064C5 /* XCBuildMessageTextBookmark */ = 556E62AE12A571C7008064C5 /* XCBuildMessageTextBookmark */;
+			556E62AF12A571C7008064C5 /* PBXTextBookmark */ = 556E62AF12A571C7008064C5 /* PBXTextBookmark */;
+			556E62B012A571CB008064C5 /* PBXTextBookmark */ = 556E62B012A571CB008064C5 /* PBXTextBookmark */;
+			556E62B112A571CB008064C5 /* PBXTextBookmark */ = 556E62B112A571CB008064C5 /* PBXTextBookmark */;
+			556E62B212A571CB008064C5 /* PBXTextBookmark */ = 556E62B212A571CB008064C5 /* PBXTextBookmark */;
+			556E62B612A5726A008064C5 /* PBXTextBookmark */ = 556E62B612A5726A008064C5 /* PBXTextBookmark */;
+			556E62B712A5726A008064C5 /* PBXTextBookmark */ = 556E62B712A5726A008064C5 /* PBXTextBookmark */;
+			556E62B812A5726A008064C5 /* PBXTextBookmark */ = 556E62B812A5726A008064C5 /* PBXTextBookmark */;
+			556E62BC12A574FC008064C5 /* PBXTextBookmark */ = 556E62BC12A574FC008064C5 /* PBXTextBookmark */;
+			556E62BD12A574FC008064C5 /* PBXTextBookmark */ = 556E62BD12A574FC008064C5 /* PBXTextBookmark */;
+			556E62BE12A574FC008064C5 /* PBXTextBookmark */ = 556E62BE12A574FC008064C5 /* PBXTextBookmark */;
 			55C856CF12A1945C00BED74B = 55C856CF12A1945C00BED74B /* PBXTextBookmark */;
 			55C856D012A1945C00BED74B = 55C856D012A1945C00BED74B /* PBXTextBookmark */;
 			55C856D212A1945C00BED74B = 55C856D212A1945C00BED74B /* PBXTextBookmark */;
@@ -299,7 +362,7 @@
 		fRef = 1D3623250D0F684500981E51 /* ExpressoAppDelegate.m */;
 		name = "ExpressoAppDelegate.m: 28";
 		rLen = 0;
-		rLoc = 470;
+		rLoc = 240;
 		rType = 0;
 		vrLen = 1587;
 		vrLoc = 0;
@@ -309,7 +372,7 @@
 		fRef = 1D3623250D0F684500981E51 /* ExpressoAppDelegate.m */;
 		name = "ExpressoAppDelegate.m: 26";
 		rLen = 0;
-		rLoc = 468;
+		rLoc = 240;
 		rType = 0;
 		vrLen = 1576;
 		vrLoc = 0;
@@ -318,8 +381,8 @@
 		isa = PBXTextBookmark;
 		fRef = 1D3623240D0F684500981E51 /* ExpressoAppDelegate.h */;
 		name = "ExpressoAppDelegate.h: 37";
-		rLen = 12;
-		rLoc = 1142;
+		rLen = 0;
+		rLoc = 914;
 		rType = 0;
 		vrLen = 1133;
 		vrLoc = 0;
@@ -329,7 +392,7 @@
 		fRef = 1D3623250D0F684500981E51 /* ExpressoAppDelegate.m */;
 		name = "ExpressoAppDelegate.m: 29";
 		rLen = 0;
-		rLoc = 988;
+		rLoc = 240;
 		rType = 0;
 		vrLen = 1576;
 		vrLoc = 0;
@@ -339,7 +402,7 @@
 		fRef = 1D3623250D0F684500981E51 /* ExpressoAppDelegate.m */;
 		name = "ExpressoAppDelegate.m: 19";
 		rLen = 0;
-		rLoc = 327;
+		rLoc = 240;
 		rType = 0;
 		vrLen = 1576;
 		vrLoc = 0;
@@ -354,7 +417,7 @@
 		fRef = 1D3623250D0F684500981E51 /* ExpressoAppDelegate.m */;
 		name = "ExpressoAppDelegate.m: 19";
 		rLen = 0;
-		rLoc = 327;
+		rLoc = 240;
 		rType = 0;
 		vrLen = 1576;
 		vrLoc = 0;
@@ -364,7 +427,7 @@
 		fRef = 1D3623250D0F684500981E51 /* ExpressoAppDelegate.m */;
 		name = "ExpressoAppDelegate.m: 27";
 		rLen = 0;
-		rLoc = 470;
+		rLoc = 240;
 		rType = 0;
 		vrLen = 1645;
 		vrLoc = 0;
@@ -374,7 +437,7 @@
 		fRef = 1D3623250D0F684500981E51 /* ExpressoAppDelegate.m */;
 		name = "ExpressoAppDelegate.m: 28";
 		rLen = 0;
-		rLoc = 470;
+		rLoc = 240;
 		rType = 0;
 		vrLen = 1596;
 		vrLoc = 0;
@@ -384,7 +447,7 @@
 		fRef = 1D3623250D0F684500981E51 /* ExpressoAppDelegate.m */;
 		name = "ExpressoAppDelegate.m: 32";
 		rLen = 0;
-		rLoc = 988;
+		rLoc = 240;
 		rType = 0;
 		vrLen = 1620;
 		vrLoc = 0;
@@ -410,8 +473,8 @@
 		isa = PBXTextBookmark;
 		fRef = 1D3623250D0F684500981E51 /* ExpressoAppDelegate.m */;
 		name = "ExpressoAppDelegate.m: 41";
-		rLen = 78;
-		rLoc = 1049;
+		rLen = 0;
+		rLoc = 240;
 		rType = 0;
 		vrLen = 1319;
 		vrLoc = 0;
@@ -420,8 +483,8 @@
 		isa = PBXTextBookmark;
 		fRef = 1D3623240D0F684500981E51 /* ExpressoAppDelegate.h */;
 		name = "ExpressoAppDelegate.h: 37";
-		rLen = 12;
-		rLoc = 1142;
+		rLen = 0;
+		rLoc = 914;
 		rType = 0;
 		vrLen = 1133;
 		vrLoc = 0;
@@ -431,7 +494,7 @@
 		fRef = 1D3623240D0F684500981E51 /* ExpressoAppDelegate.h */;
 		name = "ExpressoAppDelegate.h: 12";
 		rLen = 0;
-		rLoc = 271;
+		rLoc = 304;
 		rType = 0;
 		vrLen = 1273;
 		vrLoc = 0;
@@ -441,7 +504,7 @@
 		fRef = 1D3623240D0F684500981E51 /* ExpressoAppDelegate.h */;
 		name = "ExpressoAppDelegate.h: 42";
 		rLen = 0;
-		rLoc = 1377;
+		rLoc = 914;
 		rType = 0;
 		vrLen = 1271;
 		vrLoc = 0;
@@ -451,7 +514,7 @@
 		fRef = 1D3623240D0F684500981E51 /* ExpressoAppDelegate.h */;
 		name = "ExpressoAppDelegate.h: 23";
 		rLen = 0;
-		rLoc = 570;
+		rLoc = 540;
 		rType = 0;
 		vrLen = 1301;
 		vrLoc = 0;
@@ -460,8 +523,8 @@
 		isa = PBXTextBookmark;
 		fRef = 1D3623250D0F684500981E51 /* ExpressoAppDelegate.m */;
 		name = "ExpressoAppDelegate.m: 27";
-		rLen = 13;
-		rLoc = 487;
+		rLen = 0;
+		rLoc = 240;
 		rType = 0;
 		vrLen = 1351;
 		vrLoc = 0;
@@ -470,8 +533,8 @@
 		isa = PBXTextBookmark;
 		fRef = 1D3623250D0F684500981E51 /* ExpressoAppDelegate.m */;
 		name = "ExpressoAppDelegate.m: 27";
-		rLen = 13;
-		rLoc = 487;
+		rLen = 0;
+		rLoc = 240;
 		rType = 0;
 		vrLen = 1351;
 		vrLoc = 0;
@@ -481,7 +544,7 @@
 		fRef = 1D3623250D0F684500981E51 /* ExpressoAppDelegate.m */;
 		name = "ExpressoAppDelegate.m: 43";
 		rLen = 0;
-		rLoc = 1282;
+		rLoc = 240;
 		rType = 0;
 		vrLen = 1345;
 		vrLoc = 0;
@@ -491,7 +554,7 @@
 		fRef = 1D3623250D0F684500981E51 /* ExpressoAppDelegate.m */;
 		name = "ExpressoAppDelegate.m: 33";
 		rLen = 0;
-		rLoc = 814;
+		rLoc = 240;
 		rType = 0;
 		vrLen = 1398;
 		vrLoc = 0;
@@ -501,7 +564,7 @@
 		fRef = 1D3623240D0F684500981E51 /* ExpressoAppDelegate.h */;
 		name = "ExpressoAppDelegate.h: 12";
 		rLen = 0;
-		rLoc = 268;
+		rLoc = 301;
 		rType = 0;
 		vrLen = 1302;
 		vrLoc = 0;
@@ -511,7 +574,7 @@
 		fRef = 1D3623240D0F684500981E51 /* ExpressoAppDelegate.h */;
 		name = "ExpressoAppDelegate.h: 12";
 		rLen = 0;
-		rLoc = 268;
+		rLoc = 301;
 		rType = 0;
 		vrLen = 1325;
 		vrLoc = 0;
@@ -521,7 +584,7 @@
 		fRef = 1D3623240D0F684500981E51 /* ExpressoAppDelegate.h */;
 		name = "ExpressoAppDelegate.h: 12";
 		rLen = 0;
-		rLoc = 268;
+		rLoc = 301;
 		rType = 0;
 		vrLen = 1301;
 		vrLoc = 0;
@@ -531,7 +594,7 @@
 		fRef = 1D3623240D0F684500981E51 /* ExpressoAppDelegate.h */;
 		name = "ExpressoAppDelegate.h: 12";
 		rLen = 0;
-		rLoc = 268;
+		rLoc = 301;
 		rType = 0;
 		vrLen = 1301;
 		vrLoc = 0;
@@ -541,7 +604,7 @@
 		fRef = 1D3623250D0F684500981E51 /* ExpressoAppDelegate.m */;
 		name = "ExpressoAppDelegate.m: 33";
 		rLen = 0;
-		rLoc = 814;
+		rLoc = 240;
 		rType = 0;
 		vrLen = 1398;
 		vrLoc = 0;
@@ -551,7 +614,7 @@
 		fRef = 1D3623250D0F684500981E51 /* ExpressoAppDelegate.m */;
 		name = "ExpressoAppDelegate.m: 32";
 		rLen = 0;
-		rLoc = 783;
+		rLoc = 240;
 		rType = 0;
 		vrLen = 1800;
 		vrLoc = 241;
@@ -561,7 +624,7 @@
 		fRef = 1D3623250D0F684500981E51 /* ExpressoAppDelegate.m */;
 		name = "ExpressoAppDelegate.m: 49";
 		rLen = 0;
-		rLoc = 1384;
+		rLoc = 240;
 		rType = 0;
 		vrLen = 1827;
 		vrLoc = 241;
@@ -571,7 +634,7 @@
 		fRef = 1D3623250D0F684500981E51 /* ExpressoAppDelegate.m */;
 		name = "ExpressoAppDelegate.m: 44";
 		rLen = 0;
-		rLoc = 1261;
+		rLoc = 240;
 		rType = 0;
 		vrLen = 1844;
 		vrLoc = 241;
@@ -580,8 +643,8 @@
 		isa = PBXTextBookmark;
 		fRef = 1D3623250D0F684500981E51 /* ExpressoAppDelegate.m */;
 		name = "ExpressoAppDelegate.m: 48";
-		rLen = 82;
-		rLoc = 1286;
+		rLen = 0;
+		rLoc = 240;
 		rType = 0;
 		vrLen = 1854;
 		vrLoc = 241;
@@ -591,7 +654,7 @@
 		fRef = 1D3623240D0F684500981E51 /* ExpressoAppDelegate.h */;
 		name = "ExpressoAppDelegate.h: 12";
 		rLen = 0;
-		rLoc = 268;
+		rLoc = 301;
 		rType = 0;
 		vrLen = 1301;
 		vrLoc = 0;
@@ -601,7 +664,7 @@
 		fRef = 1D3623240D0F684500981E51 /* ExpressoAppDelegate.h */;
 		name = "ExpressoAppDelegate.h: 44";
 		rLen = 0;
-		rLoc = 1377;
+		rLoc = 914;
 		rType = 0;
 		vrLen = 1385;
 		vrLoc = 0;
@@ -609,8 +672,8 @@
 	5505A11912A2C73500244DAD /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 1D3623250D0F684500981E51 /* ExpressoAppDelegate.m */;
-		rLen = 1;
-		rLoc = 45;
+		rLen = 0;
+		rLoc = 14;
 		rType = 1;
 	};
 	5505A12012A2C73800244DAD /* PBXTextBookmark */ = {
@@ -618,7 +681,7 @@
 		fRef = 1D3623240D0F684500981E51 /* ExpressoAppDelegate.h */;
 		name = "ExpressoAppDelegate.h: 44";
 		rLen = 0;
-		rLoc = 1377;
+		rLoc = 914;
 		rType = 0;
 		vrLen = 1385;
 		vrLoc = 0;
@@ -627,8 +690,8 @@
 		isa = PBXTextBookmark;
 		fRef = 1D3623250D0F684500981E51 /* ExpressoAppDelegate.m */;
 		name = "ExpressoAppDelegate.m: 44";
-		rLen = 1;
-		rLoc = 1261;
+		rLen = 0;
+		rLoc = 240;
 		rType = 0;
 		vrLen = 1844;
 		vrLoc = 241;
@@ -638,7 +701,7 @@
 		fRef = 1D3623250D0F684500981E51 /* ExpressoAppDelegate.m */;
 		name = "ExpressoAppDelegate.m: 45";
 		rLen = 0;
-		rLoc = 1280;
+		rLoc = 240;
 		rType = 0;
 		vrLen = 1812;
 		vrLoc = 241;
@@ -648,7 +711,7 @@
 		fRef = 1D3623250D0F684500981E51 /* ExpressoAppDelegate.m */;
 		name = "ExpressoAppDelegate.m: 45";
 		rLen = 0;
-		rLoc = 1280;
+		rLoc = 240;
 		rType = 0;
 		vrLen = 1807;
 		vrLoc = 241;
@@ -658,7 +721,7 @@
 		fRef = 1D3623250D0F684500981E51 /* ExpressoAppDelegate.m */;
 		name = "ExpressoAppDelegate.m: 45";
 		rLen = 0;
-		rLoc = 1280;
+		rLoc = 240;
 		rType = 0;
 		vrLen = 1812;
 		vrLoc = 241;
@@ -668,7 +731,7 @@
 		fRef = 1D3623250D0F684500981E51 /* ExpressoAppDelegate.m */;
 		name = "ExpressoAppDelegate.m: 47";
 		rLen = 0;
-		rLoc = 1280;
+		rLoc = 240;
 		rType = 0;
 		vrLen = 1514;
 		vrLoc = 241;
@@ -678,7 +741,7 @@
 		fRef = 1D3623250D0F684500981E51 /* ExpressoAppDelegate.m */;
 		name = "ExpressoAppDelegate.m: 28";
 		rLen = 0;
-		rLoc = 470;
+		rLoc = 240;
 		rType = 0;
 		vrLen = 1507;
 		vrLoc = 0;
@@ -734,7 +797,7 @@
 		fRef = 1D3623240D0F684500981E51 /* ExpressoAppDelegate.h */;
 		name = "ExpressoAppDelegate.h: 44";
 		rLen = 0;
-		rLoc = 1377;
+		rLoc = 914;
 		rType = 0;
 		vrLen = 1385;
 		vrLoc = 0;
@@ -748,9 +811,640 @@
 		fRef = 1D3623250D0F684500981E51 /* ExpressoAppDelegate.m */;
 		name = "ExpressoAppDelegate.m: 47";
 		rLen = 0;
-		rLoc = 1280;
+		rLoc = 240;
 		rType = 0;
 		vrLen = 1394;
+		vrLoc = 0;
+	};
+	556E621F12A56B1A008064C5 /* LoginViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1344, 685}}";
+			sepNavSelRange = "{806, 0}";
+			sepNavVisRange = "{0, 806}";
+		};
+	};
+	556E622012A56B1A008064C5 /* LoginViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1344, 1400}}";
+			sepNavSelRange = "{688, 0}";
+			sepNavVisRange = "{250, 1544}";
+		};
+	};
+	556E622E12A56DFA008064C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 556E621F12A56B1A008064C5 /* LoginViewController.h */;
+		name = "LoginViewController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 266;
+		vrLoc = 0;
+	};
+	556E622F12A56DFA008064C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 556E622012A56B1A008064C5 /* LoginViewController.m */;
+		name = "LoginViewController.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1428;
+		vrLoc = 0;
+	};
+	556E623012A56DFA008064C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* ExpressoAppDelegate.h */;
+		name = "ExpressoAppDelegate.h: 15";
+		rLen = 9;
+		rLoc = 354;
+		rType = 0;
+		vrLen = 1420;
+		vrLoc = 0;
+	};
+	556E623112A56DFA008064C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* ExpressoAppDelegate.m */;
+		name = "ExpressoAppDelegate.m: 62";
+		rLen = 0;
+		rLoc = 519;
+		rType = 0;
+		vrLen = 1869;
+		vrLoc = 991;
+	};
+	556E623212A56DFA008064C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* ExpressoAppDelegate.m */;
+		name = "ExpressoAppDelegate.m: 63";
+		rLen = 0;
+		rLoc = 519;
+		rType = 0;
+		vrLen = 2152;
+		vrLoc = 1404;
+	};
+	556E624212A56E18008064C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* ExpressoAppDelegate.m */;
+		name = "ExpressoAppDelegate.m: 63";
+		rLen = 0;
+		rLoc = 519;
+		rType = 0;
+		vrLen = 2152;
+		vrLoc = 1404;
+	};
+	556E625B12A56F28008064C5 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "No declaration of property 'loginView' found in the interface";
+		fRef = 1D3623250D0F684500981E51 /* ExpressoAppDelegate.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 13;
+		rType = 1;
+	};
+	556E625E12A56F2C008064C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* ExpressoAppDelegate.h */;
+		name = "ExpressoAppDelegate.h: 11";
+		rLen = 0;
+		rLoc = 233;
+		rType = 0;
+		vrLen = 1453;
+		vrLoc = 0;
+	};
+	556E625F12A56F2C008064C5 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "No declaration of property 'loginView' found in the interface";
+		fRef = 1D3623250D0F684500981E51 /* ExpressoAppDelegate.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 13;
+		rType = 1;
+	};
+	556E626012A56F2C008064C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* ExpressoAppDelegate.m */;
+		name = "ExpressoAppDelegate.m: 14";
+		rLen = 0;
+		rLoc = 238;
+		rType = 0;
+		vrLen = 1371;
+		vrLoc = 0;
+	};
+	556E626312A56F2C008064C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* ExpressoAppDelegate.m */;
+		name = "ExpressoAppDelegate.m: 14";
+		rLen = 0;
+		rLoc = 220;
+		rType = 0;
+		vrLen = 1409;
+		vrLoc = 0;
+	};
+	556E626712A56F4C008064C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* ExpressoAppDelegate.m */;
+		name = "ExpressoAppDelegate.m: 14";
+		rLen = 0;
+		rLoc = 238;
+		rType = 0;
+		vrLen = 1371;
+		vrLoc = 0;
+	};
+	556E626812A56F4C008064C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* ExpressoAppDelegate.m */;
+		name = "ExpressoAppDelegate.m: 63";
+		rLen = 0;
+		rLoc = 540;
+		rType = 0;
+		vrLen = 1924;
+		vrLoc = 794;
+	};
+	556E626912A56F4C008064C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* ExpressoAppDelegate.m */;
+		name = "ExpressoAppDelegate.m: 14";
+		rLen = 0;
+		rLoc = 220;
+		rType = 0;
+		vrLen = 1409;
+		vrLoc = 0;
+	};
+	556E626E12A56F91008064C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* ExpressoAppDelegate.m */;
+		name = "ExpressoAppDelegate.m: 63";
+		rLen = 0;
+		rLoc = 540;
+		rType = 0;
+		vrLen = 1903;
+		vrLoc = 469;
+	};
+	556E626F12A56F91008064C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 556E621F12A56B1A008064C5 /* LoginViewController.h */;
+		name = "LoginViewController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 266;
+		vrLoc = 0;
+	};
+	556E627012A56F91008064C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 556E622012A56B1A008064C5 /* LoginViewController.m */;
+		name = "LoginViewController.m: 28";
+		rLen = 0;
+		rLoc = 1989;
+		rType = 0;
+		vrLen = 1447;
+		vrLoc = 3;
+	};
+	556E627112A56F91008064C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* ExpressoAppDelegate.m */;
+		name = "ExpressoAppDelegate.m: 14";
+		rLen = 0;
+		rLoc = 220;
+		rType = 0;
+		vrLen = 1409;
+		vrLoc = 0;
+	};
+	556E627512A56FA4008064C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 556E622012A56B1A008064C5 /* LoginViewController.m */;
+		name = "LoginViewController.m: 12";
+		rLen = 0;
+		rLoc = 225;
+		rType = 0;
+		vrLen = 1447;
+		vrLoc = 3;
+	};
+	556E627612A56FA4008064C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* ExpressoAppDelegate.m */;
+		name = "ExpressoAppDelegate.m: 14";
+		rLen = 0;
+		rLoc = 220;
+		rType = 0;
+		vrLen = 1409;
+		vrLoc = 0;
+	};
+	556E627A12A56FCF008064C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 556E622012A56B1A008064C5 /* LoginViewController.m */;
+		name = "LoginViewController.m: 27";
+		rLen = 0;
+		rLoc = 1964;
+		rType = 0;
+		vrLen = 1447;
+		vrLoc = 3;
+	};
+	556E627B12A56FCF008064C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* ExpressoAppDelegate.h */;
+		name = "ExpressoAppDelegate.h: 11";
+		rLen = 0;
+		rLoc = 233;
+		rType = 0;
+		vrLen = 1453;
+		vrLoc = 0;
+	};
+	556E627C12A56FCF008064C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* ExpressoAppDelegate.m */;
+		name = "ExpressoAppDelegate.m: 64";
+		rLen = 0;
+		rLoc = 605;
+		rType = 0;
+		vrLen = 1913;
+		vrLoc = 469;
+	};
+	556E627D12A56FCF008064C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* ExpressoAppDelegate.m */;
+		name = "ExpressoAppDelegate.m: 14";
+		rLen = 0;
+		rLoc = 220;
+		rType = 0;
+		vrLen = 1409;
+		vrLoc = 0;
+	};
+	556E628212A56FE8008064C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* ExpressoAppDelegate.m */;
+		name = "ExpressoAppDelegate.m: 64";
+		rLen = 0;
+		rLoc = 574;
+		rType = 0;
+		vrLen = 1895;
+		vrLoc = 469;
+	};
+	556E628312A56FE8008064C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* ExpressoAppDelegate.h */;
+		name = "ExpressoAppDelegate.h: 11";
+		rLen = 0;
+		rLoc = 233;
+		rType = 0;
+		vrLen = 1453;
+		vrLoc = 0;
+	};
+	556E628412A56FE8008064C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* ExpressoAppDelegate.h */;
+		name = "ExpressoAppDelegate.h: 15";
+		rLen = 0;
+		rLoc = 313;
+		rType = 0;
+		vrLen = 1451;
+		vrLoc = 0;
+	};
+	556E628512A56FE8008064C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* ExpressoAppDelegate.m */;
+		name = "ExpressoAppDelegate.m: 14";
+		rLen = 0;
+		rLoc = 220;
+		rType = 0;
+		vrLen = 1409;
+		vrLoc = 0;
+	};
+	556E628A12A570D2008064C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* ExpressoAppDelegate.h */;
+		name = "ExpressoAppDelegate.h: 31";
+		rLen = 0;
+		rLoc = 914;
+		rType = 0;
+		vrLen = 920;
+		vrLoc = 0;
+	};
+	556E628B12A570D2008064C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 556E621F12A56B1A008064C5 /* LoginViewController.h */;
+		name = "LoginViewController.h: 14";
+		rLen = 0;
+		rLoc = 266;
+		rType = 0;
+		vrLen = 776;
+		vrLoc = 0;
+	};
+	556E628C12A570D2008064C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 556E622012A56B1A008064C5 /* LoginViewController.m */;
+		name = "LoginViewController.m: 38";
+		rLen = 0;
+		rLoc = 1009;
+		rType = 0;
+		vrLen = 1565;
+		vrLoc = 211;
+	};
+	556E628D12A570D2008064C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* ExpressoAppDelegate.m */;
+		name = "ExpressoAppDelegate.m: 23";
+		rLen = 0;
+		rLoc = 478;
+		rType = 0;
+		vrLen = 1800;
+		vrLoc = 0;
+	};
+	556E628E12A570D2008064C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* ExpressoAppDelegate.m */;
+		name = "ExpressoAppDelegate.m: 25";
+		rLen = 0;
+		rLoc = 618;
+		rType = 0;
+		vrLen = 1800;
+		vrLoc = 0;
+	};
+	556E628F12A570D2008064C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* ExpressoAppDelegate.m */;
+		name = "ExpressoAppDelegate.m: 14";
+		rLen = 0;
+		rLoc = 220;
+		rType = 0;
+		vrLen = 2062;
+		vrLoc = 0;
+	};
+	556E629512A57130008064C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* ExpressoAppDelegate.m */;
+		name = "ExpressoAppDelegate.m: 25";
+		rLen = 0;
+		rLoc = 618;
+		rType = 0;
+		vrLen = 1873;
+		vrLoc = 0;
+	};
+	556E629612A57130008064C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 556E622012A56B1A008064C5 /* LoginViewController.m */;
+		name = "LoginViewController.m: 26";
+		rLen = 12;
+		rLoc = 477;
+		rType = 0;
+		vrLen = 1600;
+		vrLoc = 179;
+	};
+	556E629712A57130008064C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 556E621F12A56B1A008064C5 /* LoginViewController.h */;
+		name = "LoginViewController.h: 18";
+		rLen = 0;
+		rLoc = 363;
+		rType = 0;
+		vrLen = 806;
+		vrLoc = 0;
+	};
+	556E629812A57130008064C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* ExpressoAppDelegate.h */;
+		name = "ExpressoAppDelegate.h: 22";
+		rLen = 0;
+		rLoc = 540;
+		rType = 0;
+		vrLen = 921;
+		vrLoc = 0;
+	};
+	556E629912A57130008064C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* ExpressoAppDelegate.h */;
+		name = "ExpressoAppDelegate.h: 22";
+		rLen = 0;
+		rLoc = 540;
+		rType = 0;
+		vrLen = 921;
+		vrLoc = 0;
+	};
+	556E629A12A57130008064C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* ExpressoAppDelegate.m */;
+		name = "ExpressoAppDelegate.m: 14";
+		rLen = 0;
+		rLoc = 220;
+		rType = 0;
+		vrLen = 2062;
+		vrLoc = 0;
+	};
+	556E629E12A5714D008064C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* ExpressoAppDelegate.h */;
+		name = "ExpressoAppDelegate.h: 22";
+		rLen = 0;
+		rLoc = 540;
+		rType = 0;
+		vrLen = 921;
+		vrLoc = 0;
+	};
+	556E629F12A5714D008064C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 556E621F12A56B1A008064C5 /* LoginViewController.h */;
+		name = "LoginViewController.h: 18";
+		rLen = 0;
+		rLoc = 363;
+		rType = 0;
+		vrLen = 806;
+		vrLoc = 0;
+	};
+	556E62A012A5714D008064C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 556E622012A56B1A008064C5 /* LoginViewController.m */;
+		name = "LoginViewController.m: 22";
+		rLen = 0;
+		rLoc = 434;
+		rType = 0;
+		vrLen = 1578;
+		vrLoc = 179;
+	};
+	556E62A112A5714D008064C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* ExpressoAppDelegate.m */;
+		name = "ExpressoAppDelegate.m: 14";
+		rLen = 0;
+		rLoc = 220;
+		rType = 0;
+		vrLen = 2062;
+		vrLoc = 0;
+	};
+	556E62A512A57195008064C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 556E622012A56B1A008064C5 /* LoginViewController.m */;
+		name = "LoginViewController.m: 22";
+		rLen = 0;
+		rLoc = 434;
+		rType = 0;
+		vrLen = 1578;
+		vrLoc = 179;
+	};
+	556E62A612A57195008064C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* ExpressoAppDelegate.m */;
+		name = "ExpressoAppDelegate.m: 16";
+		rLen = 0;
+		rLoc = 255;
+		rType = 0;
+		vrLen = 2015;
+		vrLoc = 183;
+	};
+	556E62A712A57195008064C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* ExpressoAppDelegate.h */;
+		name = "ExpressoAppDelegate.h: 35";
+		rLen = 0;
+		rLoc = 921;
+		rType = 0;
+		vrLen = 921;
+		vrLoc = 0;
+	};
+	556E62A812A57195008064C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 556E621F12A56B1A008064C5 /* LoginViewController.h */;
+		name = "LoginViewController.h: 18";
+		rLen = 0;
+		rLoc = 363;
+		rType = 0;
+		vrLen = 806;
+		vrLoc = 0;
+	};
+	556E62A912A57195008064C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 556E621F12A56B1A008064C5 /* LoginViewController.h */;
+		name = "LoginViewController.h: 34";
+		rLen = 0;
+		rLoc = 806;
+		rType = 0;
+		vrLen = 806;
+		vrLoc = 0;
+	};
+	556E62AA12A57195008064C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* ExpressoAppDelegate.m */;
+		name = "ExpressoAppDelegate.m: 14";
+		rLen = 0;
+		rLoc = 220;
+		rType = 0;
+		vrLen = 2062;
+		vrLoc = 0;
+	};
+	556E62AD12A571C7008064C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* ExpressoAppDelegate.m */;
+		name = "ExpressoAppDelegate.m: 14";
+		rLen = 0;
+		rLoc = 220;
+		rType = 0;
+		vrLen = 330;
+		vrLoc = 145;
+	};
+	556E62AE12A571C7008064C5 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "'responseData' undeclared (first use in this function)";
+		fRef = 556E622012A56B1A008064C5 /* LoginViewController.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 25;
+		rType = 1;
+	};
+	556E62AF12A571C7008064C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 556E622012A56B1A008064C5 /* LoginViewController.m */;
+		name = "LoginViewController.m: 26";
+		rLen = 0;
+		rLoc = 522;
+		rType = 0;
+		vrLen = 450;
+		vrLoc = 339;
+	};
+	556E62B012A571CB008064C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 556E621F12A56B1A008064C5 /* LoginViewController.h */;
+		name = "LoginViewController.h: 34";
+		rLen = 0;
+		rLoc = 806;
+		rType = 0;
+		vrLen = 806;
+		vrLoc = 0;
+	};
+	556E62B112A571CB008064C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 556E622012A56B1A008064C5 /* LoginViewController.m */;
+		name = "LoginViewController.m: 14";
+		rLen = 0;
+		rLoc = 250;
+		rType = 0;
+		vrLen = 1539;
+		vrLoc = 179;
+	};
+	556E62B212A571CB008064C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* ExpressoAppDelegate.m */;
+		name = "ExpressoAppDelegate.m: 14";
+		rLen = 0;
+		rLoc = 220;
+		rType = 0;
+		vrLen = 2062;
+		vrLoc = 0;
+	};
+	556E62B612A5726A008064C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 556E622012A56B1A008064C5 /* LoginViewController.m */;
+		name = "LoginViewController.m: 14";
+		rLen = 0;
+		rLoc = 250;
+		rType = 0;
+		vrLen = 1539;
+		vrLoc = 179;
+	};
+	556E62B712A5726A008064C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 556E621F12A56B1A008064C5 /* LoginViewController.h */;
+		name = "LoginViewController.h: 34";
+		rLen = 0;
+		rLoc = 806;
+		rType = 0;
+		vrLen = 806;
+		vrLoc = 0;
+	};
+	556E62B812A5726A008064C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* ExpressoAppDelegate.m */;
+		name = "ExpressoAppDelegate.m: 14";
+		rLen = 0;
+		rLoc = 220;
+		rType = 0;
+		vrLen = 2062;
+		vrLoc = 0;
+	};
+	556E62BC12A574FC008064C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 556E621F12A56B1A008064C5 /* LoginViewController.h */;
+		name = "LoginViewController.h: 34";
+		rLen = 0;
+		rLoc = 806;
+		rType = 0;
+		vrLen = 806;
+		vrLoc = 0;
+	};
+	556E62BD12A574FC008064C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 556E622012A56B1A008064C5 /* LoginViewController.m */;
+		name = "LoginViewController.m: 29";
+		rLen = 0;
+		rLoc = 688;
+		rType = 0;
+		vrLen = 1544;
+		vrLoc = 250;
+	};
+	556E62BE12A574FC008064C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* ExpressoAppDelegate.m */;
+		name = "ExpressoAppDelegate.m: 14";
+		rLen = 0;
+		rLoc = 220;
+		rType = 0;
+		vrLen = 2062;
 		vrLoc = 0;
 	};
 	55C856CF12A1945C00BED74B /* PBXTextBookmark */ = {
@@ -758,7 +1452,7 @@
 		fRef = 1D3623240D0F684500981E51 /* ExpressoAppDelegate.h */;
 		name = "ExpressoAppDelegate.h: 33";
 		rLen = 0;
-		rLoc = 1082;
+		rLoc = 869;
 		rType = 0;
 		vrLen = 1106;
 		vrLoc = 0;
@@ -785,7 +1479,7 @@
 		fRef = 1D3623250D0F684500981E51 /* ExpressoAppDelegate.m */;
 		name = "ExpressoAppDelegate.m: 28";
 		rLen = 0;
-		rLoc = 470;
+		rLoc = 240;
 		rType = 0;
 		vrLen = 1486;
 		vrLoc = 0;
@@ -795,7 +1489,7 @@
 		fRef = 1D3623250D0F684500981E51 /* ExpressoAppDelegate.m */;
 		name = "ExpressoAppDelegate.m: 28";
 		rLen = 0;
-		rLoc = 470;
+		rLoc = 240;
 		rType = 0;
 		vrLen = 1509;
 		vrLoc = 0;

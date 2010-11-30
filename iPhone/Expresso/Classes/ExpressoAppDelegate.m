@@ -14,52 +14,14 @@
 @synthesize window;
 
 #pragma mark -
-#pragma mark Controlador de l'inici de sessió
-
-- (IBAction)iniciaSessio{
-	NSLog(@"Botó apretat");
-	NSString *nom = [nombre text];
-	NSString *pass = [contrasena text];
-	
-	 NSLog(@"%@",nom);
-	 NSLog(@"%@",pass);
-	 
-	responseData = [[NSMutableData data] retain];
-	
-	NSMutableURLRequest *request = [NSMutableURLRequest 
-                                    requestWithURL:[NSURL URLWithString:@"http://expresso.webservice/orders/ident_client"]];
-													
-	NSString *params = [[NSString alloc] initWithFormat:@"user=%@&pass=%@",nom,pass];
-		NSLog(@"%@",params);
-	[request setHTTPMethod:@"POST"];
-	[request setHTTPBody:[params dataUsingEncoding:NSUTF8StringEncoding]];
-	[[NSURLConnection alloc] initWithRequest:request delegate:self];
-}
-
-#pragma mark -
-#pragma mark Delegat del NSURLConnection
-
-- (void)connection:(NSURLConnection *)connection didReceiveData:(NSData *)data
-{
-
-	NSString *datos = [[NSString alloc]  initWithBytes:[data bytes]
-												length:[data length] encoding: NSUTF8StringEncoding];
-	NSLog(@"%@",datos);
-}
-
-- (void)connection:(NSURLConnection *)connection didFailWithError:(NSError *)error
-{
-	NSLog(@"%@",error);
-}
-#pragma mark -
 #pragma mark Application lifecycle
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {    
 	
     // Override point for customization after application launch.
 	
-    [window makeKeyAndVisible];
-	
+ 	loginView = [[LoginViewController alloc]  initWithNibName:@"LoginViewController" bundle:nil];
+    [window makeKeyAndVisible];	
 	return YES;
 }
 
