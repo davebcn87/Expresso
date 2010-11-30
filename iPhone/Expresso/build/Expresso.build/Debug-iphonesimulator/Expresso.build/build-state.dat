@@ -1,0 +1,381 @@
+TExpresso
+v7
+r0
+t312827736.448627
+cCheck dependencies
+cProcessInfoPlistFile /Users/Dave/Projectes/Expresso/iPhone/Expresso/build/Debug-iphonesimulator/Expresso.app/Info.plist Expresso-Info.plist
+cCompileXIB /Users/Dave/Projectes/Expresso/iPhone/Expresso/MainWindow.xib
+cCpResource build/Debug-iphonesimulator/Expresso.app/fons@2x.jpg fons@2x.jpg
+cCpResource build/Debug-iphonesimulator/Expresso.app/fons.jpg fons.jpg
+cProcessPCH /var/folders/4y/4yExPy4yHcurQdY8ElyORE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Expresso_Prefix-erejtvobowesrfhhakrkbapsntao/Expresso_Prefix.pch.gch Expresso_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cDataModelVersionCompile /Users/Dave/Projectes/Expresso/iPhone/Expresso/build/Debug-iphonesimulator/Expresso.app/Expresso.momd /Users/Dave/Projectes/Expresso/iPhone/Expresso/Expresso.xcdatamodeld
+cCompileC build/Expresso.build/Debug-iphonesimulator/Expresso.build/Objects-normal/i386/main.o /Users/Dave/Projectes/Expresso/iPhone/Expresso/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Expresso.build/Debug-iphonesimulator/Expresso.build/Objects-normal/i386/ExpressoAppDelegate.o /Users/Dave/Projectes/Expresso/iPhone/Expresso/Classes/ExpressoAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Expresso.build/Debug-iphonesimulator/Expresso.build/Objects-normal/i386/CartaXMLParser.o /Users/Dave/Projectes/Expresso/iPhone/Expresso/Classes/CartaXMLParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/Dave/Projectes/Expresso/iPhone/Expresso/build/Debug-iphonesimulator/Expresso.app/Expresso normal i386
+cGenerateDSYMFile /Users/Dave/Projectes/Expresso/iPhone/Expresso/build/Debug-iphonesimulator/Expresso.app.dSYM /Users/Dave/Projectes/Expresso/iPhone/Expresso/build/Debug-iphonesimulator/Expresso.app/Expresso
+cTouch /Users/Dave/Projectes/Expresso/iPhone/Expresso/build/Debug-iphonesimulator/Expresso.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk
+c000000004C5BF3A70000000000000132
+t1281094567
+s306
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CFNetwork.framework/Headers/CFNetwork.h
+c000000004BFDFE2F00000000000004CF
+t1274936879
+s1231
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreData.framework/CoreData
+c000000004BFDFEB400000000001CFA90
+t1274937012
+s1899152
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.h
+c000000004BFDFEA8000000000000046B
+t1274937000
+s1131
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004BFDFE39000000000027C7D0
+t1274936889
+s2607056
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004BFDFE7C000000000029D5D0
+t1274936956
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004BFDFE6E0000000000001466
+t1274936942
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/MobileCoreServices.framework/Headers/MobileCoreServices.h
+c000000004BFF3B7800000000000000EB
+t1275018104
+s235
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers/SystemConfiguration.h
+c000000004BFDFDA40000000000001AE5
+t1274936740
+s6885
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004C0470BB00000000000009CD
+t1275359419
+s2509
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004C0471620000000001D47210
+t1275359586
+s30700048
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/Availability.h
+c000000004BF4CBF90000000000001A3B
+t1274334201
+s6715
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/stdio.h
+c000000004A5C14A70000000000004174
+t1247548583
+s16756
+
+N/Users/Dave/Projectes/Expresso/iPhone/Expresso/Classes/ASIFormDataRequest.h
+c000000004CEEB5250000000000000A6D
+t1290712357
+s2669
+i<Foundation/Foundation.h>
+i"ASIHTTPRequest.h"
+i"ASIHTTPRequestConfig.h"
+
+N/Users/Dave/Projectes/Expresso/iPhone/Expresso/Classes/ASIFormDataRequest.m
+c000000004CEEB5250000000000002B52
+t1290712357
+s11090
+i"ASIFormDataRequest.h"
+
+N/Users/Dave/Projectes/Expresso/iPhone/Expresso/Classes/ASIHTTPRequest.h
+c000000004CEEB525000000000000A94C
+t1290712357
+s43340
+i<Foundation/Foundation.h>
+i<CFNetwork/CFNetwork.h>
+i<stdio.h>
+i"ASIHTTPRequestConfig.h"
+i"ASIHTTPRequestDelegate.h"
+i"ASIProgressDelegate.h"
+i"ASICacheDelegate.h"
+
+N/Users/Dave/Projectes/Expresso/iPhone/Expresso/Classes/ASIHTTPRequest.m
+c000000004CEEB525000000000002827B
+t1290712357
+s164475
+i"ASIHTTPRequest.h"
+i"Reachability.h"
+i"ASIAuthenticationDialog.h"
+i<MobileCoreServices/MobileCoreServices.h>
+i<SystemConfiguration/SystemConfiguration.h>
+i"ASIInputStream.h"
+i"ASIDataDecompressor.h"
+i"ASIDataCompressor.h"
+
+N/Users/Dave/Projectes/Expresso/iPhone/Expresso/Classes/CartaXMLParser.h
+c000000004CF4F52B0000000000000213
+t1291121963
+s531
+i<Foundation/Foundation.h>
+
+N/Users/Dave/Projectes/Expresso/iPhone/Expresso/Classes/CartaXMLParser.m
+c000000004CF4F52B00000000000003B7
+t1291121963
+s951
+i"CartaXMLParser.h"
+
+N/Users/Dave/Projectes/Expresso/iPhone/Expresso/Classes/ExpressoAppDelegate.h
+c000000004CF29CA7000000000000056B
+t1290968231
+s1387
+i<UIKit/UIKit.h>
+i<CoreData/CoreData.h>
+
+N/Users/Dave/Projectes/Expresso/iPhone/Expresso/Classes/ExpressoAppDelegate.m
+c000000004CF529A30000000000002249
+t1291135395
+s8777
+i"ExpressoAppDelegate.h"
+
+N/Users/Dave/Projectes/Expresso/iPhone/Expresso/Expresso.xcdatamodeld
+c000000004CE556E00000000000000088
+t1290098400
+s136
+
+N/Users/Dave/Projectes/Expresso/iPhone/Expresso/Expresso_Prefix.pch
+c000000004CE556E00000000000000164
+t1290098400
+s356
+i<Availability.h>
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+i<CoreData/CoreData.h>
+
+N/Users/Dave/Projectes/Expresso/iPhone/Expresso/MainWindow.xib
+c000000004CF29ADD0000000000008163
+t1290967773
+s33123
+
+N/Users/Dave/Projectes/Expresso/iPhone/Expresso/build/Debug-iphonesimulator/Expresso.app
+t1291123407
+s306
+
+N/Users/Dave/Projectes/Expresso/iPhone/Expresso/build/Debug-iphonesimulator/Expresso.app.dSYM
+t1291123407
+s102
+
+N/Users/Dave/Projectes/Expresso/iPhone/Expresso/build/Debug-iphonesimulator/Expresso.app/Expresso
+t1291123407
+s24700
+
+N/Users/Dave/Projectes/Expresso/iPhone/Expresso/build/Debug-iphonesimulator/Expresso.app/Expresso.momd
+t1290887186
+s136
+
+N/Users/Dave/Projectes/Expresso/iPhone/Expresso/build/Debug-iphonesimulator/Expresso.app/Info.plist
+t1290890658
+s650
+
+N/Users/Dave/Projectes/Expresso/iPhone/Expresso/build/Debug-iphonesimulator/Expresso.app/MainWindow.nib
+t1290967872
+s2977
+
+N/Users/Dave/Projectes/Expresso/iPhone/Expresso/build/Debug-iphonesimulator/Expresso.app/PkgInfo
+t1290890658
+s8
+
+N/Users/Dave/Projectes/Expresso/iPhone/Expresso/build/Debug-iphonesimulator/Expresso.app/fons.jpg
+t1290891858
+s15783
+
+N/Users/Dave/Projectes/Expresso/iPhone/Expresso/build/Debug-iphonesimulator/Expresso.app/fons@2x.jpg
+t1290891542
+s44827
+
+N/Users/Dave/Projectes/Expresso/iPhone/Expresso/build/Expresso.build/Debug-iphonesimulator/Expresso.build/Objects-normal/i386/ASIFormDataRequest.o
+t2
+s0
+
+N/Users/Dave/Projectes/Expresso/iPhone/Expresso/build/Expresso.build/Debug-iphonesimulator/Expresso.build/Objects-normal/i386/ASIHTTPRequest.o
+t2
+s0
+
+N/Users/Dave/Projectes/Expresso/iPhone/Expresso/build/Expresso.build/Debug-iphonesimulator/Expresso.build/Objects-normal/i386/CartaXMLParser.o
+t1291123406
+s13608
+
+N/Users/Dave/Projectes/Expresso/iPhone/Expresso/build/Expresso.build/Debug-iphonesimulator/Expresso.build/Objects-normal/i386/Expresso.LinkFileList
+c000000004CF4FACD00000000000001A5
+t1291123405
+s421
+
+N/Users/Dave/Projectes/Expresso/iPhone/Expresso/build/Expresso.build/Debug-iphonesimulator/Expresso.build/Objects-normal/i386/ExpressoAppDelegate.o
+t1291123406
+s63380
+
+N/Users/Dave/Projectes/Expresso/iPhone/Expresso/build/Expresso.build/Debug-iphonesimulator/Expresso.build/Objects-normal/i386/main.o
+t1290887186
+s6320
+
+N/Users/Dave/Projectes/Expresso/iPhone/Expresso/fons.jpg
+c000000004CF171F40000000000003DA7
+t1290891764
+s15783
+
+N/Users/Dave/Projectes/Expresso/iPhone/Expresso/fons@2x.jpg
+c000000004CF170ED000000000000AF1B
+t1290891501
+s44827
+
+N/Users/Dave/Projectes/Expresso/iPhone/Expresso/main.m
+c000000004CE556E0000000000000016C
+t1290098400
+s364
+i<UIKit/UIKit.h>
+
+N/var/folders/4y/4yExPy4yHcurQdY8ElyORE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Expresso_Prefix-erejtvobowesrfhhakrkbapsntao/Expresso_Prefix.pch.gch
+t1290437739
+s16097072
+
+NExpresso-Info.plist
+c000000004CF16DA200000000000003A8
+t1290890658
+s936
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies312827736#312827736#0(0"0(0#1#0"8247620834010738688#0"0#
+
+CCompileC build/Expresso.build/Debug-iphonesimulator/Expresso.build/Objects-normal/i386/ASIFormDataRequest.o /Users/Dave/Projectes/Expresso/iPhone/Expresso/Classes/ASIFormDataRequest.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Expresso.build/Debug-iphonesimulator/Expresso.build/Objects-normal/i386/ASIHTTPRequest.o /Users/Dave/Projectes/Expresso/iPhone/Expresso/Classes/ASIHTTPRequest.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Expresso.build/Debug-iphonesimulator/Expresso.build/Objects-normal/i386/CartaXMLParser.o /Users/Dave/Projectes/Expresso/iPhone/Expresso/Classes/CartaXMLParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s312816205.368997
+e312816206.940112
+r1
+xCompileC
+xbuild/Expresso.build/Debug-iphonesimulator/Expresso.build/Objects-normal/i386/CartaXMLParser.o
+x/Users/Dave/Projectes/Expresso/iPhone/Expresso/Classes/CartaXMLParser.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@79"Compile /Users/Dave/Projectes/Expresso/iPhone/Expresso/Classes/CartaXMLParser.m312816205#312816206#0(0"0(0#0#71"/Users/Dave/Projectes/Expresso/iPhone/Expresso/Classes/CartaXMLParser.m8603333632#2037"    cd /Users/Dave/Projectes/Expresso/iPhone/Expresso    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/Dave/Projectes/Expresso/iPhone/Expresso/build/Expresso.build/Debug-iphonesimulator/Expresso.build/Expresso-generated-files.hmap -I/Users/Dave/Projectes/Expresso/iPhone/Expresso/build/Expresso.build/Debug-iphonesimulator/Expresso.build/Expresso-own-target-headers.hmap -I/Users/Dave/Projectes/Expresso/iPhone/Expresso/build/Expresso.build/Debug-iphonesimulator/Expresso.build/Expresso-all-target-headers.hmap -iquote /Users/Dave/Projectes/Expresso/iPhone/Expresso/build/Expresso.build/Debug-iphonesimulator/Expresso.build/Expresso-project-headers.hmap -F/Users/Dave/Projectes/Expresso/iPhone/Expresso/build/Debug-iphonesimulator -I/Users/Dave/Projectes/Expresso/iPhone/Expresso/build/Debug-iphonesimulator/include -I/Users/Dave/Projectes/Expresso/iPhone/Expresso/build/Expresso.build/Debug-iphonesimulator/Expresso.build/DerivedSources/i386 -I/Users/Dave/Projectes/Expresso/iPhone/Expresso/build/Expresso.build/Debug-iphonesimulator/Expresso.build/DerivedSources -include /var/folders/4y/4yExPy4yHcurQdY8ElyORE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Expresso_Prefix-erejtvobowesrfhhakrkbapsntao/Expresso_Prefix.pch -c /Users/Dave/Projectes/Expresso/iPhone/Expresso/Classes/CartaXMLParser.m -o /Users/Dave/Projectes/Expresso/iPhone/Expresso/build/Expresso.build/Debug-iphonesimulator/Expresso.build/Objects-normal/i386/CartaXMLParser.o0#
+
+CCompileC build/Expresso.build/Debug-iphonesimulator/Expresso.build/Objects-normal/i386/ExpressoAppDelegate.o /Users/Dave/Projectes/Expresso/iPhone/Expresso/Classes/ExpressoAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s312816205.337072
+e312816206.952134
+r1
+xCompileC
+xbuild/Expresso.build/Debug-iphonesimulator/Expresso.build/Objects-normal/i386/ExpressoAppDelegate.o
+x/Users/Dave/Projectes/Expresso/iPhone/Expresso/Classes/ExpressoAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/Dave/Projectes/Expresso/iPhone/Expresso/Classes/ExpressoAppDelegate.m:233: warning: property 'nombre' requires method '-nombre' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/Dave/Projectes/Expresso/iPhone/Expresso/Classes/ExpressoAppDelegate.m:233: warning: property 'nombre' requires the method 'setNombre:' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/Dave/Projectes/Expresso/iPhone/Expresso/Classes/ExpressoAppDelegate.m:233: warning: property 'contrasena' requires method '-contrasena' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/Dave/Projectes/Expresso/iPhone/Expresso/Classes/ExpressoAppDelegate.m:233: warning: property 'contrasena' requires the method 'setContrasena:' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/Dave/Projectes/Expresso/iPhone/Expresso/Classes/ExpressoAppDelegate.m:233: warning: property 'inicia' requires method '-inicia' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/Dave/Projectes/Expresso/iPhone/Expresso/Classes/ExpressoAppDelegate.m:233: warning: property 'inicia' requires the method 'setInicia:' to be defined - use @synthesize, @dynamic or provide a method implementation
+lSLF07#2@84"Compile /Users/Dave/Projectes/Expresso/iPhone/Expresso/Classes/ExpressoAppDelegate.m312816205#312816206#0(1309"/Users/Dave/Projectes/Expresso/iPhone/Expresso/Classes/ExpressoAppDelegate.m:233: warning: property 'nombre' requires method '-nombre' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/Dave/Projectes/Expresso/iPhone/Expresso/Classes/ExpressoAppDelegate.m:233: warning: property 'nombre' requires the method 'setNombre:' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/Dave/Projectes/Expresso/iPhone/Expresso/Classes/ExpressoAppDelegate.m:233: warning: property 'contrasena' requires method '-contrasena' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/Dave/Projectes/Expresso/iPhone/Expresso/Classes/ExpressoAppDelegate.m:233: warning: property 'contrasena' requires the method 'setContrasena:' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/Dave/Projectes/Expresso/iPhone/Expresso/Classes/ExpressoAppDelegate.m:233: warning: property 'inicia' requires method '-inicia' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/Dave/Projectes/Expresso/iPhone/Expresso/Classes/ExpressoAppDelegate.m:233: warning: property 'inicia' requires the method 'setInicia:' to be defined - use @synthesize, @dynamic or provide a method implementation6(22@120"Property 'nombre' requires method '-nombre' to be defined - use @synthesize, @dynamic or provide a method implementation312816206#0#212#0(6@76"/Users/Dave/Projectes/Expresso/iPhone/Expresso/Classes/ExpressoAppDelegate.m312661025#233#0#233#0#0"0(22@127"Property 'nombre' requires the method 'setNombre:' to be defined - use @synthesize, @dynamic or provide a method implementation312816206#212#219#0(6@76"/Users/Dave/Projectes/Expresso/iPhone/Expresso/Classes/ExpressoAppDelegate.m312661025#233#0#233#0#0"0(22@128"Property 'contrasena' requires method '-contrasena' to be defined - use @synthesize, @dynamic or provide a method implementation312816206#431#220#0(6@76"/Users/Dave/Projectes/Expresso/iPhone/Expresso/Classes/ExpressoAppDelegate.m312661025#233#0#233#0#0"0(22@135"Property 'contrasena' requires the method 'setContrasena:' to be defined - use @synthesize, @dynamic or provide a method implementation312816206#651#227#0(6@76"/Users/Dave/Projectes/Expresso/iPhone/Expresso/Classes/ExpressoAppDelegate.m312661025#233#0#233#0#0"0(22@120"Property 'inicia' requires method '-inicia' to be defined - use @synthesize, @dynamic or provide a method implementation312816206#878#212#0(6@76"/Users/Dave/Projectes/Expresso/iPhone/Expresso/Classes/ExpressoAppDelegate.m312661025#233#0#233#0#0"0(22@127"Property 'inicia' requires the method 'setInicia:' to be defined - use @synthesize, @dynamic or provide a method implementation312816206#1090#219#0(6@76"/Users/Dave/Projectes/Expresso/iPhone/Expresso/Classes/ExpressoAppDelegate.m312661025#233#0#233#0#0"0(0#0#76"/Users/Dave/Projectes/Expresso/iPhone/Expresso/Classes/ExpressoAppDelegate.m7307761437599099904#2047"    cd /Users/Dave/Projectes/Expresso/iPhone/Expresso    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/Dave/Projectes/Expresso/iPhone/Expresso/build/Expresso.build/Debug-iphonesimulator/Expresso.build/Expresso-generated-files.hmap -I/Users/Dave/Projectes/Expresso/iPhone/Expresso/build/Expresso.build/Debug-iphonesimulator/Expresso.build/Expresso-own-target-headers.hmap -I/Users/Dave/Projectes/Expresso/iPhone/Expresso/build/Expresso.build/Debug-iphonesimulator/Expresso.build/Expresso-all-target-headers.hmap -iquote /Users/Dave/Projectes/Expresso/iPhone/Expresso/build/Expresso.build/Debug-iphonesimulator/Expresso.build/Expresso-project-headers.hmap -F/Users/Dave/Projectes/Expresso/iPhone/Expresso/build/Debug-iphonesimulator -I/Users/Dave/Projectes/Expresso/iPhone/Expresso/build/Debug-iphonesimulator/include -I/Users/Dave/Projectes/Expresso/iPhone/Expresso/build/Expresso.build/Debug-iphonesimulator/Expresso.build/DerivedSources/i386 -I/Users/Dave/Projectes/Expresso/iPhone/Expresso/build/Expresso.build/Debug-iphonesimulator/Expresso.build/DerivedSources -include /var/folders/4y/4yExPy4yHcurQdY8ElyORE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Expresso_Prefix-erejtvobowesrfhhakrkbapsntao/Expresso_Prefix.pch -c /Users/Dave/Projectes/Expresso/iPhone/Expresso/Classes/ExpressoAppDelegate.m -o /Users/Dave/Projectes/Expresso/iPhone/Expresso/build/Expresso.build/Debug-iphonesimulator/Expresso.build/Objects-normal/i386/ExpressoAppDelegate.o0#
+
+CCompileC build/Expresso.build/Debug-iphonesimulator/Expresso.build/Objects-normal/i386/main.o /Users/Dave/Projectes/Expresso/iPhone/Expresso/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s312579986.077583
+e312579986.170313
+r1
+xCompileC
+xbuild/Expresso.build/Debug-iphonesimulator/Expresso.build/Objects-normal/i386/main.o
+x/Users/Dave/Projectes/Expresso/iPhone/Expresso/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@61"Compile /Users/Dave/Projectes/Expresso/iPhone/Expresso/main.m312579986#312579986#0(0"0(0#0#53"/Users/Dave/Projectes/Expresso/iPhone/Expresso/main.m8625144128#2009"    cd /Users/Dave/Projectes/Expresso/iPhone/Expresso    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/Dave/Projectes/Expresso/iPhone/Expresso/build/Expresso.build/Debug-iphonesimulator/Expresso.build/Expresso-generated-files.hmap -I/Users/Dave/Projectes/Expresso/iPhone/Expresso/build/Expresso.build/Debug-iphonesimulator/Expresso.build/Expresso-own-target-headers.hmap -I/Users/Dave/Projectes/Expresso/iPhone/Expresso/build/Expresso.build/Debug-iphonesimulator/Expresso.build/Expresso-all-target-headers.hmap -iquote /Users/Dave/Projectes/Expresso/iPhone/Expresso/build/Expresso.build/Debug-iphonesimulator/Expresso.build/Expresso-project-headers.hmap -F/Users/Dave/Projectes/Expresso/iPhone/Expresso/build/Debug-iphonesimulator -I/Users/Dave/Projectes/Expresso/iPhone/Expresso/build/Debug-iphonesimulator/include -I/Users/Dave/Projectes/Expresso/iPhone/Expresso/build/Expresso.build/Debug-iphonesimulator/Expresso.build/DerivedSources/i386 -I/Users/Dave/Projectes/Expresso/iPhone/Expresso/build/Expresso.build/Debug-iphonesimulator/Expresso.build/DerivedSources -include /var/folders/4y/4yExPy4yHcurQdY8ElyORE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Expresso_Prefix-erejtvobowesrfhhakrkbapsntao/Expresso_Prefix.pch -c /Users/Dave/Projectes/Expresso/iPhone/Expresso/main.m -o /Users/Dave/Projectes/Expresso/iPhone/Expresso/build/Expresso.build/Debug-iphonesimulator/Expresso.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/Dave/Projectes/Expresso/iPhone/Expresso/MainWindow.xib
+s312660672.299242
+e312660672.748736
+r1
+xCompileXIB
+x/Users/Dave/Projectes/Expresso/iPhone/Expresso/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib312660672#312660672#0(0"0(0#0#61"/Users/Dave/Projectes/Expresso/iPhone/Expresso/MainWindow.xib8628073376#595"    cd /Users/Dave/Projectes/Expresso/iPhone/Expresso    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Dave/Projectes/Expresso/iPhone/Expresso/build/Debug-iphonesimulator/Expresso.app/MainWindow.nib /Users/Dave/Projectes/Expresso/iPhone/Expresso/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCpResource build/Debug-iphonesimulator/Expresso.app/fons.jpg fons.jpg
+s312584658.169785
+e312584658.175850
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Expresso.app/fons.jpg
+xfons.jpg
+lSLF07#2@13"Copy fons.jpg312584658#312584658#0(0"0(0#0#55"/Users/Dave/Projectes/Expresso/iPhone/Expresso/fons.jpg8605372576#477"    cd /Users/Dave/Projectes/Expresso/iPhone/Expresso    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/Dave/Projectes/Expresso/iPhone/Expresso/fons.jpg /Users/Dave/Projectes/Expresso/iPhone/Expresso/build/Debug-iphonesimulator/Expresso.app0#
+
+CCpResource build/Debug-iphonesimulator/Expresso.app/fons@2x.jpg fons@2x.jpg
+s312584342.449373
+e312584342.454024
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Expresso.app/fons@2x.jpg
+xfons@2x.jpg
+lSLF07#2@16"Copy fons@2x.jpg312584342#312584342#0(0"0(0#0#58"/Users/Dave/Projectes/Expresso/iPhone/Expresso/fons@2x.jpg8604386752#480"    cd /Users/Dave/Projectes/Expresso/iPhone/Expresso    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/Dave/Projectes/Expresso/iPhone/Expresso/fons@2x.jpg /Users/Dave/Projectes/Expresso/iPhone/Expresso/build/Debug-iphonesimulator/Expresso.app0#
+
+CDataModelVersionCompile /Users/Dave/Projectes/Expresso/iPhone/Expresso/build/Debug-iphonesimulator/Expresso.app/Expresso.momd /Users/Dave/Projectes/Expresso/iPhone/Expresso/Expresso.xcdatamodeld
+s312579986.076411
+e312579986.261100
+r1
+xDataModelVersionCompile
+x/Users/Dave/Projectes/Expresso/iPhone/Expresso/build/Debug-iphonesimulator/Expresso.app/Expresso.momd
+x/Users/Dave/Projectes/Expresso/iPhone/Expresso/Expresso.xcdatamodeld
+lSLF07#2@100"DataModelVersionCompile build/Debug-iphonesimulator/Expresso.app/Expresso.momd Expresso.xcdatamodeld312579986#312579986#0(0"0(0#0#68"/Users/Dave/Projectes/Expresso/iPhone/Expresso/Expresso.xcdatamodeld8625223712#413"    cd /Users/Dave/Projectes/Expresso/iPhone/Expresso    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/momc -XD_MOMC_TARGET_VERSION=10.6 /Users/Dave/Projectes/Expresso/iPhone/Expresso/Expresso.xcdatamodeld /Users/Dave/Projectes/Expresso/iPhone/Expresso/build/Debug-iphonesimulator/Expresso.app/Expresso.momd0#
+
+CGenerateDSYMFile /Users/Dave/Projectes/Expresso/iPhone/Expresso/build/Debug-iphonesimulator/Expresso.app.dSYM /Users/Dave/Projectes/Expresso/iPhone/Expresso/build/Debug-iphonesimulator/Expresso.app/Expresso
+s312816207.390847
+e312816207.473151
+r1
+xGenerateDSYMFile
+x/Users/Dave/Projectes/Expresso/iPhone/Expresso/build/Debug-iphonesimulator/Expresso.app.dSYM
+x/Users/Dave/Projectes/Expresso/iPhone/Expresso/build/Debug-iphonesimulator/Expresso.app/Expresso
+lSLF07#2@112"GenerateDSYMFile build/Debug-iphonesimulator/Expresso.app.dSYM build/Debug-iphonesimulator/Expresso.app/Expresso312816207#312816207#0(0"0(0#0#96"/Users/Dave/Projectes/Expresso/iPhone/Expresso/build/Debug-iphonesimulator/Expresso.app/Expresso8603408928#410"    cd /Users/Dave/Projectes/Expresso/iPhone/Expresso    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/Dave/Projectes/Expresso/iPhone/Expresso/build/Debug-iphonesimulator/Expresso.app/Expresso -o /Users/Dave/Projectes/Expresso/iPhone/Expresso/build/Debug-iphonesimulator/Expresso.app.dSYM0#
+
+CLd /Users/Dave/Projectes/Expresso/iPhone/Expresso/build/Debug-iphonesimulator/Expresso.app/Expresso normal i386
+s312816206.952224
+e312816207.390748
+r1
+xLd
+x/Users/Dave/Projectes/Expresso/iPhone/Expresso/build/Debug-iphonesimulator/Expresso.app/Expresso
+xnormal
+xi386
+lSLF07#2@101"Link /Users/Dave/Projectes/Expresso/iPhone/Expresso/build/Debug-iphonesimulator/Expresso.app/Expresso312816206#312816207#0(0"0(0#0#0"28429445101453416#965"    cd /Users/Dave/Projectes/Expresso/iPhone/Expresso    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -L/Users/Dave/Projectes/Expresso/iPhone/Expresso/build/Debug-iphonesimulator -F/Users/Dave/Projectes/Expresso/iPhone/Expresso/build/Debug-iphonesimulator -filelist /Users/Dave/Projectes/Expresso/iPhone/Expresso/build/Expresso.build/Debug-iphonesimulator/Expresso.build/Objects-normal/i386/Expresso.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -framework CoreData -o /Users/Dave/Projectes/Expresso/iPhone/Expresso/build/Debug-iphonesimulator/Expresso.app/Expresso0#
+
+CProcessInfoPlistFile /Users/Dave/Projectes/Expresso/iPhone/Expresso/build/Debug-iphonesimulator/Expresso.app/Info.plist Expresso-Info.plist
+s312583458.830940
+e312583458.855878
+r1
+xProcessInfoPlistFile
+x/Users/Dave/Projectes/Expresso/iPhone/Expresso/build/Debug-iphonesimulator/Expresso.app/Info.plist
+xExpresso-Info.plist
+lSLF07#2@27"Process Expresso-Info.plist312583458#312583458#0(0"0(0#0#66"/Users/Dave/Projectes/Expresso/iPhone/Expresso/Expresso-Info.plist31244169098821736#506"    cd /Users/Dave/Projectes/Expresso/iPhone/Expresso    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Expresso-Info.plist -genpkginfo /Users/Dave/Projectes/Expresso/iPhone/Expresso/build/Debug-iphonesimulator/Expresso.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/Dave/Projectes/Expresso/iPhone/Expresso/build/Debug-iphonesimulator/Expresso.app/Info.plist0#
+
+CProcessPCH /var/folders/4y/4yExPy4yHcurQdY8ElyORE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Expresso_Prefix-erejtvobowesrfhhakrkbapsntao/Expresso_Prefix.pch.gch Expresso_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CTouch /Users/Dave/Projectes/Expresso/iPhone/Expresso/build/Debug-iphonesimulator/Expresso.app
+s312816207.473261
+e312816207.493218
+r1
+xTouch
+x/Users/Dave/Projectes/Expresso/iPhone/Expresso/build/Debug-iphonesimulator/Expresso.app
+lSLF07#2@93"Touch /Users/Dave/Projectes/Expresso/iPhone/Expresso/build/Debug-iphonesimulator/Expresso.app312816207#312816207#0(0"0(0#0#0"8603274624#295"    cd /Users/Dave/Projectes/Expresso/iPhone/Expresso    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/Dave/Projectes/Expresso/iPhone/Expresso/build/Debug-iphonesimulator/Expresso.app0#
+
