@@ -2,7 +2,7 @@
 .DS_Store
 
 # Ignora los directorios de compilación
-/iPhone/build/*
+/iPhone/Expresso/build/*
 
 # Ignora los archivos de proyecto referentes a mi usuario
 *.pbxuser
