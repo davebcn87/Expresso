@@ -17,6 +17,7 @@
 		28D801B40F44B63D00FB423F /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28D801B30F44B63D00FB423F /* CoreData.framework */; };
 		551CB40312A1A892005366AE /* fons@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 551CB40112A1A892005366AE /* fons@2x.jpg */; };
 		551CB40B12A1A9BA005366AE /* fons.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 551CB40A12A1A9BA005366AE /* fons.jpg */; };
+		9F74EA5712A475A600BA5361 /* CartaXMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F74EA5612A475A600BA5361 /* CartaXMLParser.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,8 @@
 		551CB40112A1A892005366AE /* fons@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "fons@2x.jpg"; sourceTree = "<group>"; };
 		551CB40A12A1A9BA005366AE /* fons.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fons.jpg; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Expresso-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Expresso-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		9F74EA5512A475A600BA5361 /* CartaXMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CartaXMLParser.h; sourceTree = "<group>"; };
+		9F74EA5612A475A600BA5361 /* CartaXMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CartaXMLParser.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +59,7 @@
 			children = (
 				1D3623240D0F684500981E51 /* ExpressoAppDelegate.h */,
 				1D3623250D0F684500981E51 /* ExpressoAppDelegate.m */,
+				9F74EA5312A4756400BA5361 /* Parsers */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -112,6 +116,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		9F74EA5312A4756400BA5361 /* Parsers */ = {
+			isa = PBXGroup;
+			children = (
+				9F74EA5512A475A600BA5361 /* CartaXMLParser.h */,
+				9F74EA5612A475A600BA5361 /* CartaXMLParser.m */,
+			);
+			name = Parsers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,6 +152,7 @@
 			isa = PBXProject;
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Expresso" */;
 			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
 			hasScannedForEncodings = 1;
 			knownRegions = (
 				English,
@@ -176,6 +190,7 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* ExpressoAppDelegate.m in Sources */,
 				28193060112F816700ECF9B4 /* Expresso.xcdatamodeld in Sources */,
+				9F74EA5712A475A600BA5361 /* CartaXMLParser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

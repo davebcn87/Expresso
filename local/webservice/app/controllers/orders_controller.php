@@ -89,7 +89,87 @@
 		
 		function get_carta()
 		{
-			//Llamada al webservice del servidr global			
+			//Llamada al webservice del servidr global
+			$fp_caramel_t = array(
+					"small" => 3.50,
+					"grande" => 4.00,
+					"venti" => 4.50
+				);
+			$fp_caramel = array(
+				"nom" => "Caramel",
+				"tamanys" => $fp_caramel_t
+			);
+				
+			$fp_mocca_t = array(
+					"small" => 3.00,
+					"grande" => 3.60,
+					"venti" => 4.10
+				);
+			$fp_mocca = array(
+				"nom" => "mocca",
+				"tamanys" => $fp_mocca_t
+			);
+			
+			$frappuccino_s = array($fp_caramel, $fp_mocca);  
+			$frappuccino = array(
+				"nom" => "Frappuccino",
+				"subproductes" => array("subproducte" => $frappuccino_s)
+			);	
+			
+			$expresso_t = array(
+					"unic" => 1.70
+				);
+			$expresso = array(
+				"nom" => "Expresso",
+				"tamanys" => $expresso_t
+			);
+			
+			$lungo_t = array(
+					"unic" => 2.00
+				);
+			$lungo = array(
+				"nom" => "Lungo",
+				"tamanys" => $lungo_t
+			);
+			
+			$cafes_s = array($expresso, $lungo);
+			$cafes = array(
+				"nom" => "Caffe",
+				"subproductes" => array("subproducte" => $cafes_s)
+			);
+			
+			$ll_caramel_t = array(
+					"small" => 3.50,
+					"grande" => 4.00,
+					"venti" => 4.50
+				);
+			$ll_caramel = array(
+				"nom" => "Caramel",
+				"tamanys" => $ll_caramel_t
+			);
+				
+			$ll_mocca_t = array(
+					"small" => 3.00,
+					"grande" => 3.60,
+					"venti" => 4.10
+				);
+			$ll_mocca = array(
+				"nom" => "Mocca",
+				"tamanys" => $ll_mocca_t 
+			);
+			
+			$llet_s = array($ll_caramel, $ll_mocca);
+			$llet = array(
+				"nom" => "Caffe llet",
+				"subproductes" => array("subproducte" => $llet_s)
+			);
+			
+			$carta = array(
+				"productes" => array("producte" => array(
+											$frappuccino, $cafes, $llet
+										)
+									)
+			);
 			
 			$this->set('carta',$carta);
 			$this->RequestHandler->renderAs($this,'xml');

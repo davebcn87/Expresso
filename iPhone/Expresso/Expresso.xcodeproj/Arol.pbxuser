@@ -1,5 +1,19 @@
 // !$*UTF8*$!
 {
+	1D3623240D0F684500981E51 /* ExpressoAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {691, 624}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1157}";
+		};
+	};
+	1D3623250D0F684500981E51 /* ExpressoAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {2371, 3042}}";
+			sepNavSelRange = "{166, 0}";
+			sepNavVisRange = "{0, 1130}";
+		};
+	};
 	1D6058900D05DD3D006BFB54 /* Expresso */ = {
 		activeExec = 0;
 		executables = (
@@ -10,6 +24,9 @@
 		activeBuildConfigurationName = Debug;
 		activeExecutable = 9F3D94B0129599B50060121F /* Expresso */;
 		activeTarget = 1D6058900D05DD3D006BFB54 /* Expresso */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* Expresso */,
+		);
 		codeSenseManager = 9F3D94B9129599D30060121F /* Code sense */;
 		executables = (
 			9F3D94B0129599B50060121F /* Expresso */,
@@ -20,9 +37,9 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					341,
+					354,
 					20,
-					48.16259765625,
+					48,
 					43,
 					43,
 					20,
@@ -42,10 +59,10 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					301,
+					314,
 					60,
 					20,
-					48.16259765625,
+					48,
 					43,
 					43,
 				);
@@ -59,8 +76,13 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 311794101;
-			PBXWorkspaceStateSaveDate = 311794101;
+			PBXPerProjectTemplateStateSaveDate = 312765087;
+			PBXWorkspaceStateSaveDate = 312765087;
+		};
+		perUserProjectItems = {
+			9F74EA3012A46B3E00BA5361 /* PBXTextBookmark */ = 9F74EA3012A46B3E00BA5361 /* PBXTextBookmark */;
+			9F74EA3112A46B3E00BA5361 /* PBXBookmark */ = 9F74EA3112A46B3E00BA5361 /* PBXBookmark */;
+			9F74EA3212A46B3E00BA5361 /* PBXTextBookmark */ = 9F74EA3212A46B3E00BA5361 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 9F3D94B8129599D30060121F /* Source Control */;
 		userBuildSettings = {
@@ -82,6 +104,7 @@
 		dataTipSortType = 0;
 		debuggerPlugin = GDBDebugging;
 		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
 		enableDebugStr = 1;
 		environmentEntries = (
 		);
@@ -106,5 +129,29 @@
 	9F3D94B9129599D30060121F /* Code sense */ = {
 		isa = PBXCodeSenseManager;
 		indexTemplatePath = "";
+	};
+	9F74EA3012A46B3E00BA5361 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* ExpressoAppDelegate.h */;
+		name = "ExpressoAppDelegate.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1157;
+		vrLoc = 0;
+	};
+	9F74EA3112A46B3E00BA5361 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 1D3623250D0F684500981E51 /* ExpressoAppDelegate.m */;
+	};
+	9F74EA3212A46B3E00BA5361 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* ExpressoAppDelegate.m */;
+		name = "ExpressoAppDelegate.m: 9";
+		rLen = 0;
+		rLoc = 166;
+		rType = 0;
+		vrLen = 1186;
+		vrLoc = 183;
 	};
 }
