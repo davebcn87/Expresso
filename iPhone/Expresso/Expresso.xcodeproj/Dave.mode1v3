@@ -328,7 +328,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>5538ED8212A6C654007C04B3</string>
+										<string>5538ED8312A6C952007C04B3</string>
 										<key>history</key>
 										<array>
 											<string>5538ED2812A6C1C9007C04B3</string>
@@ -537,9 +537,9 @@
 	<key>WindowOrderList</key>
 	<array>
 		<string>1CD10A99069EF8BA00B06720</string>
-		<string>1C78EAAD065D492600B07095</string>
 		<string>5538ED1E12A6C083007C04B3</string>
 		<string>/Users/Dave/Projectes/Expresso/iPhone/Expresso/Expresso.xcodeproj</string>
+		<string>1C78EAAD065D492600B07095</string>
 	</array>
 	<key>WindowString</key>
 	<string>8 139 924 827 0 0 1680 1028 </string>

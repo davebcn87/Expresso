@@ -1,8 +1,0 @@
-/Users/Dave/Projectes/Expresso/iPhone/Expresso/Classes/ExpressoAppDelegate.m:233: warning: property 'nombre' requires method '-nombre' to be defined - use @synthesize, @dynamic or provide a method implementation
-/Users/Dave/Projectes/Expresso/iPhone/Expresso/Classes/ExpressoAppDelegate.m:233: warning: property 'nombre' requires the method 'setNombre:' to be defined - use @synthesize, @dynamic or provide a method implementation
-/Users/Dave/Projectes/Expresso/iPhone/Expresso/Classes/ExpressoAppDelegate.m:233: warning: property 'contrasena' requires method '-contrasena' to be defined - use @synthesize, @dynamic or provide a method implementation
-/Users/Dave/Projectes/Expresso/iPhone/Expresso/Classes/ExpressoAppDelegate.m:233: warning: property 'contrasena' requires the method 'setContrasena:' to be defined - use @synthesize, @dynamic or provide a method implementation
-/Users/Dave/Projectes/Expresso/iPhone/Expresso/Classes/ExpressoAppDelegate.m:233: warning: property 'inicia' requires method '-inicia' to be defined - use @synthesize, @dynamic or provide a method implementation
-/Users/Dave/Projectes/Expresso/iPhone/Expresso/Classes/ExpressoAppDelegate.m:233: warning: property 'inicia' requires the method 'setInicia:' to be defined - use @synthesize, @dynamic or provide a method implementation
-/Users/Dave/Projectes/Expresso/iPhone/Expresso/Classes/ExpressoAppDelegate.m:233: warning: incomplete implementation of class 'ExpressoAppDelegate'
-/Users/Dave/Projectes/Expresso/iPhone/Expresso/Classes/ExpressoAppDelegate.m:233: warning: method definition for '-backgroundTouch:' not found

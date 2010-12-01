@@ -9,8 +9,8 @@
 	};
 	1D3623250D0F684500981E51 /* ExpressoAppDelegate.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1965, 2828}}";
-			sepNavSelRange = "{628, 0}";
+			sepNavIntBoundsRect = "{{0, 0}, {1965, 2870}}";
+			sepNavSelRange = "{7739, 0}";
 			sepNavVisRange = "{178, 1475}";
 		};
 	};
@@ -99,6 +99,7 @@
 			5538ED7A12A6C5A6007C04B3 /* PBXTextBookmark */ = 5538ED7A12A6C5A6007C04B3 /* PBXTextBookmark */;
 			5538ED7F12A6C613007C04B3 /* PBXTextBookmark */ = 5538ED7F12A6C613007C04B3 /* PBXTextBookmark */;
 			5538ED8212A6C654007C04B3 /* PBXTextBookmark */ = 5538ED8212A6C654007C04B3 /* PBXTextBookmark */;
+			5538ED8312A6C952007C04B3 /* PBXTextBookmark */ = 5538ED8312A6C952007C04B3 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 5538ED1112A6C02E007C04B3 /* Source Control */;
 		userBuildSettings = {
@@ -587,6 +588,16 @@
 		name = "ExpressoAppDelegate.m: 25";
 		rLen = 0;
 		rLoc = 628;
+		rType = 0;
+		vrLen = 1475;
+		vrLoc = 178;
+	};
+	5538ED8312A6C952007C04B3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* ExpressoAppDelegate.m */;
+		name = "ExpressoAppDelegate.m: 200";
+		rLen = 0;
+		rLoc = 7739;
 		rType = 0;
 		vrLen = 1475;
 		vrLoc = 178;
