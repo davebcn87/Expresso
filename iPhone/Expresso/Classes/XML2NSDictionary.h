@@ -1,0 +1,1 @@
+////  XML2NSDictionary.h//  Expresso////  Created by Arol Viñolas Martinez on 01/12/10.//  Copyright 2010 FIB (UPC). All rights reserved.//#import <Foundation/Foundation.h>@interface XML2NSDictionary : NSObject <NSXMLParserDelegate> {}@end

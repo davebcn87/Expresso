@@ -20,6 +20,7 @@
 		5538ED1812A6C07C007C04B3 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5538ED1612A6C07C007C04B3 /* LoginViewController.xib */; };
 		5538ED2512A6C10F007C04B3 /* fons.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5538ED2312A6C10F007C04B3 /* fons.jpg */; };
 		5538ED2612A6C10F007C04B3 /* fons@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5538ED2412A6C10F007C04B3 /* fons@2x.jpg */; };
+		9F22582B12A70550004E3649 /* XML2NSDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F22582A12A70550004E3649 /* XML2NSDictionary.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,8 @@
 		5538ED2312A6C10F007C04B3 /* fons.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fons.jpg; sourceTree = "<group>"; };
 		5538ED2412A6C10F007C04B3 /* fons@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "fons@2x.jpg"; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Expresso-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Expresso-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		9F22582912A70550004E3649 /* XML2NSDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XML2NSDictionary.h; sourceTree = "<group>"; };
+		9F22582A12A70550004E3649 /* XML2NSDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XML2NSDictionary.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +140,8 @@
 			children = (
 				5538A57D12A6D5BB00CF6776 /* CartaXMLParser.h */,
 				5538A57E12A6D5BB00CF6776 /* CartaXMLParser.m */,
+				9F22582912A70550004E3649 /* XML2NSDictionary.h */,
+				9F22582A12A70550004E3649 /* XML2NSDictionary.m */,
 			);
 			name = Parsers;
 			sourceTree = "<group>";
@@ -209,6 +214,7 @@
 				28193060112F816700ECF9B4 /* Expresso.xcdatamodeld in Sources */,
 				5538ED1712A6C07C007C04B3 /* LoginViewController.m in Sources */,
 				5538A57F12A6D5BB00CF6776 /* CartaXMLParser.m in Sources */,
+				9F22582B12A70550004E3649 /* XML2NSDictionary.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,7 +257,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				PREBINDING = NO;
-				SDKROOT = iphoneos4.0;
+				SDKROOT = iphoneos4.2;
 			};
 			name = Debug;
 		};
@@ -265,7 +271,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				PREBINDING = NO;
-				SDKROOT = iphoneos4.0;
+				SDKROOT = iphoneos4.2;
 			};
 			name = Release;
 		};
