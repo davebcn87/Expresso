@@ -2,7 +2,7 @@
 //  LoginViewController.h
 //  Expresso
 //
-//  Created by David Cortés Fulla on 30/11/10.
+//  Created by David Cortés Fulla on 01/12/10.
 //  Copyright 2010 Facultat d'Informatica de Barcelona (UPC). All rights reserved.
 //
 
@@ -10,11 +10,10 @@
 
 
 @interface LoginViewController : UIViewController {
-
+	
 @private
-	UITextField *nombre;
-	UITextField *contrasena;
-	UIButton *inicia;
+	IBOutlet UITextField *nombre;
+	IBOutlet UITextField *contrasena;
 	NSMutableData *responseData;
 }
 

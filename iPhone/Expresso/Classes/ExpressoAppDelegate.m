@@ -2,16 +2,16 @@
 //  ExpressoAppDelegate.m
 //  Expresso
 //
-//  Created by David Cortés on 18/11/10.
-//  Copyright __MyCompanyName__ 2010. All rights reserved.
+//  Created by David Cortés Fulla on 01/12/10.
+//  Copyright Facultat d'Informatica de Barcelona (UPC) 2010. All rights reserved.
 //
 
 #import "ExpressoAppDelegate.h"
 
-
 @implementation ExpressoAppDelegate
 
 @synthesize window;
+@synthesize loginView;
 
 #pragma mark -
 #pragma mark Application lifecycle
@@ -20,8 +20,11 @@
 	
     // Override point for customization after application launch.
 	
- 	loginView = [[LoginViewController alloc]  initWithNibName:@"LoginViewController" bundle:nil];
-    [window makeKeyAndVisible];	
+	//loginView = [[LoginViewController alloc] initWithNibName:@"LoginViewController" bundle:nil];
+	
+	[window addSubview:loginView.view];
+    [window makeKeyAndVisible];
+	
 	return YES;
 }
 

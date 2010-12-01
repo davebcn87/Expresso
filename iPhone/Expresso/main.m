@@ -2,8 +2,8 @@
 //  main.m
 //  Expresso
 //
-//  Created by David Cortés on 18/11/10.
-//  Copyright __MyCompanyName__ 2010. All rights reserved.
+//  Created by David Cortés Fulla on 01/12/10.
+//  Copyright Facultat d'Informatica de Barcelona (UPC) 2010. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
