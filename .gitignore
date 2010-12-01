@@ -1,3 +1,6 @@
 .DS_Store
 iPhone/Expresso/build/*
+*.pbxuser
+*.perspectivev3
+*.model2v3
 

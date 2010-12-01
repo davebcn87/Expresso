@@ -1,0 +1,327 @@
+TExpresso
+v7
+r0
+t312833372.156624
+cCheck dependencies
+cProcessInfoPlistFile /Users/Arol/Documents/FIB/PXC/app/iPhone/Expresso/build/Debug-iphonesimulator/Expresso.app/Info.plist Expresso-Info.plist
+cCompileXIB /Users/Arol/Documents/FIB/PXC/app/iPhone/Expresso/MainWindow.xib
+cCpResource build/Debug-iphonesimulator/Expresso.app/fons@2x.jpg fons@2x.jpg
+cCpResource build/Debug-iphonesimulator/Expresso.app/fons.jpg fons.jpg
+cProcessPCH /var/folders/VB/VBtq4Yq2Et0t1Rr-IayT2++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Expresso_Prefix-clcgevzqjfutzcatbnitihkbodub/Expresso_Prefix.pch.gch Expresso_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cDataModelVersionCompile /Users/Arol/Documents/FIB/PXC/app/iPhone/Expresso/build/Debug-iphonesimulator/Expresso.app/Expresso.momd /Users/Arol/Documents/FIB/PXC/app/iPhone/Expresso/Expresso.xcdatamodeld
+cCompileC build/Expresso.build/Debug-iphonesimulator/Expresso.build/Objects-normal/i386/main.o /Users/Arol/Documents/FIB/PXC/app/iPhone/Expresso/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Expresso.build/Debug-iphonesimulator/Expresso.build/Objects-normal/i386/ExpressoAppDelegate.o /Users/Arol/Documents/FIB/PXC/app/iPhone/Expresso/Classes/ExpressoAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Expresso.build/Debug-iphonesimulator/Expresso.build/Objects-normal/i386/CartaXMLParser.o /Users/Arol/Documents/FIB/PXC/app/iPhone/Expresso/Classes/CartaXMLParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/Arol/Documents/FIB/PXC/app/iPhone/Expresso/build/Debug-iphonesimulator/Expresso.app/Expresso normal i386
+cGenerateDSYMFile /Users/Arol/Documents/FIB/PXC/app/iPhone/Expresso/build/Debug-iphonesimulator/Expresso.app.dSYM /Users/Arol/Documents/FIB/PXC/app/iPhone/Expresso/build/Debug-iphonesimulator/Expresso.app/Expresso
+cTouch /Users/Arol/Documents/FIB/PXC/app/iPhone/Expresso/build/Debug-iphonesimulator/Expresso.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk
+c000000004C494D410000000000000132
+t1279872321
+s306
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreData.framework/CoreData
+c000000004BFDFEB400000000001CFA90
+t1274937012
+s1899152
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.h
+c000000004BFDFEA8000000000000046B
+t1274937000
+s1131
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004BFDFE39000000000027C7D0
+t1274936889
+s2607056
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004BFDFE7C000000000029D5D0
+t1274936956
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004BFDFE6E0000000000001466
+t1274936942
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004C0470BB00000000000009CD
+t1275359419
+s2509
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004C0471620000000001D47210
+t1275359586
+s30700048
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/Availability.h
+c000000004BF4CBF90000000000001A3B
+t1274334201
+s6715
+
+N/Users/Arol/Documents/FIB/PXC/app/iPhone/Expresso/Classes/CartaXMLParser.h
+c000000004CF538120000000000000211
+t1291139090
+s529
+i<Foundation/Foundation.h>
+
+N/Users/Arol/Documents/FIB/PXC/app/iPhone/Expresso/Classes/CartaXMLParser.m
+c000000004CF53DDA0000000000000587
+t1291140570
+s1415
+i"CartaXMLParser.h"
+
+N/Users/Arol/Documents/FIB/PXC/app/iPhone/Expresso/Classes/ExpressoAppDelegate.h
+c000000004CF533940000000000000589
+t1291137940
+s1417
+i<UIKit/UIKit.h>
+i<CoreData/CoreData.h>
+
+N/Users/Arol/Documents/FIB/PXC/app/iPhone/Expresso/Classes/ExpressoAppDelegate.m
+c000000004CF539410000000000002341
+t1291139393
+s9025
+i"ExpressoAppDelegate.h"
+i"CartaXMLParser.h"
+
+N/Users/Arol/Documents/FIB/PXC/app/iPhone/Expresso/Expresso.xcdatamodeld
+c000000004CF1335D0000000000000088
+t1290875741
+s136
+
+N/Users/Arol/Documents/FIB/PXC/app/iPhone/Expresso/Expresso_Prefix.pch
+c000000004CF1335D0000000000000164
+t1290875741
+s356
+i<Availability.h>
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+i<CoreData/CoreData.h>
+
+N/Users/Arol/Documents/FIB/PXC/app/iPhone/Expresso/MainWindow.xib
+c000000004CF432DA0000000000008163
+t1291072218
+s33123
+
+N/Users/Arol/Documents/FIB/PXC/app/iPhone/Expresso/build/Debug-iphonesimulator/Expresso.app
+t1291140572
+s306
+
+N/Users/Arol/Documents/FIB/PXC/app/iPhone/Expresso/build/Debug-iphonesimulator/Expresso.app.dSYM
+t1291140572
+s102
+
+N/Users/Arol/Documents/FIB/PXC/app/iPhone/Expresso/build/Debug-iphonesimulator/Expresso.app/Expresso
+t1291140571
+s24888
+
+N/Users/Arol/Documents/FIB/PXC/app/iPhone/Expresso/build/Debug-iphonesimulator/Expresso.app/Expresso.momd
+t1290891851
+s136
+
+N/Users/Arol/Documents/FIB/PXC/app/iPhone/Expresso/build/Debug-iphonesimulator/Expresso.app/Info.plist
+t1290891834
+s650
+
+N/Users/Arol/Documents/FIB/PXC/app/iPhone/Expresso/build/Debug-iphonesimulator/Expresso.app/MainWindow.nib
+t1291072320
+s2971
+
+N/Users/Arol/Documents/FIB/PXC/app/iPhone/Expresso/build/Debug-iphonesimulator/Expresso.app/PkgInfo
+t1290891834
+s8
+
+N/Users/Arol/Documents/FIB/PXC/app/iPhone/Expresso/build/Debug-iphonesimulator/Expresso.app/fons.jpg
+t1291072298
+s15783
+
+N/Users/Arol/Documents/FIB/PXC/app/iPhone/Expresso/build/Debug-iphonesimulator/Expresso.app/fons@2x.jpg
+t1291072298
+s44827
+
+N/Users/Arol/Documents/FIB/PXC/app/iPhone/Expresso/build/Expresso.build/Debug-iphonesimulator/Expresso.build/Objects-normal/i386/CartaXMLParser.o
+t1291140571
+s15916
+
+N/Users/Arol/Documents/FIB/PXC/app/iPhone/Expresso/build/Expresso.build/Debug-iphonesimulator/Expresso.build/Objects-normal/i386/Expresso.LinkFileList
+c000000004CF4422200000000000001AE
+t1291076130
+s430
+
+N/Users/Arol/Documents/FIB/PXC/app/iPhone/Expresso/build/Expresso.build/Debug-iphonesimulator/Expresso.build/Objects-normal/i386/ExpressoAppDelegate.o
+t1291139394
+s64888
+
+N/Users/Arol/Documents/FIB/PXC/app/iPhone/Expresso/build/Expresso.build/Debug-iphonesimulator/Expresso.build/Objects-normal/i386/main.o
+t1290891851
+s6324
+
+N/Users/Arol/Documents/FIB/PXC/app/iPhone/Expresso/fons.jpg
+c000000004CF432DA0000000000003DA7
+t1291072218
+s15783
+
+N/Users/Arol/Documents/FIB/PXC/app/iPhone/Expresso/fons@2x.jpg
+c000000004CF432DA000000000000AF1B
+t1291072218
+s44827
+
+N/Users/Arol/Documents/FIB/PXC/app/iPhone/Expresso/main.m
+c000000004CF1335D000000000000016C
+t1290875741
+s364
+i<UIKit/UIKit.h>
+
+N/var/folders/VB/VBtq4Yq2Et0t1Rr-IayT2++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Expresso_Prefix-clcgevzqjfutzcatbnitihkbodub/Expresso_Prefix.pch.gch
+t1290891850
+s16076592
+
+NExpresso-Info.plist
+c000000004CF170CD00000000000003A8
+t1290891469
+s936
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies312833371#312833371#0(0"0(0#1#0"8594794176#0"0#
+
+CCompileC build/Expresso.build/Debug-iphonesimulator/Expresso.build/Objects-normal/i386/CartaXMLParser.o /Users/Arol/Documents/FIB/PXC/app/iPhone/Expresso/Classes/CartaXMLParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s312833371.395079
+e312833371.547742
+r1
+xCompileC
+xbuild/Expresso.build/Debug-iphonesimulator/Expresso.build/Objects-normal/i386/CartaXMLParser.o
+x/Users/Arol/Documents/FIB/PXC/app/iPhone/Expresso/Classes/CartaXMLParser.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o<command-line>: warning: "__IPHONE_OS_VERSION_MIN_REQUIRED" redefined
+o<command-line>: warning: this is the location of the previous definition
+lSLF07#2@82"Compile /Users/Arol/Documents/FIB/PXC/app/iPhone/Expresso/Classes/CartaXMLParser.m312833371#312833371#0(143"<command-line>: warning: "__IPHONE_OS_VERSION_MIN_REQUIRED" redefined<command-line>: warning: this is the location of the previous definition0(0#0#74"/Users/Arol/Documents/FIB/PXC/app/iPhone/Expresso/Classes/CartaXMLParser.m8603614112#2124"    cd /Users/Arol/Documents/FIB/PXC/app/iPhone/Expresso    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40000 -iquote /Users/Arol/Documents/FIB/PXC/app/iPhone/Expresso/build/Expresso.build/Debug-iphonesimulator/Expresso.build/Expresso-generated-files.hmap -I/Users/Arol/Documents/FIB/PXC/app/iPhone/Expresso/build/Expresso.build/Debug-iphonesimulator/Expresso.build/Expresso-own-target-headers.hmap -I/Users/Arol/Documents/FIB/PXC/app/iPhone/Expresso/build/Expresso.build/Debug-iphonesimulator/Expresso.build/Expresso-all-target-headers.hmap -iquote /Users/Arol/Documents/FIB/PXC/app/iPhone/Expresso/build/Expresso.build/Debug-iphonesimulator/Expresso.build/Expresso-project-headers.hmap -F/Users/Arol/Documents/FIB/PXC/app/iPhone/Expresso/build/Debug-iphonesimulator -I/Users/Arol/Documents/FIB/PXC/app/iPhone/Expresso/build/Debug-iphonesimulator/include -I/Users/Arol/Documents/FIB/PXC/app/iPhone/Expresso/build/Expresso.build/Debug-iphonesimulator/Expresso.build/DerivedSources/i386 -I/Users/Arol/Documents/FIB/PXC/app/iPhone/Expresso/build/Expresso.build/Debug-iphonesimulator/Expresso.build/DerivedSources -include /var/folders/VB/VBtq4Yq2Et0t1Rr-IayT2++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Expresso_Prefix-clcgevzqjfutzcatbnitihkbodub/Expresso_Prefix.pch -c /Users/Arol/Documents/FIB/PXC/app/iPhone/Expresso/Classes/CartaXMLParser.m -o /Users/Arol/Documents/FIB/PXC/app/iPhone/Expresso/build/Expresso.build/Debug-iphonesimulator/Expresso.build/Objects-normal/i386/CartaXMLParser.o0#
+
+CCompileC build/Expresso.build/Debug-iphonesimulator/Expresso.build/Objects-normal/i386/ExpressoAppDelegate.o /Users/Arol/Documents/FIB/PXC/app/iPhone/Expresso/Classes/ExpressoAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s312832194.836333
+e312832194.914503
+r1
+xCompileC
+xbuild/Expresso.build/Debug-iphonesimulator/Expresso.build/Objects-normal/i386/ExpressoAppDelegate.o
+x/Users/Arol/Documents/FIB/PXC/app/iPhone/Expresso/Classes/ExpressoAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o<command-line>: warning: "__IPHONE_OS_VERSION_MIN_REQUIRED" redefined
+o<command-line>: warning: this is the location of the previous definition
+o/Users/Arol/Documents/FIB/PXC/app/iPhone/Expresso/Classes/ExpressoAppDelegate.m:242: warning: property 'nombre' requires method '-nombre' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/Arol/Documents/FIB/PXC/app/iPhone/Expresso/Classes/ExpressoAppDelegate.m:242: warning: property 'nombre' requires the method 'setNombre:' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/Arol/Documents/FIB/PXC/app/iPhone/Expresso/Classes/ExpressoAppDelegate.m:242: warning: property 'contrasena' requires method '-contrasena' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/Arol/Documents/FIB/PXC/app/iPhone/Expresso/Classes/ExpressoAppDelegate.m:242: warning: property 'contrasena' requires the method 'setContrasena:' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/Arol/Documents/FIB/PXC/app/iPhone/Expresso/Classes/ExpressoAppDelegate.m:242: warning: property 'inicia' requires method '-inicia' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/Arol/Documents/FIB/PXC/app/iPhone/Expresso/Classes/ExpressoAppDelegate.m:242: warning: property 'inicia' requires the method 'setInicia:' to be defined - use @synthesize, @dynamic or provide a method implementation
+lSLF07#2@87"Compile /Users/Arol/Documents/FIB/PXC/app/iPhone/Expresso/Classes/ExpressoAppDelegate.m312832194#312832194#0(1470"<command-line>: warning: "__IPHONE_OS_VERSION_MIN_REQUIRED" redefined<command-line>: warning: this is the location of the previous definition/Users/Arol/Documents/FIB/PXC/app/iPhone/Expresso/Classes/ExpressoAppDelegate.m:242: warning: property 'nombre' requires method '-nombre' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/Arol/Documents/FIB/PXC/app/iPhone/Expresso/Classes/ExpressoAppDelegate.m:242: warning: property 'nombre' requires the method 'setNombre:' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/Arol/Documents/FIB/PXC/app/iPhone/Expresso/Classes/ExpressoAppDelegate.m:242: warning: property 'contrasena' requires method '-contrasena' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/Arol/Documents/FIB/PXC/app/iPhone/Expresso/Classes/ExpressoAppDelegate.m:242: warning: property 'contrasena' requires the method 'setContrasena:' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/Arol/Documents/FIB/PXC/app/iPhone/Expresso/Classes/ExpressoAppDelegate.m:242: warning: property 'inicia' requires method '-inicia' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/Arol/Documents/FIB/PXC/app/iPhone/Expresso/Classes/ExpressoAppDelegate.m:242: warning: property 'inicia' requires the method 'setInicia:' to be defined - use @synthesize, @dynamic or provide a method implementation6(22@120"Property 'nombre' requires method '-nombre' to be defined - use @synthesize, @dynamic or provide a method implementation312832194#143#215#0(6@79"/Users/Arol/Documents/FIB/PXC/app/iPhone/Expresso/Classes/ExpressoAppDelegate.m312832193#242#0#242#0#0"0(22@127"Property 'nombre' requires the method 'setNombre:' to be defined - use @synthesize, @dynamic or provide a method implementation312832194#358#222#0(6@79"/Users/Arol/Documents/FIB/PXC/app/iPhone/Expresso/Classes/ExpressoAppDelegate.m312832193#242#0#242#0#0"0(22@128"Property 'contrasena' requires method '-contrasena' to be defined - use @synthesize, @dynamic or provide a method implementation312832194#580#223#0(6@79"/Users/Arol/Documents/FIB/PXC/app/iPhone/Expresso/Classes/ExpressoAppDelegate.m312832193#242#0#242#0#0"0(22@135"Property 'contrasena' requires the method 'setContrasena:' to be defined - use @synthesize, @dynamic or provide a method implementation312832194#803#230#0(6@79"/Users/Arol/Documents/FIB/PXC/app/iPhone/Expresso/Classes/ExpressoAppDelegate.m312832193#242#0#242#0#0"0(22@120"Property 'inicia' requires method '-inicia' to be defined - use @synthesize, @dynamic or provide a method implementation312832194#1033#215#0(6@79"/Users/Arol/Documents/FIB/PXC/app/iPhone/Expresso/Classes/ExpressoAppDelegate.m312832193#242#0#242#0#0"0(22@127"Property 'inicia' requires the method 'setInicia:' to be defined - use @synthesize, @dynamic or provide a method implementation312832194#1248#222#0(6@79"/Users/Arol/Documents/FIB/PXC/app/iPhone/Expresso/Classes/ExpressoAppDelegate.m312832193#242#0#242#0#0"0(0#0#79"/Users/Arol/Documents/FIB/PXC/app/iPhone/Expresso/Classes/ExpressoAppDelegate.m8604328512#2134"    cd /Users/Arol/Documents/FIB/PXC/app/iPhone/Expresso    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40000 -iquote /Users/Arol/Documents/FIB/PXC/app/iPhone/Expresso/build/Expresso.build/Debug-iphonesimulator/Expresso.build/Expresso-generated-files.hmap -I/Users/Arol/Documents/FIB/PXC/app/iPhone/Expresso/build/Expresso.build/Debug-iphonesimulator/Expresso.build/Expresso-own-target-headers.hmap -I/Users/Arol/Documents/FIB/PXC/app/iPhone/Expresso/build/Expresso.build/Debug-iphonesimulator/Expresso.build/Expresso-all-target-headers.hmap -iquote /Users/Arol/Documents/FIB/PXC/app/iPhone/Expresso/build/Expresso.build/Debug-iphonesimulator/Expresso.build/Expresso-project-headers.hmap -F/Users/Arol/Documents/FIB/PXC/app/iPhone/Expresso/build/Debug-iphonesimulator -I/Users/Arol/Documents/FIB/PXC/app/iPhone/Expresso/build/Debug-iphonesimulator/include -I/Users/Arol/Documents/FIB/PXC/app/iPhone/Expresso/build/Expresso.build/Debug-iphonesimulator/Expresso.build/DerivedSources/i386 -I/Users/Arol/Documents/FIB/PXC/app/iPhone/Expresso/build/Expresso.build/Debug-iphonesimulator/Expresso.build/DerivedSources -include /var/folders/VB/VBtq4Yq2Et0t1Rr-IayT2++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Expresso_Prefix-clcgevzqjfutzcatbnitihkbodub/Expresso_Prefix.pch -c /Users/Arol/Documents/FIB/PXC/app/iPhone/Expresso/Classes/ExpressoAppDelegate.m -o /Users/Arol/Documents/FIB/PXC/app/iPhone/Expresso/build/Expresso.build/Debug-iphonesimulator/Expresso.build/Objects-normal/i386/ExpressoAppDelegate.o0#
+
+CCompileC build/Expresso.build/Debug-iphonesimulator/Expresso.build/Objects-normal/i386/main.o /Users/Arol/Documents/FIB/PXC/app/iPhone/Expresso/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s312584650.413742
+e312584651.019868
+r1
+xCompileC
+xbuild/Expresso.build/Debug-iphonesimulator/Expresso.build/Objects-normal/i386/main.o
+x/Users/Arol/Documents/FIB/PXC/app/iPhone/Expresso/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o<command-line>: warning: "__IPHONE_OS_VERSION_MIN_REQUIRED" redefined
+o<command-line>: warning: this is the location of the previous definition
+lSLF07#2@64"Compile /Users/Arol/Documents/FIB/PXC/app/iPhone/Expresso/main.m312584650#312584651#0(143"<command-line>: warning: "__IPHONE_OS_VERSION_MIN_REQUIRED" redefined<command-line>: warning: this is the location of the previous definition0(0#0#56"/Users/Arol/Documents/FIB/PXC/app/iPhone/Expresso/main.m8605249056#2096"    cd /Users/Arol/Documents/FIB/PXC/app/iPhone/Expresso    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40000 -iquote /Users/Arol/Documents/FIB/PXC/app/iPhone/Expresso/build/Expresso.build/Debug-iphonesimulator/Expresso.build/Expresso-generated-files.hmap -I/Users/Arol/Documents/FIB/PXC/app/iPhone/Expresso/build/Expresso.build/Debug-iphonesimulator/Expresso.build/Expresso-own-target-headers.hmap -I/Users/Arol/Documents/FIB/PXC/app/iPhone/Expresso/build/Expresso.build/Debug-iphonesimulator/Expresso.build/Expresso-all-target-headers.hmap -iquote /Users/Arol/Documents/FIB/PXC/app/iPhone/Expresso/build/Expresso.build/Debug-iphonesimulator/Expresso.build/Expresso-project-headers.hmap -F/Users/Arol/Documents/FIB/PXC/app/iPhone/Expresso/build/Debug-iphonesimulator -I/Users/Arol/Documents/FIB/PXC/app/iPhone/Expresso/build/Debug-iphonesimulator/include -I/Users/Arol/Documents/FIB/PXC/app/iPhone/Expresso/build/Expresso.build/Debug-iphonesimulator/Expresso.build/DerivedSources/i386 -I/Users/Arol/Documents/FIB/PXC/app/iPhone/Expresso/build/Expresso.build/Debug-iphonesimulator/Expresso.build/DerivedSources -include /var/folders/VB/VBtq4Yq2Et0t1Rr-IayT2++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Expresso_Prefix-clcgevzqjfutzcatbnitihkbodub/Expresso_Prefix.pch -c /Users/Arol/Documents/FIB/PXC/app/iPhone/Expresso/main.m -o /Users/Arol/Documents/FIB/PXC/app/iPhone/Expresso/build/Expresso.build/Debug-iphonesimulator/Expresso.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/Arol/Documents/FIB/PXC/app/iPhone/Expresso/MainWindow.xib
+s312765097.922244
+e312765120.956691
+r1
+xCompileXIB
+x/Users/Arol/Documents/FIB/PXC/app/iPhone/Expresso/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib312765098#312765120#0(0"0(0#0#64"/Users/Arol/Documents/FIB/PXC/app/iPhone/Expresso/MainWindow.xib32651569751457900#604"    cd /Users/Arol/Documents/FIB/PXC/app/iPhone/Expresso    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Arol/Documents/FIB/PXC/app/iPhone/Expresso/build/Debug-iphonesimulator/Expresso.app/MainWindow.nib /Users/Arol/Documents/FIB/PXC/app/iPhone/Expresso/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCpResource build/Debug-iphonesimulator/Expresso.app/fons.jpg fons.jpg
+s312765098.021081
+e312765098.300980
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Expresso.app/fons.jpg
+xfons.jpg
+lSLF07#2@13"Copy fons.jpg312765098#312765098#0(0"0(0#0#58"/Users/Arol/Documents/FIB/PXC/app/iPhone/Expresso/fons.jpg8603943040#486"    cd /Users/Arol/Documents/FIB/PXC/app/iPhone/Expresso    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/Arol/Documents/FIB/PXC/app/iPhone/Expresso/fons.jpg /Users/Arol/Documents/FIB/PXC/app/iPhone/Expresso/build/Debug-iphonesimulator/Expresso.app0#
+
+CCpResource build/Debug-iphonesimulator/Expresso.app/fons@2x.jpg fons@2x.jpg
+s312765098.020441
+e312765098.447988
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Expresso.app/fons@2x.jpg
+xfons@2x.jpg
+lSLF07#2@16"Copy fons@2x.jpg312765098#312765098#0(0"0(0#0#61"/Users/Arol/Documents/FIB/PXC/app/iPhone/Expresso/fons@2x.jpg8604071424#489"    cd /Users/Arol/Documents/FIB/PXC/app/iPhone/Expresso    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/Arol/Documents/FIB/PXC/app/iPhone/Expresso/fons@2x.jpg /Users/Arol/Documents/FIB/PXC/app/iPhone/Expresso/build/Debug-iphonesimulator/Expresso.app0#
+
+CDataModelVersionCompile /Users/Arol/Documents/FIB/PXC/app/iPhone/Expresso/build/Debug-iphonesimulator/Expresso.app/Expresso.momd /Users/Arol/Documents/FIB/PXC/app/iPhone/Expresso/Expresso.xcdatamodeld
+s312584650.412560
+e312584651.234420
+r1
+xDataModelVersionCompile
+x/Users/Arol/Documents/FIB/PXC/app/iPhone/Expresso/build/Debug-iphonesimulator/Expresso.app/Expresso.momd
+x/Users/Arol/Documents/FIB/PXC/app/iPhone/Expresso/Expresso.xcdatamodeld
+lSLF07#2@100"DataModelVersionCompile build/Debug-iphonesimulator/Expresso.app/Expresso.momd Expresso.xcdatamodeld312584650#312584651#0(0"0(0#0#71"/Users/Arol/Documents/FIB/PXC/app/iPhone/Expresso/Expresso.xcdatamodeld8605473664#422"    cd /Users/Arol/Documents/FIB/PXC/app/iPhone/Expresso    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/momc -XD_MOMC_TARGET_VERSION=10.6 /Users/Arol/Documents/FIB/PXC/app/iPhone/Expresso/Expresso.xcdatamodeld /Users/Arol/Documents/FIB/PXC/app/iPhone/Expresso/build/Debug-iphonesimulator/Expresso.app/Expresso.momd0#
+
+CGenerateDSYMFile /Users/Arol/Documents/FIB/PXC/app/iPhone/Expresso/build/Debug-iphonesimulator/Expresso.app.dSYM /Users/Arol/Documents/FIB/PXC/app/iPhone/Expresso/build/Debug-iphonesimulator/Expresso.app/Expresso
+s312833371.930858
+e312833372.108360
+r1
+xGenerateDSYMFile
+x/Users/Arol/Documents/FIB/PXC/app/iPhone/Expresso/build/Debug-iphonesimulator/Expresso.app.dSYM
+x/Users/Arol/Documents/FIB/PXC/app/iPhone/Expresso/build/Debug-iphonesimulator/Expresso.app/Expresso
+lSLF07#2@112"GenerateDSYMFile build/Debug-iphonesimulator/Expresso.app.dSYM build/Debug-iphonesimulator/Expresso.app/Expresso312833371#312833372#0(0"0(0#0#99"/Users/Arol/Documents/FIB/PXC/app/iPhone/Expresso/build/Debug-iphonesimulator/Expresso.app/Expresso8619860800#419"    cd /Users/Arol/Documents/FIB/PXC/app/iPhone/Expresso    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/Arol/Documents/FIB/PXC/app/iPhone/Expresso/build/Debug-iphonesimulator/Expresso.app/Expresso -o /Users/Arol/Documents/FIB/PXC/app/iPhone/Expresso/build/Debug-iphonesimulator/Expresso.app.dSYM0#
+
+CLd /Users/Arol/Documents/FIB/PXC/app/iPhone/Expresso/build/Debug-iphonesimulator/Expresso.app/Expresso normal i386
+s312833371.547852
+e312833371.930743
+r1
+xLd
+x/Users/Arol/Documents/FIB/PXC/app/iPhone/Expresso/build/Debug-iphonesimulator/Expresso.app/Expresso
+xnormal
+xi386
+lSLF07#2@104"Link /Users/Arol/Documents/FIB/PXC/app/iPhone/Expresso/build/Debug-iphonesimulator/Expresso.app/Expresso312833371#312833371#0(0"0(0#0#0"8616666208#980"    cd /Users/Arol/Documents/FIB/PXC/app/iPhone/Expresso    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -L/Users/Arol/Documents/FIB/PXC/app/iPhone/Expresso/build/Debug-iphonesimulator -F/Users/Arol/Documents/FIB/PXC/app/iPhone/Expresso/build/Debug-iphonesimulator -filelist /Users/Arol/Documents/FIB/PXC/app/iPhone/Expresso/build/Expresso.build/Debug-iphonesimulator/Expresso.build/Objects-normal/i386/Expresso.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -framework CoreData -o /Users/Arol/Documents/FIB/PXC/app/iPhone/Expresso/build/Debug-iphonesimulator/Expresso.app/Expresso0#
+
+CProcessInfoPlistFile /Users/Arol/Documents/FIB/PXC/app/iPhone/Expresso/build/Debug-iphonesimulator/Expresso.app/Info.plist Expresso-Info.plist
+s312584633.963299
+e312584634.352336
+r1
+xProcessInfoPlistFile
+x/Users/Arol/Documents/FIB/PXC/app/iPhone/Expresso/build/Debug-iphonesimulator/Expresso.app/Info.plist
+xExpresso-Info.plist
+lSLF07#2@27"Process Expresso-Info.plist312584634#312584634#0(0"0(0#0#69"/Users/Arol/Documents/FIB/PXC/app/iPhone/Expresso/Expresso-Info.plist12948325677596788#515"    cd /Users/Arol/Documents/FIB/PXC/app/iPhone/Expresso    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Expresso-Info.plist -genpkginfo /Users/Arol/Documents/FIB/PXC/app/iPhone/Expresso/build/Debug-iphonesimulator/Expresso.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/Arol/Documents/FIB/PXC/app/iPhone/Expresso/build/Debug-iphonesimulator/Expresso.app/Info.plist0#
+
+CProcessPCH /var/folders/VB/VBtq4Yq2Et0t1Rr-IayT2++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Expresso_Prefix-clcgevzqjfutzcatbnitihkbodub/Expresso_Prefix.pch.gch Expresso_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s312584639.177808
+e312584650.412274
+r1
+xProcessPCH
+x/var/folders/VB/VBtq4Yq2Et0t1Rr-IayT2++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Expresso_Prefix-clcgevzqjfutzcatbnitihkbodub/Expresso_Prefix.pch.gch
+xExpresso_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o<command-line>: warning: "__IPHONE_OS_VERSION_MIN_REQUIRED" redefined
+o<command-line>: warning: this is the location of the previous definition
+lSLF07#2@30"Precompile Expresso_Prefix.pch312584639#312584650#0(143"<command-line>: warning: "__IPHONE_OS_VERSION_MIN_REQUIRED" redefined<command-line>: warning: this is the location of the previous definition0(0#0#69"/Users/Arol/Documents/FIB/PXC/app/iPhone/Expresso/Expresso_Prefix.pch8593683616#1976"    cd /Users/Arol/Documents/FIB/PXC/app/iPhone/Expresso    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40000 -iquote /Users/Arol/Documents/FIB/PXC/app/iPhone/Expresso/build/Expresso.build/Debug-iphonesimulator/Expresso.build/Expresso-generated-files.hmap -I/Users/Arol/Documents/FIB/PXC/app/iPhone/Expresso/build/Expresso.build/Debug-iphonesimulator/Expresso.build/Expresso-own-target-headers.hmap -I/Users/Arol/Documents/FIB/PXC/app/iPhone/Expresso/build/Expresso.build/Debug-iphonesimulator/Expresso.build/Expresso-all-target-headers.hmap -iquote /Users/Arol/Documents/FIB/PXC/app/iPhone/Expresso/build/Expresso.build/Debug-iphonesimulator/Expresso.build/Expresso-project-headers.hmap -F/Users/Arol/Documents/FIB/PXC/app/iPhone/Expresso/build/Debug-iphonesimulator -I/Users/Arol/Documents/FIB/PXC/app/iPhone/Expresso/build/Debug-iphonesimulator/include -I/Users/Arol/Documents/FIB/PXC/app/iPhone/Expresso/build/Expresso.build/Debug-iphonesimulator/Expresso.build/DerivedSources/i386 -I/Users/Arol/Documents/FIB/PXC/app/iPhone/Expresso/build/Expresso.build/Debug-iphonesimulator/Expresso.build/DerivedSources -c /Users/Arol/Documents/FIB/PXC/app/iPhone/Expresso/Expresso_Prefix.pch -o /var/folders/VB/VBtq4Yq2Et0t1Rr-IayT2++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Expresso_Prefix-clcgevzqjfutzcatbnitihkbodub/Expresso_Prefix.pch.gch0#
+
+CTouch /Users/Arol/Documents/FIB/PXC/app/iPhone/Expresso/build/Debug-iphonesimulator/Expresso.app
+s312833372.108453
+e312833372.156542
+r1
+xTouch
+x/Users/Arol/Documents/FIB/PXC/app/iPhone/Expresso/build/Debug-iphonesimulator/Expresso.app
+lSLF07#2@96"Touch /Users/Arol/Documents/FIB/PXC/app/iPhone/Expresso/build/Debug-iphonesimulator/Expresso.app312833372#312833372#0(0"0(0#0#0"8618705792#301"    cd /Users/Arol/Documents/FIB/PXC/app/iPhone/Expresso    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/Arol/Documents/FIB/PXC/app/iPhone/Expresso/build/Debug-iphonesimulator/Expresso.app0#
+
