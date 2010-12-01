@@ -273,13 +273,13 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>13</integer>
-									<integer>7</integer>
+									<integer>5</integer>
+									<integer>1</integer>
 									<integer>0</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 0}, {186, 768}}</string>
+							<string>{{0, 0}, {186, 910}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -291,14 +291,14 @@
 					<key>GeometryConfiguration</key>
 					<dict>
 						<key>Frame</key>
-						<string>{{0, 0}, {203, 786}}</string>
+						<string>{{0, 0}, {203, 928}}</string>
 						<key>GroupTreeTableConfiguration</key>
 						<array>
 							<string>MainColumn</string>
 							<real>186</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>8 139 924 827 0 0 1680 1028 </string>
+						<string>0 59 1680 969 0 0 1680 1028 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -316,7 +316,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>ExpressoAppDelegate.m</string>
+								<string>LoginViewController.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -324,21 +324,21 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>ExpressoAppDelegate.m</string>
+										<string>LoginViewController.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>5538ED8312A6C952007C04B3</string>
+										<string>5538ED8912A6CD6D007C04B3</string>
 										<key>history</key>
 										<array>
 											<string>5538ED2812A6C1C9007C04B3</string>
 											<string>5538ED2C12A6C1EE007C04B3</string>
 											<string>5538ED4312A6C326007C04B3</string>
 											<string>5538ED4612A6C326007C04B3</string>
-											<string>5538ED5712A6C357007C04B3</string>
 											<string>5538ED6112A6C465007C04B3</string>
 											<string>5538ED7812A6C5A6007C04B3</string>
-											<string>5538ED7912A6C5A6007C04B3</string>
+											<string>5538ED8812A6CD6D007C04B3</string>
+											<string>5538ED5712A6C357007C04B3</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -350,14 +350,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {716, 600}}</string>
+								<string>{{0, 0}, {1472, 742}}</string>
 								<key>RubberWindowFrame</key>
-								<string>8 139 924 827 0 0 1680 1028 </string>
+								<string>0 59 1680 969 0 0 1680 1028 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>600pt</string>
+							<string>742pt</string>
 						</dict>
 						<dict>
 							<key>ContentConfiguration</key>
@@ -370,9 +370,9 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 605}, {716, 181}}</string>
+								<string>{{0, 747}, {1472, 181}}</string>
 								<key>RubberWindowFrame</key>
-								<string>8 139 924 827 0 0 1680 1028 </string>
+								<string>0 59 1680 969 0 0 1680 1028 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
@@ -381,7 +381,7 @@
 						</dict>
 					</array>
 					<key>Proportion</key>
-					<string>716pt</string>
+					<string>1472pt</string>
 				</dict>
 			</array>
 			<key>Name</key>
@@ -536,13 +536,13 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
+		<string>1C78EAAD065D492600B07095</string>
 		<string>1CD10A99069EF8BA00B06720</string>
 		<string>5538ED1E12A6C083007C04B3</string>
 		<string>/Users/Dave/Projectes/Expresso/iPhone/Expresso/Expresso.xcodeproj</string>
-		<string>1C78EAAD065D492600B07095</string>
 	</array>
 	<key>WindowString</key>
-	<string>8 139 924 827 0 0 1680 1028 </string>
+	<string>0 59 1680 969 0 0 1680 1028 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>
@@ -923,7 +923,7 @@
 			<key>WindowToolGUID</key>
 			<string>1C78EAAD065D492600B07095</string>
 			<key>WindowToolIsVisible</key>
-			<true/>
+			<false/>
 		</dict>
 		<dict>
 			<key>Identifier</key>

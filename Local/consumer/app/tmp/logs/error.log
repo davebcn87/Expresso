@@ -1,3 +1,0 @@
-2010-11-21 19:04:17 Warning: Warning (2): count() [<a href='http://php.net/function.count'>function.count</a>]: recursion detected in [C:\xampp\xampp\htdocs\consumer\cake\libs\xml.php, line 767]
-2010-11-21 19:04:49 Warning: Warning (2): count() [<a href='http://php.net/function.count'>function.count</a>]: recursion detected in [C:\xampp\xampp\htdocs\consumer\cake\libs\xml.php, line 767]
-2010-11-21 19:09:40 Warning: Warning (2): Missing argument 1 for ConsumsController::view() in [C:\xampp\xampp\htdocs\consumer\app\controllers\consums_controller.php, line 19]
