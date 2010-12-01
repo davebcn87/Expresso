@@ -9,9 +9,9 @@
 	};
 	1D3623250D0F684500981E51 /* ExpressoAppDelegate.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1965, 2870}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1965, 2828}}";
 			sepNavSelRange = "{7739, 0}";
-			sepNavVisRange = "{178, 1475}";
+			sepNavVisRange = "{178, 1546}";
 		};
 	};
 	1D6058900D05DD3D006BFB54 /* Expresso */ = {
@@ -37,7 +37,7 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					477,
+					1233,
 					20,
 					48.16259765625,
 					43,
@@ -100,6 +100,10 @@
 			5538ED7F12A6C613007C04B3 /* PBXTextBookmark */ = 5538ED7F12A6C613007C04B3 /* PBXTextBookmark */;
 			5538ED8212A6C654007C04B3 /* PBXTextBookmark */ = 5538ED8212A6C654007C04B3 /* PBXTextBookmark */;
 			5538ED8312A6C952007C04B3 /* PBXTextBookmark */ = 5538ED8312A6C952007C04B3 /* PBXTextBookmark */;
+			5538ED8612A6CD59007C04B3 /* XCBuildMessageTextBookmark */ = 5538ED8612A6CD59007C04B3 /* XCBuildMessageTextBookmark */;
+			5538ED8712A6CD59007C04B3 /* PBXTextBookmark */ = 5538ED8712A6CD59007C04B3 /* PBXTextBookmark */;
+			5538ED8812A6CD6D007C04B3 /* PBXTextBookmark */ = 5538ED8812A6CD6D007C04B3 /* PBXTextBookmark */;
+			5538ED8912A6CD6D007C04B3 /* PBXTextBookmark */ = 5538ED8912A6CD6D007C04B3 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 5538ED1112A6C02E007C04B3 /* Source Control */;
 		userBuildSettings = {
@@ -156,9 +160,9 @@
 	};
 	5538ED1512A6C07C007C04B3 /* LoginViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1146, 1428}}";
-			sepNavSelRange = "{1977, 0}";
-			sepNavVisRange = "{1024, 1138}";
+			sepNavIntBoundsRect = "{{0, 0}, {1411, 1484}}";
+			sepNavSelRange = "{1360, 0}";
+			sepNavVisRange = "{313, 1517}";
 		};
 	};
 	5538ED1912A6C083007C04B3 /* PBXTextBookmark */ = {
@@ -275,7 +279,7 @@
 		fRef = 5538ED1512A6C07C007C04B3 /* LoginViewController.m */;
 		name = "LoginViewController.m: 100";
 		rLen = 0;
-		rLoc = 2638;
+		rLoc = 2678;
 		rType = 0;
 		vrLen = 1024;
 		vrLoc = 0;
@@ -347,7 +351,7 @@
 		fRef = 5538ED1512A6C07C007C04B3 /* LoginViewController.m */;
 		name = "LoginViewController.m: 100";
 		rLen = 0;
-		rLoc = 2638;
+		rLoc = 2678;
 		rType = 0;
 		vrLen = 995;
 		vrLoc = 29;
@@ -357,7 +361,7 @@
 		fRef = 5538ED1512A6C07C007C04B3 /* LoginViewController.m */;
 		name = "LoginViewController.m: 76";
 		rLen = 0;
-		rLoc = 1982;
+		rLoc = 2022;
 		rType = 0;
 		vrLen = 1105;
 		vrLoc = 1147;
@@ -367,7 +371,7 @@
 		fRef = 5538ED1512A6C07C007C04B3 /* LoginViewController.m */;
 		name = "LoginViewController.m: 75";
 		rLen = 0;
-		rLoc = 1977;
+		rLoc = 2017;
 		rType = 0;
 		vrLen = 1138;
 		vrLoc = 1024;
@@ -377,7 +381,7 @@
 		fRef = 5538ED1512A6C07C007C04B3 /* LoginViewController.m */;
 		name = "LoginViewController.m: 75";
 		rLen = 0;
-		rLoc = 1977;
+		rLoc = 2017;
 		rType = 0;
 		vrLen = 1138;
 		vrLoc = 1024;
@@ -601,5 +605,44 @@
 		rType = 0;
 		vrLen = 1475;
 		vrLoc = 178;
+	};
+	5538ED8612A6CD59007C04B3 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Type of property 'loginView' does not match type of ivar 'loginView'";
+		fRef = 1D3623250D0F684500981E51 /* ExpressoAppDelegate.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 13;
+		rType = 1;
+	};
+	5538ED8712A6CD59007C04B3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* ExpressoAppDelegate.m */;
+		name = "ExpressoAppDelegate.m: 200";
+		rLen = 0;
+		rLoc = 7739;
+		rType = 0;
+		vrLen = 351;
+		vrLoc = 178;
+	};
+	5538ED8812A6CD6D007C04B3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* ExpressoAppDelegate.m */;
+		name = "ExpressoAppDelegate.m: 200";
+		rLen = 0;
+		rLoc = 7739;
+		rType = 0;
+		vrLen = 1546;
+		vrLoc = 178;
+	};
+	5538ED8912A6CD6D007C04B3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5538ED1512A6C07C007C04B3 /* LoginViewController.m */;
+		name = "LoginViewController.m: 53";
+		rLen = 0;
+		rLoc = 1360;
+		rType = 0;
+		vrLen = 1517;
+		vrLoc = 313;
 	};
 }

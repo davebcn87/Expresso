@@ -49,6 +49,8 @@
 	NSLog(@"%@",datos);
 	
 	[datos release];
+	
+	//Comencem el parse del xml de login
 }
 
 - (void)connection:(NSURLConnection *)connection didFailWithError:(NSError *)error
