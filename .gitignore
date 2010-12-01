@@ -1,6 +1,10 @@
+# Ignora los archivos de sistema
 .DS_Store
-iPhone/Expresso/build/*
+
+# Ignora los directorios de compilación
+/iPhone/Expresso/build/*
+
+# Ignora los archivos de proyecto referentes a mi usuario
 *.pbxuser
 *.perspectivev3
 *.model2v3
-

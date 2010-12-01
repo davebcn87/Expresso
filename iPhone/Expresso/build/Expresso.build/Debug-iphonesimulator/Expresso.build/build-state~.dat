@@ -1,0 +1,237 @@
+TExpresso
+v7
+r0
+t312579986.261217
+cCheck dependencies
+cProcessInfoPlistFile /Users/Dave/Projectes/Expresso/iPhone/Expresso/build/Debug-iphonesimulator/Expresso.app/Info.plist Expresso-Info.plist
+cCompileXIB /Users/Dave/Projectes/Expresso/iPhone/Expresso/MainWindow.xib
+cProcessPCH /var/folders/4y/4yExPy4yHcurQdY8ElyORE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Expresso_Prefix-erejtvobowesrfhhakrkbapsntao/Expresso_Prefix.pch.gch Expresso_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cDataModelVersionCompile /Users/Dave/Projectes/Expresso/iPhone/Expresso/build/Debug-iphonesimulator/Expresso.app/Expresso.momd /Users/Dave/Projectes/Expresso/iPhone/Expresso/Expresso.xcdatamodeld
+cCompileC build/Expresso.build/Debug-iphonesimulator/Expresso.build/Objects-normal/i386/main.o /Users/Dave/Projectes/Expresso/iPhone/Expresso/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Expresso.build/Debug-iphonesimulator/Expresso.build/Objects-normal/i386/ExpressoAppDelegate.o /Users/Dave/Projectes/Expresso/iPhone/Expresso/Classes/ExpressoAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk
+c000000004C5BF3A70000000000000132
+t1281094567
+s306
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreData.framework/CoreData
+c000000004BFDFEB400000000001CFA90
+t1274937012
+s1899152
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.h
+c000000004BFDFEA8000000000000046B
+t1274937000
+s1131
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004BFDFE39000000000027C7D0
+t1274936889
+s2607056
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004BFDFE7C000000000029D5D0
+t1274936956
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004BFDFE6E0000000000001466
+t1274936942
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004C0470BB00000000000009CD
+t1275359419
+s2509
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004C0471620000000001D47210
+t1275359586
+s30700048
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/Availability.h
+c000000004BF4CBF90000000000001A3B
+t1274334201
+s6715
+
+N/Users/Dave/Projectes/Expresso/iPhone/Expresso/Classes/ExpressoAppDelegate.h
+c000000004CF160110000000000000453
+t1290887185
+s1107
+i<UIKit/UIKit.h>
+i<CoreData/CoreData.h>
+
+N/Users/Dave/Projectes/Expresso/iPhone/Expresso/Classes/ExpressoAppDelegate.m
+c000000004CF1600F0000000000001FF1
+t1290887183
+s8177
+i"ExpressoAppDelegate.h"
+
+N/Users/Dave/Projectes/Expresso/iPhone/Expresso/Expresso.xcdatamodeld
+c000000004CE556E00000000000000088
+t1290098400
+s136
+
+N/Users/Dave/Projectes/Expresso/iPhone/Expresso/Expresso_Prefix.pch
+c000000004CE556E00000000000000164
+t1290098400
+s356
+i<Availability.h>
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+i<CoreData/CoreData.h>
+
+N/Users/Dave/Projectes/Expresso/iPhone/Expresso/MainWindow.xib
+c000000004CF159B700000000000021CB
+t1290885559
+s8651
+
+N/Users/Dave/Projectes/Expresso/iPhone/Expresso/build/Debug-iphonesimulator/Expresso.app
+t2
+s0
+
+N/Users/Dave/Projectes/Expresso/iPhone/Expresso/build/Debug-iphonesimulator/Expresso.app.dSYM
+t2
+s0
+
+N/Users/Dave/Projectes/Expresso/iPhone/Expresso/build/Debug-iphonesimulator/Expresso.app/Expresso
+t2
+s0
+
+N/Users/Dave/Projectes/Expresso/iPhone/Expresso/build/Debug-iphonesimulator/Expresso.app/Expresso.momd
+t1290887186
+s136
+
+N/Users/Dave/Projectes/Expresso/iPhone/Expresso/build/Debug-iphonesimulator/Expresso.app/Info.plist
+t1290887185
+s595
+
+N/Users/Dave/Projectes/Expresso/iPhone/Expresso/build/Debug-iphonesimulator/Expresso.app/MainWindow.nib
+t1290887186
+s985
+
+N/Users/Dave/Projectes/Expresso/iPhone/Expresso/build/Debug-iphonesimulator/Expresso.app/PkgInfo
+t1290887185
+s8
+
+N/Users/Dave/Projectes/Expresso/iPhone/Expresso/build/Expresso.build/Debug-iphonesimulator/Expresso.build/Objects-normal/i386/Expresso.LinkFileList
+c000000004CF160110000000000000117
+t1290887185
+s279
+
+N/Users/Dave/Projectes/Expresso/iPhone/Expresso/build/Expresso.build/Debug-iphonesimulator/Expresso.build/Objects-normal/i386/ExpressoAppDelegate.o
+t2
+s0
+
+N/Users/Dave/Projectes/Expresso/iPhone/Expresso/build/Expresso.build/Debug-iphonesimulator/Expresso.build/Objects-normal/i386/main.o
+t1290887186
+s6320
+
+N/Users/Dave/Projectes/Expresso/iPhone/Expresso/main.m
+c000000004CE556E0000000000000016C
+t1290098400
+s364
+i<UIKit/UIKit.h>
+
+N/var/folders/4y/4yExPy4yHcurQdY8ElyORE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Expresso_Prefix-erejtvobowesrfhhakrkbapsntao/Expresso_Prefix.pch.gch
+t1290437739
+s16097072
+
+NExpresso-Info.plist
+c000000004CF159B7000000000000038D
+t1290885559
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies312579985#312579985#0(0"0(0#1#0"8625571296#0"0#
+
+CCompileC build/Expresso.build/Debug-iphonesimulator/Expresso.build/Objects-normal/i386/ExpressoAppDelegate.o /Users/Dave/Projectes/Expresso/iPhone/Expresso/Classes/ExpressoAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s312579986.078935
+e312579986.171197
+r0
+xCompileC
+xbuild/Expresso.build/Debug-iphonesimulator/Expresso.build/Objects-normal/i386/ExpressoAppDelegate.o
+x/Users/Dave/Projectes/Expresso/iPhone/Expresso/Classes/ExpressoAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/Dave/Projectes/Expresso/iPhone/Expresso/Classes/ExpressoAppDelegate.m: In function '-[ExpressoAppDelegate iniciaSessio]':
+o/Users/Dave/Projectes/Expresso/iPhone/Expresso/Classes/ExpressoAppDelegate.m:29: warning: 'NSURLRequest' may not respond to '-setValue:forHTTPHeaderField:'
+o/Users/Dave/Projectes/Expresso/iPhone/Expresso/Classes/ExpressoAppDelegate.m:29: warning: (Messages without a matching method signature
+o/Users/Dave/Projectes/Expresso/iPhone/Expresso/Classes/ExpressoAppDelegate.m:29: warning: will be assumed to return 'id' and accept
+o/Users/Dave/Projectes/Expresso/iPhone/Expresso/Classes/ExpressoAppDelegate.m:29: warning: '...' as arguments.)
+o/Users/Dave/Projectes/Expresso/iPhone/Expresso/Classes/ExpressoAppDelegate.m:30: error: conflicting types for 'nom'
+o/Users/Dave/Projectes/Expresso/iPhone/Expresso/Classes/ExpressoAppDelegate.m:21: error: previous definition of 'nom' was here
+o/Users/Dave/Projectes/Expresso/iPhone/Expresso/Classes/ExpressoAppDelegate.m:30: error: statically allocated instance of Objective-C class 'NSString'
+o/Users/Dave/Projectes/Expresso/iPhone/Expresso/Classes/ExpressoAppDelegate.m:30: error: statically allocated instance of Objective-C class 'NSString'
+o/Users/Dave/Projectes/Expresso/iPhone/Expresso/Classes/ExpressoAppDelegate.m:30: error: conflicting types for 'pass'
+o/Users/Dave/Projectes/Expresso/iPhone/Expresso/Classes/ExpressoAppDelegate.m:22: error: previous definition of 'pass' was here
+o/Users/Dave/Projectes/Expresso/iPhone/Expresso/Classes/ExpressoAppDelegate.m:30: error: statically allocated instance of Objective-C class 'NSString'
+o/Users/Dave/Projectes/Expresso/iPhone/Expresso/Classes/ExpressoAppDelegate.m:30: error: statically allocated instance of Objective-C class 'NSString'
+o/Users/Dave/Projectes/Expresso/iPhone/Expresso/Classes/ExpressoAppDelegate.m:31: warning: unused variable 'response'
+o/Users/Dave/Projectes/Expresso/iPhone/Expresso/Classes/ExpressoAppDelegate.m:30: warning: unused variable 'pass'
+o/Users/Dave/Projectes/Expresso/iPhone/Expresso/Classes/ExpressoAppDelegate.m:30: warning: unused variable 'nom'
+o/Users/Dave/Projectes/Expresso/iPhone/Expresso/Classes/ExpressoAppDelegate.m:30: warning: unused variable 'myRequestString'
+o/Users/Dave/Projectes/Expresso/iPhone/Expresso/Classes/ExpressoAppDelegate.m: At top level:
+o/Users/Dave/Projectes/Expresso/iPhone/Expresso/Classes/ExpressoAppDelegate.m:213: warning: property 'nombre' requires method '-nombre' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/Dave/Projectes/Expresso/iPhone/Expresso/Classes/ExpressoAppDelegate.m:213: warning: property 'nombre' requires the method 'setNombre:' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/Dave/Projectes/Expresso/iPhone/Expresso/Classes/ExpressoAppDelegate.m:213: warning: property 'contrasena' requires method '-contrasena' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/Dave/Projectes/Expresso/iPhone/Expresso/Classes/ExpressoAppDelegate.m:213: warning: property 'contrasena' requires the method 'setContrasena:' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/Dave/Projectes/Expresso/iPhone/Expresso/Classes/ExpressoAppDelegate.m:213: warning: property 'inicia' requires method '-inicia' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/Dave/Projectes/Expresso/iPhone/Expresso/Classes/ExpressoAppDelegate.m:213: warning: property 'inicia' requires the method 'setInicia:' to be defined - use @synthesize, @dynamic or provide a method implementation
+lSLF07#2@84"Compile /Users/Dave/Projectes/Expresso/iPhone/Expresso/Classes/ExpressoAppDelegate.m312579986#312579986#0(3617"/Users/Dave/Projectes/Expresso/iPhone/Expresso/Classes/ExpressoAppDelegate.m: In function '-[ExpressoAppDelegate iniciaSessio]':/Users/Dave/Projectes/Expresso/iPhone/Expresso/Classes/ExpressoAppDelegate.m:29: warning: 'NSURLRequest' may not respond to '-setValue:forHTTPHeaderField:'/Users/Dave/Projectes/Expresso/iPhone/Expresso/Classes/ExpressoAppDelegate.m:29: warning: (Messages without a matching method signature/Users/Dave/Projectes/Expresso/iPhone/Expresso/Classes/ExpressoAppDelegate.m:29: warning: will be assumed to return 'id' and accept/Users/Dave/Projectes/Expresso/iPhone/Expresso/Classes/ExpressoAppDelegate.m:29: warning: '...' as arguments.)/Users/Dave/Projectes/Expresso/iPhone/Expresso/Classes/ExpressoAppDelegate.m:30: error: conflicting types for 'nom'/Users/Dave/Projectes/Expresso/iPhone/Expresso/Classes/ExpressoAppDelegate.m:21: error: previous definition of 'nom' was here/Users/Dave/Projectes/Expresso/iPhone/Expresso/Classes/ExpressoAppDelegate.m:30: error: statically allocated instance of Objective-C class 'NSString'/Users/Dave/Projectes/Expresso/iPhone/Expresso/Classes/ExpressoAppDelegate.m:30: error: statically allocated instance of Objective-C class 'NSString'/Users/Dave/Projectes/Expresso/iPhone/Expresso/Classes/ExpressoAppDelegate.m:30: error: conflicting types for 'pass'/Users/Dave/Projectes/Expresso/iPhone/Expresso/Classes/ExpressoAppDelegate.m:22: error: previous definition of 'pass' was here/Users/Dave/Projectes/Expresso/iPhone/Expresso/Classes/ExpressoAppDelegate.m:30: error: statically allocated instance of Objective-C class 'NSString'/Users/Dave/Projectes/Expresso/iPhone/Expresso/Classes/ExpressoAppDelegate.m:30: error: statically allocated instance of Objective-C class 'NSString'/Users/Dave/Projectes/Expresso/iPhone/Expresso/Classes/ExpressoAppDelegate.m:31: warning: unused variable 'response'/Users/Dave/Projectes/Expresso/iPhone/Expresso/Classes/ExpressoAppDelegate.m:30: warning: unused variable 'pass'/Users/Dave/Projectes/Expresso/iPhone/Expresso/Classes/ExpressoAppDelegate.m:30: warning: unused variable 'nom'/Users/Dave/Projectes/Expresso/iPhone/Expresso/Classes/ExpressoAppDelegate.m:30: warning: unused variable 'myRequestString'/Users/Dave/Projectes/Expresso/iPhone/Expresso/Classes/ExpressoAppDelegate.m: At top level:/Users/Dave/Projectes/Expresso/iPhone/Expresso/Classes/ExpressoAppDelegate.m:213: warning: property 'nombre' requires method '-nombre' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/Dave/Projectes/Expresso/iPhone/Expresso/Classes/ExpressoAppDelegate.m:213: warning: property 'nombre' requires the method 'setNombre:' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/Dave/Projectes/Expresso/iPhone/Expresso/Classes/ExpressoAppDelegate.m:213: warning: property 'contrasena' requires method '-contrasena' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/Dave/Projectes/Expresso/iPhone/Expresso/Classes/ExpressoAppDelegate.m:213: warning: property 'contrasena' requires the method 'setContrasena:' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/Dave/Projectes/Expresso/iPhone/Expresso/Classes/ExpressoAppDelegate.m:213: warning: property 'inicia' requires method '-inicia' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/Dave/Projectes/Expresso/iPhone/Expresso/Classes/ExpressoAppDelegate.m:213: warning: property 'inicia' requires the method 'setInicia:' to be defined - use @synthesize, @dynamic or provide a method implementation21(22@65"'NSURLRequest' may not respond to '-setValue:forHTTPHeaderField:'312579986#129#156#0(6@76"/Users/Dave/Projectes/Expresso/iPhone/Expresso/Classes/ExpressoAppDelegate.m312579983#29#0#29#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)312579986#285#136#0(6@76"/Users/Dave/Projectes/Expresso/iPhone/Expresso/Classes/ExpressoAppDelegate.m312579983#29#0#29#0#0"0(4@27"Conflicting types for 'nom'312579986#664#116#0(6@76"/Users/Dave/Projectes/Expresso/iPhone/Expresso/Classes/ExpressoAppDelegate.m312579983#30#0#30#0#25"conflicting types for '*'0(13@37"Previous definition of 'nom' was here312579986#780#126#0(6@76"/Users/Dave/Projectes/Expresso/iPhone/Expresso/Classes/ExpressoAppDelegate.m312579983#21#0#21#0#35"previous definition of '*' was here0(4@61"Statically allocated instance of Objective-C class 'NSString'312579986#906#150#0(6@76"/Users/Dave/Projectes/Expresso/iPhone/Expresso/Classes/ExpressoAppDelegate.m312579983#30#0#30#0#0"0(4@61"Statically allocated instance of Objective-C class 'NSString'312579986#1056#150#0(6@76"/Users/Dave/Projectes/Expresso/iPhone/Expresso/Classes/ExpressoAppDelegate.m312579983#30#0#30#0#0"0(4@28"Conflicting types for 'pass'312579986#1206#117#0(6@76"/Users/Dave/Projectes/Expresso/iPhone/Expresso/Classes/ExpressoAppDelegate.m312579983#30#0#30#0#25"conflicting types for '*'0(13@38"Previous definition of 'pass' was here312579986#1323#127#0(6@76"/Users/Dave/Projectes/Expresso/iPhone/Expresso/Classes/ExpressoAppDelegate.m312579983#22#0#22#0#35"previous definition of '*' was here0(4@61"Statically allocated instance of Objective-C class 'NSString'312579986#1450#150#0(6@76"/Users/Dave/Projectes/Expresso/iPhone/Expresso/Classes/ExpressoAppDelegate.m312579983#30#0#30#0#0"0(4@61"Statically allocated instance of Objective-C class 'NSString'312579986#1600#150#0(6@76"/Users/Dave/Projectes/Expresso/iPhone/Expresso/Classes/ExpressoAppDelegate.m312579983#30#0#30#0#0"0(22@26"Unused variable 'response'312579986#1750#117#0(6@76"/Users/Dave/Projectes/Expresso/iPhone/Expresso/Classes/ExpressoAppDelegate.m312579983#31#0#31#0#19"unused variable '*'0(22@22"Unused variable 'pass'312579986#1867#113#0(6@76"/Users/Dave/Projectes/Expresso/iPhone/Expresso/Classes/ExpressoAppDelegate.m312579983#30#0#30#0#19"unused variable '*'0(22@21"Unused variable 'nom'312579986#1980#112#0(6@76"/Users/Dave/Projectes/Expresso/iPhone/Expresso/Classes/ExpressoAppDelegate.m312579983#30#0#30#0#19"unused variable '*'0(22@33"Unused variable 'myRequestString'312579986#2092#124#0(6@76"/Users/Dave/Projectes/Expresso/iPhone/Expresso/Classes/ExpressoAppDelegate.m312579983#30#0#30#0#19"unused variable '*'0(23@13"At top level:312579986#2216#92#0(6@76"/Users/Dave/Projectes/Expresso/iPhone/Expresso/Classes/ExpressoAppDelegate.m312579983#0#0#0#0#0"0(22@120"Property 'nombre' requires method '-nombre' to be defined - use @synthesize, @dynamic or provide a method implementation312579986#2308#212#0(6@76"/Users/Dave/Projectes/Expresso/iPhone/Expresso/Classes/ExpressoAppDelegate.m312579983#213#0#213#0#0"0(22@127"Property 'nombre' requires the method 'setNombre:' to be defined - use @synthesize, @dynamic or provide a method implementation312579986#2520#219#0(6@76"/Users/Dave/Projectes/Expresso/iPhone/Expresso/Classes/ExpressoAppDelegate.m312579983#213#0#213#0#0"0(22@128"Property 'contrasena' requires method '-contrasena' to be defined - use @synthesize, @dynamic or provide a method implementation312579986#2739#220#0(6@76"/Users/Dave/Projectes/Expresso/iPhone/Expresso/Classes/ExpressoAppDelegate.m312579983#213#0#213#0#0"0(22@135"Property 'contrasena' requires the method 'setContrasena:' to be defined - use @synthesize, @dynamic or provide a method implementation312579986#2959#227#0(6@76"/Users/Dave/Projectes/Expresso/iPhone/Expresso/Classes/ExpressoAppDelegate.m312579983#213#0#213#0#0"0(22@120"Property 'inicia' requires method '-inicia' to be defined - use @synthesize, @dynamic or provide a method implementation312579986#3186#212#0(6@76"/Users/Dave/Projectes/Expresso/iPhone/Expresso/Classes/ExpressoAppDelegate.m312579983#213#0#213#0#0"0(22@127"Property 'inicia' requires the method 'setInicia:' to be defined - use @synthesize, @dynamic or provide a method implementation312579986#3398#219#0(6@76"/Users/Dave/Projectes/Expresso/iPhone/Expresso/Classes/ExpressoAppDelegate.m312579983#213#0#213#0#0"0(0#0#76"/Users/Dave/Projectes/Expresso/iPhone/Expresso/Classes/ExpressoAppDelegate.m8624001056#2047"    cd /Users/Dave/Projectes/Expresso/iPhone/Expresso    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/Dave/Projectes/Expresso/iPhone/Expresso/build/Expresso.build/Debug-iphonesimulator/Expresso.build/Expresso-generated-files.hmap -I/Users/Dave/Projectes/Expresso/iPhone/Expresso/build/Expresso.build/Debug-iphonesimulator/Expresso.build/Expresso-own-target-headers.hmap -I/Users/Dave/Projectes/Expresso/iPhone/Expresso/build/Expresso.build/Debug-iphonesimulator/Expresso.build/Expresso-all-target-headers.hmap -iquote /Users/Dave/Projectes/Expresso/iPhone/Expresso/build/Expresso.build/Debug-iphonesimulator/Expresso.build/Expresso-project-headers.hmap -F/Users/Dave/Projectes/Expresso/iPhone/Expresso/build/Debug-iphonesimulator -I/Users/Dave/Projectes/Expresso/iPhone/Expresso/build/Debug-iphonesimulator/include -I/Users/Dave/Projectes/Expresso/iPhone/Expresso/build/Expresso.build/Debug-iphonesimulator/Expresso.build/DerivedSources/i386 -I/Users/Dave/Projectes/Expresso/iPhone/Expresso/build/Expresso.build/Debug-iphonesimulator/Expresso.build/DerivedSources -include /var/folders/4y/4yExPy4yHcurQdY8ElyORE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Expresso_Prefix-erejtvobowesrfhhakrkbapsntao/Expresso_Prefix.pch -c /Users/Dave/Projectes/Expresso/iPhone/Expresso/Classes/ExpressoAppDelegate.m -o /Users/Dave/Projectes/Expresso/iPhone/Expresso/build/Expresso.build/Debug-iphonesimulator/Expresso.build/Objects-normal/i386/ExpressoAppDelegate.o1#
+
+CCompileC build/Expresso.build/Debug-iphonesimulator/Expresso.build/Objects-normal/i386/main.o /Users/Dave/Projectes/Expresso/iPhone/Expresso/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s312579986.077583
+e312579986.170313
+r1
+xCompileC
+xbuild/Expresso.build/Debug-iphonesimulator/Expresso.build/Objects-normal/i386/main.o
+x/Users/Dave/Projectes/Expresso/iPhone/Expresso/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@61"Compile /Users/Dave/Projectes/Expresso/iPhone/Expresso/main.m312579986#312579986#0(0"0(0#0#53"/Users/Dave/Projectes/Expresso/iPhone/Expresso/main.m8625144128#2009"    cd /Users/Dave/Projectes/Expresso/iPhone/Expresso    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/Dave/Projectes/Expresso/iPhone/Expresso/build/Expresso.build/Debug-iphonesimulator/Expresso.build/Expresso-generated-files.hmap -I/Users/Dave/Projectes/Expresso/iPhone/Expresso/build/Expresso.build/Debug-iphonesimulator/Expresso.build/Expresso-own-target-headers.hmap -I/Users/Dave/Projectes/Expresso/iPhone/Expresso/build/Expresso.build/Debug-iphonesimulator/Expresso.build/Expresso-all-target-headers.hmap -iquote /Users/Dave/Projectes/Expresso/iPhone/Expresso/build/Expresso.build/Debug-iphonesimulator/Expresso.build/Expresso-project-headers.hmap -F/Users/Dave/Projectes/Expresso/iPhone/Expresso/build/Debug-iphonesimulator -I/Users/Dave/Projectes/Expresso/iPhone/Expresso/build/Debug-iphonesimulator/include -I/Users/Dave/Projectes/Expresso/iPhone/Expresso/build/Expresso.build/Debug-iphonesimulator/Expresso.build/DerivedSources/i386 -I/Users/Dave/Projectes/Expresso/iPhone/Expresso/build/Expresso.build/Debug-iphonesimulator/Expresso.build/DerivedSources -include /var/folders/4y/4yExPy4yHcurQdY8ElyORE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Expresso_Prefix-erejtvobowesrfhhakrkbapsntao/Expresso_Prefix.pch -c /Users/Dave/Projectes/Expresso/iPhone/Expresso/main.m -o /Users/Dave/Projectes/Expresso/iPhone/Expresso/build/Expresso.build/Debug-iphonesimulator/Expresso.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/Dave/Projectes/Expresso/iPhone/Expresso/MainWindow.xib
+s312579985.097386
+e312579986.076143
+r1
+xCompileXIB
+x/Users/Dave/Projectes/Expresso/iPhone/Expresso/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib312579985#312579986#0(0"0(0#0#61"/Users/Dave/Projectes/Expresso/iPhone/Expresso/MainWindow.xib8624855808#595"    cd /Users/Dave/Projectes/Expresso/iPhone/Expresso    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Dave/Projectes/Expresso/iPhone/Expresso/build/Debug-iphonesimulator/Expresso.app/MainWindow.nib /Users/Dave/Projectes/Expresso/iPhone/Expresso/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CDataModelVersionCompile /Users/Dave/Projectes/Expresso/iPhone/Expresso/build/Debug-iphonesimulator/Expresso.app/Expresso.momd /Users/Dave/Projectes/Expresso/iPhone/Expresso/Expresso.xcdatamodeld
+s312579986.076411
+e312579986.261100
+r1
+xDataModelVersionCompile
+x/Users/Dave/Projectes/Expresso/iPhone/Expresso/build/Debug-iphonesimulator/Expresso.app/Expresso.momd
+x/Users/Dave/Projectes/Expresso/iPhone/Expresso/Expresso.xcdatamodeld
+lSLF07#2@100"DataModelVersionCompile build/Debug-iphonesimulator/Expresso.app/Expresso.momd Expresso.xcdatamodeld312579986#312579986#0(0"0(0#0#68"/Users/Dave/Projectes/Expresso/iPhone/Expresso/Expresso.xcdatamodeld8625223712#413"    cd /Users/Dave/Projectes/Expresso/iPhone/Expresso    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/momc -XD_MOMC_TARGET_VERSION=10.6 /Users/Dave/Projectes/Expresso/iPhone/Expresso/Expresso.xcdatamodeld /Users/Dave/Projectes/Expresso/iPhone/Expresso/build/Debug-iphonesimulator/Expresso.app/Expresso.momd0#
+
+CGenerateDSYMFile /Users/Dave/Projectes/Expresso/iPhone/Expresso/build/Debug-iphonesimulator/Expresso.app.dSYM /Users/Dave/Projectes/Expresso/iPhone/Expresso/build/Debug-iphonesimulator/Expresso.app/Expresso
+r0
+
+CLd /Users/Dave/Projectes/Expresso/iPhone/Expresso/build/Debug-iphonesimulator/Expresso.app/Expresso normal i386
+r0
+
+CProcessInfoPlistFile /Users/Dave/Projectes/Expresso/iPhone/Expresso/build/Debug-iphonesimulator/Expresso.app/Info.plist Expresso-Info.plist
+s312579985.084760
+e312579985.097251
+r1
+xProcessInfoPlistFile
+x/Users/Dave/Projectes/Expresso/iPhone/Expresso/build/Debug-iphonesimulator/Expresso.app/Info.plist
+xExpresso-Info.plist
+lSLF07#2@27"Process Expresso-Info.plist312579985#312579985#0(0"0(0#0#66"/Users/Dave/Projectes/Expresso/iPhone/Expresso/Expresso-Info.plist8625065440#506"    cd /Users/Dave/Projectes/Expresso/iPhone/Expresso    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Expresso-Info.plist -genpkginfo /Users/Dave/Projectes/Expresso/iPhone/Expresso/build/Debug-iphonesimulator/Expresso.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/Dave/Projectes/Expresso/iPhone/Expresso/build/Debug-iphonesimulator/Expresso.app/Info.plist0#
+
+CProcessPCH /var/folders/4y/4yExPy4yHcurQdY8ElyORE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Expresso_Prefix-erejtvobowesrfhhakrkbapsntao/Expresso_Prefix.pch.gch Expresso_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CTouch /Users/Dave/Projectes/Expresso/iPhone/Expresso/build/Debug-iphonesimulator/Expresso.app
+r0
+
