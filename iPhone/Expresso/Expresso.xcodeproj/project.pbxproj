@@ -26,6 +26,8 @@
 		9F95681912AE995500A5AD74 /* FirstView@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F95681712AE995500A5AD74 /* FirstView@2x.png */; };
 		9F95681D12AE997300A5AD74 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F95681B12AE997300A5AD74 /* FirstViewController.m */; };
 		9F95681E12AE997300A5AD74 /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F95681C12AE997300A5AD74 /* FirstViewController.xib */; };
+		9FFC0AE712AEF74800AF0057 /* boto.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FFC0AE512AEF74800AF0057 /* boto.png */; };
+		9FFC0AE812AEF74800AF0057 /* boto@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FFC0AE612AEF74800AF0057 /* boto@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +58,8 @@
 		9F95681A12AE997300A5AD74 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
 		9F95681B12AE997300A5AD74 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 		9F95681C12AE997300A5AD74 /* FirstViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = FirstViewController.xib; path = Classes/FirstViewController.xib; sourceTree = "<group>"; };
+		9FFC0AE512AEF74800AF0057 /* boto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = boto.png; sourceTree = "<group>"; };
+		9FFC0AE612AEF74800AF0057 /* boto@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "boto@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +147,8 @@
 		5538ED2012A6C0C7007C04B3 /* Imatges */ = {
 			isa = PBXGroup;
 			children = (
+				9FFC0AE512AEF74800AF0057 /* boto.png */,
+				9FFC0AE612AEF74800AF0057 /* boto@2x.png */,
 				9F5FAFBD12AED87F00C8FE6E /* coins.png */,
 				9F95681612AE995500A5AD74 /* FirstView.png */,
 				9F95681712AE995500A5AD74 /* FirstView@2x.png */,
@@ -220,6 +226,8 @@
 				9F95681912AE995500A5AD74 /* FirstView@2x.png in Resources */,
 				9F95681E12AE997300A5AD74 /* FirstViewController.xib in Resources */,
 				9F5FAFBE12AED87F00C8FE6E /* coins.png in Resources */,
+				9FFC0AE712AEF74800AF0057 /* boto.png in Resources */,
+				9FFC0AE812AEF74800AF0057 /* boto@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
