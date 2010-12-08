@@ -1,15 +1,15 @@
 //
-//  ComandaRealitzadaViewController.m
+//  comandaRealitzadaViewController.m
 //  Expresso
 //
-//  Created by David Cortés Fulla on 08/12/10.
+//  Created by David Cortés Fulla on 02/12/10.
 //  Copyright 2010 Facultat d'Informatica de Barcelona (UPC). All rights reserved.
 //
 
-#import "ComandaRealitzadaViewController.h"
+#import "comandaRealitzadaViewController.h"
 
 
-@implementation ComandaRealitzadaViewController
+@implementation comandaRealitzadaViewController
 
 // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
 /*
@@ -22,15 +22,10 @@
 }
 */
 
-
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
-	[preu setText:@"4,55 €"];
-	[producte setText:@"Capuccino"];	
-	[producteReflex setText:@"Capuccino"];
-	[extres setText:@"Extres: 2 shots"];
-	[extresReflex setText:@"Extres: 2 shots"];
     [super viewDidLoad];
+	NSLog(@"Aqui que llego");
 }
 
 

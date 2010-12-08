@@ -15,6 +15,12 @@
 		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
 		28D801B40F44B63D00FB423F /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28D801B30F44B63D00FB423F /* CoreData.framework */; };
+		55359D2012AFEE1600F4CB95 /* ComandaRealitzadaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55359D1E12AFEE1600F4CB95 /* ComandaRealitzadaViewController.m */; };
+		55359D2112AFEE1600F4CB95 /* ComandaRealitzadaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55359D1F12AFEE1600F4CB95 /* ComandaRealitzadaViewController.xib */; };
+		55359D3E12B0019A00F4CB95 /* fons@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55359D3C12B0019A00F4CB95 /* fons@2x.png */; };
+		55359D4912B003BE00F4CB95 /* fons.png in Resources */ = {isa = PBXBuildFile; fileRef = 55359D4812B003BE00F4CB95 /* fons.png */; };
+		55359D4D12B0040F00F4CB95 /* got.png in Resources */ = {isa = PBXBuildFile; fileRef = 55359D4B12B0040F00F4CB95 /* got.png */; };
+		55359D4E12B0040F00F4CB95 /* got@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55359D4C12B0040F00F4CB95 /* got@2x.png */; };
 		5538A57F12A6D5BB00CF6776 /* CartaXMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 5538A57E12A6D5BB00CF6776 /* CartaXMLParser.m */; };
 		5538ED1712A6C07C007C04B3 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5538ED1512A6C07C007C04B3 /* LoginViewController.m */; };
 		5538ED1812A6C07C007C04B3 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5538ED1612A6C07C007C04B3 /* LoginViewController.xib */; };
@@ -42,6 +48,13 @@
 		28D801B30F44B63D00FB423F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* Expresso_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Expresso_Prefix.pch; sourceTree = "<group>"; };
+		55359D1D12AFEE1600F4CB95 /* ComandaRealitzadaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComandaRealitzadaViewController.h; sourceTree = "<group>"; };
+		55359D1E12AFEE1600F4CB95 /* ComandaRealitzadaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComandaRealitzadaViewController.m; sourceTree = "<group>"; };
+		55359D1F12AFEE1600F4CB95 /* ComandaRealitzadaViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ComandaRealitzadaViewController.xib; path = Classes/ComandaRealitzadaViewController.xib; sourceTree = "<group>"; };
+		55359D3C12B0019A00F4CB95 /* fons@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fons@2x.png"; sourceTree = "<group>"; };
+		55359D4812B003BE00F4CB95 /* fons.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fons.png; sourceTree = "<group>"; };
+		55359D4B12B0040F00F4CB95 /* got.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = got.png; sourceTree = "<group>"; };
+		55359D4C12B0040F00F4CB95 /* got@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "got@2x.png"; sourceTree = "<group>"; };
 		5538A57D12A6D5BB00CF6776 /* CartaXMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CartaXMLParser.h; sourceTree = "<group>"; };
 		5538A57E12A6D5BB00CF6776 /* CartaXMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CartaXMLParser.m; sourceTree = "<group>"; };
 		5538ED1412A6C07C007C04B3 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
@@ -80,6 +93,8 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				55359D1D12AFEE1600F4CB95 /* ComandaRealitzadaViewController.h */,
+				55359D1E12AFEE1600F4CB95 /* ComandaRealitzadaViewController.m */,
 				5538ED9A12A6D3D1007C04B3 /* Parsers */,
 				1D3623240D0F684500981E51 /* ExpressoAppDelegate.h */,
 				1D3623250D0F684500981E51 /* ExpressoAppDelegate.m */,
@@ -123,6 +138,11 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				55359D4B12B0040F00F4CB95 /* got.png */,
+				55359D4C12B0040F00F4CB95 /* got@2x.png */,
+				55359D4812B003BE00F4CB95 /* fons.png */,
+				55359D3C12B0019A00F4CB95 /* fons@2x.png */,
+				55359D1F12AFEE1600F4CB95 /* ComandaRealitzadaViewController.xib */,
 				5538ED2012A6C0C7007C04B3 /* Imatges */,
 				2819305F112F816700ECF9B4 /* Expresso.xcdatamodeld */,
 				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
@@ -228,6 +248,11 @@
 				9F5FAFBE12AED87F00C8FE6E /* coins.png in Resources */,
 				9FFC0AE712AEF74800AF0057 /* boto.png in Resources */,
 				9FFC0AE812AEF74800AF0057 /* boto@2x.png in Resources */,
+				55359D2112AFEE1600F4CB95 /* ComandaRealitzadaViewController.xib in Resources */,
+				55359D3E12B0019A00F4CB95 /* fons@2x.png in Resources */,
+				55359D4912B003BE00F4CB95 /* fons.png in Resources */,
+				55359D4D12B0040F00F4CB95 /* got.png in Resources */,
+				55359D4E12B0040F00F4CB95 /* got@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,6 +270,7 @@
 				5538A57F12A6D5BB00CF6776 /* CartaXMLParser.m in Sources */,
 				9F22582B12A70550004E3649 /* XML2NSDictionary.m in Sources */,
 				9F95681D12AE997300A5AD74 /* FirstViewController.m in Sources */,
+				55359D2012AFEE1600F4CB95 /* ComandaRealitzadaViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
