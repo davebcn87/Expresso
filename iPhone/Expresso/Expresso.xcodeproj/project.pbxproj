@@ -15,11 +15,15 @@
 		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
 		28D801B40F44B63D00FB423F /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28D801B30F44B63D00FB423F /* CoreData.framework */; };
+		5515B4DE12B1084100220DEA /* Favorits.m in Sources */ = {isa = PBXBuildFile; fileRef = 5515B4DD12B1084100220DEA /* Favorits.m */; };
+		5515B4F412B10B6400220DEA /* FavoritsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5515B4F212B10B6400220DEA /* FavoritsViewController.m */; };
+		5515B4F512B10B6400220DEA /* FavoritsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5515B4F312B10B6400220DEA /* FavoritsViewController.xib */; };
 		5538A57F12A6D5BB00CF6776 /* CartaXMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 5538A57E12A6D5BB00CF6776 /* CartaXMLParser.m */; };
 		5538ED1712A6C07C007C04B3 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5538ED1512A6C07C007C04B3 /* LoginViewController.m */; };
 		5538ED1812A6C07C007C04B3 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5538ED1612A6C07C007C04B3 /* LoginViewController.xib */; };
 		5538ED2512A6C10F007C04B3 /* fons.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5538ED2312A6C10F007C04B3 /* fons.jpg */; };
 		5538ED2612A6C10F007C04B3 /* fons@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5538ED2412A6C10F007C04B3 /* fons@2x.jpg */; };
+		554A5D9D12B1237800C87970 /* favorite.png in Resources */ = {isa = PBXBuildFile; fileRef = 554A5D9C12B1237800C87970 /* favorite.png */; };
 		9F22582B12A70550004E3649 /* XML2NSDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F22582A12A70550004E3649 /* XML2NSDictionary.m */; };
 		9F5FAFBE12AED87F00C8FE6E /* coins.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F5FAFBD12AED87F00C8FE6E /* coins.png */; };
 		9F95681812AE995500A5AD74 /* FirstView.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F95681612AE995500A5AD74 /* FirstView.png */; };
@@ -66,6 +70,11 @@
 		28D801B30F44B63D00FB423F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* Expresso_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Expresso_Prefix.pch; sourceTree = "<group>"; };
+		5515B4DC12B1084100220DEA /* Favorits.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Favorits.h; sourceTree = "<group>"; };
+		5515B4DD12B1084100220DEA /* Favorits.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Favorits.m; sourceTree = "<group>"; };
+		5515B4F112B10B6400220DEA /* FavoritsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavoritsViewController.h; sourceTree = "<group>"; };
+		5515B4F212B10B6400220DEA /* FavoritsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavoritsViewController.m; sourceTree = "<group>"; };
+		5515B4F312B10B6400220DEA /* FavoritsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = FavoritsViewController.xib; path = Classes/FavoritsViewController.xib; sourceTree = "<group>"; };
 		5538A57D12A6D5BB00CF6776 /* CartaXMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CartaXMLParser.h; sourceTree = "<group>"; };
 		5538A57E12A6D5BB00CF6776 /* CartaXMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CartaXMLParser.m; sourceTree = "<group>"; };
 		5538ED1412A6C07C007C04B3 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
@@ -73,6 +82,7 @@
 		5538ED1612A6C07C007C04B3 /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = LoginViewController.xib; path = Classes/LoginViewController.xib; sourceTree = "<group>"; };
 		5538ED2312A6C10F007C04B3 /* fons.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fons.jpg; sourceTree = "<group>"; };
 		5538ED2412A6C10F007C04B3 /* fons@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "fons@2x.jpg"; sourceTree = "<group>"; };
+		554A5D9C12B1237800C87970 /* favorite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = favorite.png; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Expresso-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Expresso-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 		9F22582912A70550004E3649 /* XML2NSDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XML2NSDictionary.h; sourceTree = "<group>"; };
 		9F22582A12A70550004E3649 /* XML2NSDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XML2NSDictionary.m; sourceTree = "<group>"; };
@@ -132,6 +142,8 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				5515B4F112B10B6400220DEA /* FavoritsViewController.h */,
+				5515B4F212B10B6400220DEA /* FavoritsViewController.m */,
 				5538ED9A12A6D3D1007C04B3 /* Parsers */,
 				1D3623240D0F684500981E51 /* ExpressoAppDelegate.h */,
 				1D3623250D0F684500981E51 /* ExpressoAppDelegate.m */,
@@ -186,6 +198,7 @@
 				5538ED2012A6C0C7007C04B3 /* Imatges */,
 				2819305F112F816700ECF9B4 /* Expresso.xcdatamodeld */,
 				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				5515B4F312B10B6400220DEA /* FavoritsViewController.xib */,
 				9F95681C12AE997300A5AD74 /* FirstViewController.xib */,
 				5538ED1612A6C07C007C04B3 /* LoginViewController.xib */,
 				9FBB71FD12AFC3AD004FD188 /* ProducteViewController.xib */,
@@ -211,6 +224,7 @@
 		5538ED2012A6C0C7007C04B3 /* Imatges */ = {
 			isa = PBXGroup;
 			children = (
+				554A5D9C12B1237800C87970 /* favorite.png */,
 				9FF8D99E12B056340014D6E3 /* got.png */,
 				9FF8D99F12B056340014D6E3 /* got@2x.png */,
 				9FBB735412B035C1004FD188 /* small.png */,
@@ -328,6 +342,8 @@
 				9FF8D9A012B056340014D6E3 /* got.png in Resources */,
 				9FF8D9A112B056340014D6E3 /* got@2x.png in Resources */,
 				9FF8D9A612B0565C0014D6E3 /* comandaRealitzadaViewController.xib in Resources */,
+				5515B4F512B10B6400220DEA /* FavoritsViewController.xib in Resources */,
+				554A5D9D12B1237800C87970 /* favorite.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,6 +365,8 @@
 				9FBB72F312B013FE004FD188 /* SubproducteViewController.m in Sources */,
 				9FBB736812B035F2004FD188 /* TamanysViewController.m in Sources */,
 				9FF8D9A412B056500014D6E3 /* comandaRealitzadaViewController.m in Sources */,
+				5515B4DE12B1084100220DEA /* Favorits.m in Sources */,
+				5515B4F412B10B6400220DEA /* FavoritsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,6 +454,8 @@
 		2819305F112F816700ECF9B4 /* Expresso.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
+				5515B4DC12B1084100220DEA /* Favorits.h */,
+				5515B4DD12B1084100220DEA /* Favorits.m */,
 				28C3AD890F43EF2300507BA6 /* Expresso.xcdatamodel */,
 			);
 			currentVersion = 28C3AD890F43EF2300507BA6 /* Expresso.xcdatamodel */;
