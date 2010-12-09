@@ -11,11 +11,15 @@
 #import "ExpressoAppDelegate.h"
 
 
-@interface FavoritsViewController : UITableViewController {
+@interface FavoritsViewController : UIViewController <UITableViewDelegate, UITableViewDataSource> {
 	NSFetchedResultsController *aFetchedResultsController;
+	
+	IBOutlet UITableView *favoritsTableView;
 }
 
-@property (nonatomic,retain)NSFetchedResultsController *aFetchedResultsController;
+@property (nonatomic, retain) NSFetchedResultsController *aFetchedResultsController;
+@property (nonatomic, retain) IBOutlet UITableView *favoritsTableView;
+
 -(void) ConsultaFavorits;
 
 @end

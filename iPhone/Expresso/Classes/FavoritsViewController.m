@@ -11,6 +11,8 @@
 
 @implementation FavoritsViewController
 
+@synthesize favoritsTableView;
+@synthesize aFetchedResultsController;
 
 #pragma mark -
 #pragma mark View lifecycle
@@ -44,7 +46,7 @@
 	}
 	
 	[request release];
-	[self.tableView reloadData];
+	[favoritsTableView reloadData];
 	
 	
 }
@@ -54,6 +56,9 @@
 	[self ConsultaFavorits];
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+	
+	[favoritsTableView setBackgroundView:nil];
+	[favoritsTableView setBackgroundColor:[UIColor clearColor]];
 }
 
 
@@ -113,7 +118,7 @@
     
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     if (cell == nil) {
-        cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier] autorelease];
+        cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleValue1 reuseIdentifier:CellIdentifier] autorelease];
     }
     
 	Favorits *favorit = [aFetchedResultsController objectAtIndexPath:indexPath ];
