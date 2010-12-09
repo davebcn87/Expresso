@@ -23,6 +23,7 @@
 		5538ED1812A6C07C007C04B3 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5538ED1612A6C07C007C04B3 /* LoginViewController.xib */; };
 		5538ED2512A6C10F007C04B3 /* fons.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5538ED2312A6C10F007C04B3 /* fons.jpg */; };
 		5538ED2612A6C10F007C04B3 /* fons@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5538ED2412A6C10F007C04B3 /* fons@2x.jpg */; };
+		554A5D9D12B1237800C87970 /* favorite.png in Resources */ = {isa = PBXBuildFile; fileRef = 554A5D9C12B1237800C87970 /* favorite.png */; };
 		9F22582B12A70550004E3649 /* XML2NSDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F22582A12A70550004E3649 /* XML2NSDictionary.m */; };
 		9F5FAFBE12AED87F00C8FE6E /* coins.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F5FAFBD12AED87F00C8FE6E /* coins.png */; };
 		9F95681812AE995500A5AD74 /* FirstView.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F95681612AE995500A5AD74 /* FirstView.png */; };
@@ -81,6 +82,7 @@
 		5538ED1612A6C07C007C04B3 /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = LoginViewController.xib; path = Classes/LoginViewController.xib; sourceTree = "<group>"; };
 		5538ED2312A6C10F007C04B3 /* fons.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fons.jpg; sourceTree = "<group>"; };
 		5538ED2412A6C10F007C04B3 /* fons@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "fons@2x.jpg"; sourceTree = "<group>"; };
+		554A5D9C12B1237800C87970 /* favorite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = favorite.png; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Expresso-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Expresso-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 		9F22582912A70550004E3649 /* XML2NSDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XML2NSDictionary.h; sourceTree = "<group>"; };
 		9F22582A12A70550004E3649 /* XML2NSDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XML2NSDictionary.m; sourceTree = "<group>"; };
@@ -222,6 +224,7 @@
 		5538ED2012A6C0C7007C04B3 /* Imatges */ = {
 			isa = PBXGroup;
 			children = (
+				554A5D9C12B1237800C87970 /* favorite.png */,
 				9FF8D99E12B056340014D6E3 /* got.png */,
 				9FF8D99F12B056340014D6E3 /* got@2x.png */,
 				9FBB735412B035C1004FD188 /* small.png */,
@@ -340,6 +343,7 @@
 				9FF8D9A112B056340014D6E3 /* got@2x.png in Resources */,
 				9FF8D9A612B0565C0014D6E3 /* comandaRealitzadaViewController.xib in Resources */,
 				5515B4F512B10B6400220DEA /* FavoritsViewController.xib in Resources */,
+				554A5D9D12B1237800C87970 /* favorite.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
