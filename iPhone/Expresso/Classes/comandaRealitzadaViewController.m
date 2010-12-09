@@ -7,6 +7,7 @@
 //
 
 #import "ComandaRealitzadaViewController.h"
+#import "Favorits.h"
 
 
 @implementation ComandaRealitzadaViewController
@@ -21,7 +22,23 @@
     return self;
 }
 */
-
+- (IBAction) guardaBeguda
+{
+	NSLog(@"Guarda Fav");
+	ExpressoAppDelegate *appDelegate = [[UIApplication sharedApplication] delegate];
+	Favorits *favorit = (Favorits *)[NSEntityDescription insertNewObjectForEntityForName:@"Favorits" inManagedObjectContext:[appDelegate managedObjectContext]];
+	
+	favorit.nom_producte = @"Capuccino";
+	NSError *error;
+	
+	if (![[appDelegate managedObjectContext] save:&error]){
+		//no se ha podido guardar el resultado. Hacer un aviso al usuario o reiniciar la aplicacion.
+		NSLog(@"Error %@", error);
+	}
+	else{
+		NSLog(@"Agregada beguda!");
+	}
+}
 
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {

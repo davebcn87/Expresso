@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ExpressoAppDelegate.h"
 
 
 @interface ComandaRealitzadaViewController : UIViewController {
@@ -23,4 +24,5 @@
 @property (nonatomic, retain) IBOutlet UILabel *extres;
 @property (nonatomic, retain) IBOutlet UILabel *extresReflex;
 
+-(IBAction) guardaBeguda;
 @end
