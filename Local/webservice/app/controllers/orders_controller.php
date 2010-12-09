@@ -117,7 +117,7 @@
 			);	
 			
 			$expresso_t = array(
-					"unic" => 1.70
+					"small" => 1.70
 				);
 			$expresso = array(
 				"nom" => "Expresso",
@@ -125,7 +125,7 @@
 			);
 			
 			$lungo_t = array(
-					"unic" => 2.00
+					"small" => 2.00
 				);
 			$lungo = array(
 				"nom" => "Lungo",

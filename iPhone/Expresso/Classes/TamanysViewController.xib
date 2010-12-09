@@ -70,6 +70,7 @@
 							<double key="NSSize">15</double>
 							<int key="NSfFlags">16</int>
 						</object>
+						<string key="IBUINormalTitle">small</string>
 						<object class="NSColor" key="IBUIHighlightedTitleColor" id="696982723">
 							<int key="NSColorSpace">3</int>
 							<bytes key="NSWhite">MQA</bytes>
@@ -98,7 +99,7 @@
 						<int key="IBUIContentHorizontalAlignment">0</int>
 						<int key="IBUIContentVerticalAlignment">0</int>
 						<reference key="IBUIFont" ref="1029788956"/>
-						<string key="IBUINormalTitle">dsfdsadfasdfasdfafd</string>
+						<string key="IBUINormalTitle">grande</string>
 						<reference key="IBUIHighlightedTitleColor" ref="696982723"/>
 						<object class="NSColor" key="IBUINormalTitleColor">
 							<int key="NSColorSpace">1</int>
@@ -121,6 +122,7 @@
 						<int key="IBUIContentHorizontalAlignment">0</int>
 						<int key="IBUIContentVerticalAlignment">0</int>
 						<reference key="IBUIFont" ref="1029788956"/>
+						<string key="IBUINormalTitle">venti</string>
 						<reference key="IBUIHighlightedTitleColor" ref="696982723"/>
 						<object class="NSColor" key="IBUINormalTitleColor">
 							<int key="NSColorSpace">1</int>
@@ -413,6 +415,54 @@
 					</object>
 					<int key="connectionID">25</int>
 				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">preuSmall</string>
+						<reference key="source" ref="372490531"/>
+						<reference key="destination" ref="434609377"/>
+					</object>
+					<int key="connectionID">26</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">preuGrande</string>
+						<reference key="source" ref="372490531"/>
+						<reference key="destination" ref="845483881"/>
+					</object>
+					<int key="connectionID">27</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">preuVenti</string>
+						<reference key="source" ref="372490531"/>
+						<reference key="destination" ref="689932616"/>
+					</object>
+					<int key="connectionID">28</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">labelSmall</string>
+						<reference key="source" ref="372490531"/>
+						<reference key="destination" ref="689520711"/>
+					</object>
+					<int key="connectionID">29</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">labelGrande</string>
+						<reference key="source" ref="372490531"/>
+						<reference key="destination" ref="842728337"/>
+					</object>
+					<int key="connectionID">30</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">labelVenti</string>
+						<reference key="source" ref="372490531"/>
+						<reference key="destination" ref="977709937"/>
+					</object>
+					<int key="connectionID">31</int>
+				</object>
 			</object>
 			<object class="IBMutableOrderedSet" key="objectRecords">
 				<object class="NSArray" key="orderedObjects">
@@ -621,7 +671,7 @@
 				</object>
 			</object>
 			<nil key="sourceID"/>
-			<int key="maxID">25</int>
+			<int key="maxID">31</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<object class="NSMutableArray" key="referencedPartialClassDescriptions">
@@ -670,6 +720,12 @@
 							<string>botoGrande</string>
 							<string>botoSmall</string>
 							<string>botoVenti</string>
+							<string>labelGrande</string>
+							<string>labelSmall</string>
+							<string>labelVenti</string>
+							<string>preuGrande</string>
+							<string>preuSmall</string>
+							<string>preuVenti</string>
 						</object>
 						<object class="NSMutableArray" key="dict.values">
 							<bool key="EncodedWithXMLCoder">YES</bool>
@@ -678,6 +734,12 @@
 							<string>UIButton</string>
 							<string>UIButton</string>
 							<string>UIButton</string>
+							<string>UILabel</string>
+							<string>UILabel</string>
+							<string>UILabel</string>
+							<string>UILabel</string>
+							<string>UILabel</string>
+							<string>UILabel</string>
 						</object>
 					</object>
 					<object class="NSMutableDictionary" key="toOneOutletInfosByName">
@@ -689,6 +751,12 @@
 							<string>botoGrande</string>
 							<string>botoSmall</string>
 							<string>botoVenti</string>
+							<string>labelGrande</string>
+							<string>labelSmall</string>
+							<string>labelVenti</string>
+							<string>preuGrande</string>
+							<string>preuSmall</string>
+							<string>preuVenti</string>
 						</object>
 						<object class="NSMutableArray" key="dict.values">
 							<bool key="EncodedWithXMLCoder">YES</bool>
@@ -711,6 +779,30 @@
 							<object class="IBToOneOutletInfo">
 								<string key="name">botoVenti</string>
 								<string key="candidateClassName">UIButton</string>
+							</object>
+							<object class="IBToOneOutletInfo">
+								<string key="name">labelGrande</string>
+								<string key="candidateClassName">UILabel</string>
+							</object>
+							<object class="IBToOneOutletInfo">
+								<string key="name">labelSmall</string>
+								<string key="candidateClassName">UILabel</string>
+							</object>
+							<object class="IBToOneOutletInfo">
+								<string key="name">labelVenti</string>
+								<string key="candidateClassName">UILabel</string>
+							</object>
+							<object class="IBToOneOutletInfo">
+								<string key="name">preuGrande</string>
+								<string key="candidateClassName">UILabel</string>
+							</object>
+							<object class="IBToOneOutletInfo">
+								<string key="name">preuSmall</string>
+								<string key="candidateClassName">UILabel</string>
+							</object>
+							<object class="IBToOneOutletInfo">
+								<string key="name">preuVenti</string>
+								<string key="candidateClassName">UILabel</string>
 							</object>
 						</object>
 					</object>
