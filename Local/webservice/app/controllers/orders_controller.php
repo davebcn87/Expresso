@@ -166,12 +166,12 @@
 			
 			$extra_1 = array(
 				"nom" => "Nata",
-				"preu" => 0.5
+				"preu" => 0.50
 			);
 			
 			$extra_2 = array(
 				"nom" =>"Extra shot",
-				"preu" => 0.4
+				"preu" => 0.40
 			);
 			
 			$carta["productes"] = array("producte" => array(
