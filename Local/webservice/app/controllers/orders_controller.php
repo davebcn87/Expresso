@@ -164,12 +164,28 @@
 				"subproductes" => array("subproducte" => $llet_s)
 			);
 			
-			$carta = array(
-				"productes" => array("producte" => array(
+			$extra_1 = array(
+				"nom" => "Nata",
+				"preu" => 0.5
+			);
+			
+			$extra_2 = array(
+				"nom" =>"Extra shot",
+				"preu" => 0.4
+			);
+			
+			$carta["productes"] = array("producte" => array(
 											$frappuccino, $cafes, $llet
 										)
-									)
-			);
+									);
+			
+			$carta["extres"] = array("extra" => array(
+										$extra_1, $extra_2				
+								 	)
+								);
+								
+			$carta = array ( "carta" => $carta );
+								
 			
 			$this->set('carta',$carta);
 			$this->RequestHandler->renderAs($this,'xml');
