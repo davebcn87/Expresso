@@ -1,3 +1,1 @@
-<carta>
-    <?php echo $xml->serialize($carta,array('format'=>'tags')); ?>
-</carta>
+<?php echo $xml->serialize($carta,array('format'=>'tags')); ?>

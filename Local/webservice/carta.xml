@@ -34,7 +34,7 @@
     			<subproducte>
     				<nom><![CDATA[Lungo]]></nom>
     				<tamanys>
-    					<unic>2</unic>
+    					<small>2</small>
     				</tamanys>
     			</subproducte>
     		</subproductes>
@@ -61,4 +61,14 @@
 	    	</subproductes>
 	    </producte>
 	</productes>
+	<extres>
+		<extra>
+			<nom></nom>
+			<preu>0.5</preu>
+		</extra>
+		<extra>
+			<nom></nom>
+			<preu>0.5</preu>
+		</extra>
+	</extres>
 </carta>

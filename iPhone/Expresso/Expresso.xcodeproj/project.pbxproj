@@ -26,6 +26,16 @@
 		554A5D9D12B1237800C87970 /* favorite.png in Resources */ = {isa = PBXBuildFile; fileRef = 554A5D9C12B1237800C87970 /* favorite.png */; };
 		5596CE8912B1447D005C3478 /* FavoritsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5596CE8812B1447D005C3478 /* FavoritsViewController.xib */; };
 		9F22582B12A70550004E3649 /* XML2NSDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F22582A12A70550004E3649 /* XML2NSDictionary.m */; };
+		9F312B1512B299BD006AB331 /* tableViewSingle.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F312B1312B299BD006AB331 /* tableViewSingle.png */; };
+		9F312B1612B299BD006AB331 /* tableViewSingle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F312B1412B299BD006AB331 /* tableViewSingle@2x.png */; };
+		9F32A85E12B14BCA0037DE1D /* tableViewHead.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F32A85C12B14BCA0037DE1D /* tableViewHead.png */; };
+		9F32A85F12B14BCA0037DE1D /* tableViewHead@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F32A85D12B14BCA0037DE1D /* tableViewHead@2x.png */; };
+		9F32A88712B184F60037DE1D /* tableViewMiddle.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F32A88512B184F60037DE1D /* tableViewMiddle.png */; };
+		9F32A88812B184F60037DE1D /* tableViewMiddle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F32A88612B184F60037DE1D /* tableViewMiddle@2x.png */; };
+		9F32A88D12B186170037DE1D /* tableViewFooter.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F32A88B12B186170037DE1D /* tableViewFooter.png */; };
+		9F32A88E12B186170037DE1D /* tableViewFooter@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F32A88C12B186170037DE1D /* tableViewFooter@2x.png */; };
+		9F4A20D712B13F0000940374 /* ExtresViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F4A20D512B13F0000940374 /* ExtresViewController.m */; };
+		9F4A20D812B13F0000940374 /* ExtresViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F4A20D612B13F0000940374 /* ExtresViewController.xib */; };
 		9F5FAFBE12AED87F00C8FE6E /* coins.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F5FAFBD12AED87F00C8FE6E /* coins.png */; };
 		9F95681812AE995500A5AD74 /* FirstView.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F95681612AE995500A5AD74 /* FirstView.png */; };
 		9F95681912AE995500A5AD74 /* FirstView@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F95681712AE995500A5AD74 /* FirstView@2x.png */; };
@@ -89,6 +99,17 @@
 		8D1107310486CEB800E47090 /* Expresso-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Expresso-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 		9F22582912A70550004E3649 /* XML2NSDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XML2NSDictionary.h; sourceTree = "<group>"; };
 		9F22582A12A70550004E3649 /* XML2NSDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XML2NSDictionary.m; sourceTree = "<group>"; };
+		9F312B1312B299BD006AB331 /* tableViewSingle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tableViewSingle.png; sourceTree = "<group>"; };
+		9F312B1412B299BD006AB331 /* tableViewSingle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tableViewSingle@2x.png"; sourceTree = "<group>"; };
+		9F32A85C12B14BCA0037DE1D /* tableViewHead.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tableViewHead.png; sourceTree = "<group>"; };
+		9F32A85D12B14BCA0037DE1D /* tableViewHead@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tableViewHead@2x.png"; sourceTree = "<group>"; };
+		9F32A88512B184F60037DE1D /* tableViewMiddle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tableViewMiddle.png; sourceTree = "<group>"; };
+		9F32A88612B184F60037DE1D /* tableViewMiddle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tableViewMiddle@2x.png"; sourceTree = "<group>"; };
+		9F32A88B12B186170037DE1D /* tableViewFooter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tableViewFooter.png; sourceTree = "<group>"; };
+		9F32A88C12B186170037DE1D /* tableViewFooter@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tableViewFooter@2x.png"; sourceTree = "<group>"; };
+		9F4A20D412B13F0000940374 /* ExtresViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExtresViewController.h; sourceTree = "<group>"; };
+		9F4A20D512B13F0000940374 /* ExtresViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExtresViewController.m; sourceTree = "<group>"; };
+		9F4A20D612B13F0000940374 /* ExtresViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ExtresViewController.xib; path = Classes/ExtresViewController.xib; sourceTree = "<group>"; };
 		9F5FAFBD12AED87F00C8FE6E /* coins.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = coins.png; sourceTree = "<group>"; };
 		9F95681612AE995500A5AD74 /* FirstView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FirstView.png; sourceTree = "<group>"; };
 		9F95681712AE995500A5AD74 /* FirstView@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FirstView@2x.png"; sourceTree = "<group>"; };
@@ -160,6 +181,8 @@
 				9FBB72F112B013FE004FD188 /* SubproducteViewController.m */,
 				9FBB736512B035F2004FD188 /* TamanysViewController.h */,
 				9FBB736612B035F2004FD188 /* TamanysViewController.m */,
+				9F4A20D412B13F0000940374 /* ExtresViewController.h */,
+				9F4A20D512B13F0000940374 /* ExtresViewController.m */,
 				9FF8D9A212B056500014D6E3 /* comandaRealitzadaViewController.h */,
 				9FF8D9A312B056500014D6E3 /* comandaRealitzadaViewController.m */,
 			);
@@ -206,6 +229,7 @@
 				9FBB71FD12AFC3AD004FD188 /* ProducteViewController.xib */,
 				9FBB72F212B013FE004FD188 /* SubproducteViewController.xib */,
 				9FBB736712B035F2004FD188 /* TamanysViewController.xib */,
+				9F4A20D612B13F0000940374 /* ExtresViewController.xib */,
 				9FF8D9A512B0565C0014D6E3 /* comandaRealitzadaViewController.xib */,
 				8D1107310486CEB800E47090 /* Expresso-Info.plist */,
 				5596CE8812B1447D005C3478 /* FavoritsViewController.xib */,
@@ -228,6 +252,14 @@
 			isa = PBXGroup;
 			children = (
 				554A5D9C12B1237800C87970 /* favorite.png */,
+				9F32A85C12B14BCA0037DE1D /* tableViewHead.png */,
+				9F32A85D12B14BCA0037DE1D /* tableViewHead@2x.png */,
+				9F32A88512B184F60037DE1D /* tableViewMiddle.png */,
+				9F32A88612B184F60037DE1D /* tableViewMiddle@2x.png */,
+				9F32A88B12B186170037DE1D /* tableViewFooter.png */,
+				9F32A88C12B186170037DE1D /* tableViewFooter@2x.png */,
+				9F312B1312B299BD006AB331 /* tableViewSingle.png */,
+				9F312B1412B299BD006AB331 /* tableViewSingle@2x.png */,
 				9FF8D99E12B056340014D6E3 /* got.png */,
 				9FF8D99F12B056340014D6E3 /* got@2x.png */,
 				9FBB735412B035C1004FD188 /* small.png */,
@@ -347,6 +379,15 @@
 				9FF8D9A612B0565C0014D6E3 /* comandaRealitzadaViewController.xib in Resources */,
 				554A5D9D12B1237800C87970 /* favorite.png in Resources */,
 				5596CE8912B1447D005C3478 /* FavoritsViewController.xib in Resources */,
+				9F4A20D812B13F0000940374 /* ExtresViewController.xib in Resources */,
+				9F32A85E12B14BCA0037DE1D /* tableViewHead.png in Resources */,
+				9F32A85F12B14BCA0037DE1D /* tableViewHead@2x.png in Resources */,
+				9F32A88712B184F60037DE1D /* tableViewMiddle.png in Resources */,
+				9F32A88812B184F60037DE1D /* tableViewMiddle@2x.png in Resources */,
+				9F32A88D12B186170037DE1D /* tableViewFooter.png in Resources */,
+				9F32A88E12B186170037DE1D /* tableViewFooter@2x.png in Resources */,
+				9F312B1512B299BD006AB331 /* tableViewSingle.png in Resources */,
+				9F312B1612B299BD006AB331 /* tableViewSingle@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -371,6 +412,7 @@
 				5515B4F412B10B6400220DEA /* FavoritsViewController.m in Sources */,
 				551B6CBE12B2351100EAFE18 /* Extra.m in Sources */,
 				551B6CC112B2352400EAFE18 /* Favorits.m in Sources */,
+				9F4A20D712B13F0000940374 /* ExtresViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
