@@ -2,8 +2,8 @@
 //  Favorits.h
 //  Expresso
 //
-//  Created by David Cortés Fulla on 10/12/10.
-//  Copyright 2010 Facultat d'Informatica de Barcelona (UPC). All rights reserved.
+//  Created by Arol Viñolas Martinez on 10/12/10.
+//  Copyright 2010 FIB (UPC). All rights reserved.
 //
 
 #import <CoreData/CoreData.h>
@@ -14,8 +14,9 @@
 {
 }
 
+@property (nonatomic, retain) NSString * producte;
+@property (nonatomic, retain) NSString * subproducte;
 @property (nonatomic, retain) NSString * tamany;
-@property (nonatomic, retain) NSString * nom_producte;
 @property (nonatomic, retain) NSNumber * preu;
 @property (nonatomic, retain) NSString * usuari;
 @property (nonatomic, retain) NSSet* extres;

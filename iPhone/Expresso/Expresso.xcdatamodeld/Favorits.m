@@ -2,8 +2,8 @@
 //  Favorits.m
 //  Expresso
 //
-//  Created by David Cortés Fulla on 10/12/10.
-//  Copyright 2010 Facultat d'Informatica de Barcelona (UPC). All rights reserved.
+//  Created by Arol Viñolas Martinez on 10/12/10.
+//  Copyright 2010 FIB (UPC). All rights reserved.
 //
 
 #import "Favorits.h"
@@ -12,8 +12,9 @@
 
 @implementation Favorits 
 
+@dynamic producte;
+@dynamic subproducte;
 @dynamic tamany;
-@dynamic nom_producte;
 @dynamic preu;
 @dynamic usuari;
 @dynamic extres;
