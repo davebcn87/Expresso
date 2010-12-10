@@ -14,7 +14,6 @@
 {
 }
 
-@property (nonatomic, retain) NSString * tamany;
 @property (nonatomic, retain) NSString * nom_producte;
 @property (nonatomic, retain) NSNumber * preu;
 @property (nonatomic, retain) NSString * usuari;

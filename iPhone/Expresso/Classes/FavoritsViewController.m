@@ -7,6 +7,8 @@
 //
 
 #import "FavoritsViewController.h"
+#import "comandaRealitzadaViewController.h"
+
 
 
 @implementation FavoritsViewController
@@ -20,18 +22,24 @@
 
 -(void) ConsultaFavorits
 {
-	NSLog(@"Hola");
 	ExpressoAppDelegate *appDelegate = [[UIApplication sharedApplication] delegate];
+	
 	NSEntityDescription *entity = [NSEntityDescription entityForName:@"Favorits" inManagedObjectContext:[appDelegate managedObjectContext]];
 	
 	NSFetchRequest *request = [[NSFetchRequest alloc]init];
 	[request setEntity:entity];
 	
+	NSPredicate *predicate = [NSPredicate predicateWithFormat:@"usuari == %@", [appDelegate usuari]];
+	
 	NSSortDescriptor *sortDescriptor = [[NSSortDescriptor alloc] initWithKey: @"nom_producte" ascending: NO];
 	
 	NSArray *sortDescriptors = [NSArray arrayWithObjects:sortDescriptor,nil];
+	
 	[request setSortDescriptors:sortDescriptors];
+	[request setPredicate:predicate];
+	
 	[sortDescriptor release];
+	[predicate release];
 	
 	NSError *error;
 	
@@ -46,6 +54,7 @@
 	}
 	
 	[request release];
+
 	[favoritsTableView reloadData];
 	
 	
@@ -107,6 +116,10 @@
         numberOfRows = [sectionInfo numberOfObjects];
 		NSLog(@"numberOfRows");
     }
+	
+	if (numberOfRows==0) [noTensFavorits setHidden:NO];
+	else [noTensFavorits setHidden:YES	];
+	
     return numberOfRows;
 }
 
@@ -118,12 +131,13 @@
     
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     if (cell == nil) {
-        cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleValue1 reuseIdentifier:CellIdentifier] autorelease];
+        cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:CellIdentifier] autorelease];
     }
     
 	Favorits *favorit = [aFetchedResultsController objectAtIndexPath:indexPath ];
 	cell.textLabel.text = [favorit nom_producte];
-    
+	cell.detailTextLabel.text = [NSString stringWithFormat:@"Tamany: %@ Preu: %@ €",[favorit tamany],[favorit preu]];
+
     return cell;
 }
 
@@ -172,16 +186,38 @@
 #pragma mark Table view delegate
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    // Navigation logic may go here. Create and push another view controller.
-    /*
-    <#DetailViewController#> *detailViewController = [[<#DetailViewController#> alloc] initWithNibName:@"<#Nib name#>" bundle:nil];
-    // ...
-    // Pass the selected object to the new view controller.
-    [self.navigationController pushViewController:detailViewController animated:YES];
-    [detailViewController release];
-    */
-}
 
+	Favorits *favorit = [aFetchedResultsController objectAtIndexPath:indexPath];
+	ExpressoAppDelegate *appDelegate = [[UIApplication sharedApplication] delegate];
+	   
+	NSArray *extres = [[favorit extres] allObjects];
+	NSMutableString *stringExtres = [[NSMutableString alloc] init];
+	NSMutableArray *extresArray = [[NSMutableArray alloc] init];
+	
+	for (Extra *extra in [extres reverseObjectEnumerator]){
+		NSLog(@"%@",[extra nomExtra]);		
+		NSLog(@"%@",[extra Quantitat]);
+		stringExtres = [NSString stringWithFormat:@"%@ %@",[extra nomExtra],[extra Quantitat]];
+		[extresArray addObject:stringExtres];
+	}
+
+	
+	appDelegate.extres = (NSArray *)extresArray;
+	
+
+	[extresArray release];
+	[stringExtres release];
+	
+	appDelegate.nomProducte =  favorit.nom_producte;
+	appDelegate.tamany = favorit.tamany;
+	appDelegate.preu = favorit.preu;
+	
+	ComandaRealitzadaViewController *ComandaRealitzadaVC = [[ComandaRealitzadaViewController alloc] initWithNibName:@"ComandaRealitzadaViewController" bundle:nil];
+	[self.navigationController pushViewController:ComandaRealitzadaVC animated:YES];
+    [ComandaRealitzadaVC release];
+	
+	[favorit release];
+}
 
 #pragma mark -
 #pragma mark Memory management

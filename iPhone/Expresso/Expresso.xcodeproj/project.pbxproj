@@ -15,8 +15,9 @@
 		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
 		28D801B40F44B63D00FB423F /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28D801B30F44B63D00FB423F /* CoreData.framework */; };
-		5515B4DE12B1084100220DEA /* Favorits.m in Sources */ = {isa = PBXBuildFile; fileRef = 5515B4DD12B1084100220DEA /* Favorits.m */; };
 		5515B4F412B10B6400220DEA /* FavoritsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5515B4F212B10B6400220DEA /* FavoritsViewController.m */; };
+		551B6CBE12B2351100EAFE18 /* Extra.m in Sources */ = {isa = PBXBuildFile; fileRef = 551B6CBC12B2351100EAFE18 /* Extra.m */; };
+		551B6CC112B2352400EAFE18 /* Favorits.m in Sources */ = {isa = PBXBuildFile; fileRef = 551B6CC012B2352400EAFE18 /* Favorits.m */; };
 		5538A57F12A6D5BB00CF6776 /* CartaXMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 5538A57E12A6D5BB00CF6776 /* CartaXMLParser.m */; };
 		5538ED1712A6C07C007C04B3 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5538ED1512A6C07C007C04B3 /* LoginViewController.m */; };
 		5538ED1812A6C07C007C04B3 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5538ED1612A6C07C007C04B3 /* LoginViewController.xib */; };
@@ -70,10 +71,12 @@
 		28D801B30F44B63D00FB423F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* Expresso_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Expresso_Prefix.pch; sourceTree = "<group>"; };
-		5515B4DC12B1084100220DEA /* Favorits.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Favorits.h; sourceTree = "<group>"; };
-		5515B4DD12B1084100220DEA /* Favorits.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Favorits.m; sourceTree = "<group>"; };
 		5515B4F112B10B6400220DEA /* FavoritsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavoritsViewController.h; sourceTree = "<group>"; };
 		5515B4F212B10B6400220DEA /* FavoritsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavoritsViewController.m; sourceTree = "<group>"; };
+		551B6CBB12B2351100EAFE18 /* Extra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Extra.h; sourceTree = "<group>"; };
+		551B6CBC12B2351100EAFE18 /* Extra.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Extra.m; sourceTree = "<group>"; };
+		551B6CBF12B2352400EAFE18 /* Favorits.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Favorits.h; sourceTree = "<group>"; };
+		551B6CC012B2352400EAFE18 /* Favorits.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Favorits.m; sourceTree = "<group>"; };
 		5538A57D12A6D5BB00CF6776 /* CartaXMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CartaXMLParser.h; sourceTree = "<group>"; };
 		5538A57E12A6D5BB00CF6776 /* CartaXMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CartaXMLParser.m; sourceTree = "<group>"; };
 		5538ED1412A6C07C007C04B3 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
@@ -365,8 +368,9 @@
 				9FBB72F312B013FE004FD188 /* SubproducteViewController.m in Sources */,
 				9FBB736812B035F2004FD188 /* TamanysViewController.m in Sources */,
 				9FF8D9A412B056500014D6E3 /* comandaRealitzadaViewController.m in Sources */,
-				5515B4DE12B1084100220DEA /* Favorits.m in Sources */,
 				5515B4F412B10B6400220DEA /* FavoritsViewController.m in Sources */,
+				551B6CBE12B2351100EAFE18 /* Extra.m in Sources */,
+				551B6CC112B2352400EAFE18 /* Favorits.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -454,8 +458,10 @@
 		2819305F112F816700ECF9B4 /* Expresso.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				5515B4DC12B1084100220DEA /* Favorits.h */,
-				5515B4DD12B1084100220DEA /* Favorits.m */,
+				551B6CBF12B2352400EAFE18 /* Favorits.h */,
+				551B6CC012B2352400EAFE18 /* Favorits.m */,
+				551B6CBB12B2351100EAFE18 /* Extra.h */,
+				551B6CBC12B2351100EAFE18 /* Extra.m */,
 				28C3AD890F43EF2300507BA6 /* Expresso.xcdatamodel */,
 			);
 			currentVersion = 28C3AD890F43EF2300507BA6 /* Expresso.xcdatamodel */;

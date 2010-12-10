@@ -12,7 +12,6 @@
 
 @implementation Favorits 
 
-@dynamic tamany;
 @dynamic nom_producte;
 @dynamic preu;
 @dynamic usuari;

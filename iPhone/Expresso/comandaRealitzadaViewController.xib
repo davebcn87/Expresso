@@ -296,6 +296,14 @@
 					</object>
 					<int key="connectionID">38</int>
 				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">guardarBeguda</string>
+						<reference key="source" ref="372490531"/>
+						<reference key="destination" ref="332660511"/>
+					</object>
+					<int key="connectionID">39</int>
+				</object>
 			</object>
 			<object class="IBMutableOrderedSet" key="objectRecords">
 				<object class="NSArray" key="orderedObjects">
@@ -314,12 +322,12 @@
 							<reference ref="126913383"/>
 							<reference ref="888072172"/>
 							<reference ref="6291883"/>
-							<reference ref="765625899"/>
 							<reference ref="1057530172"/>
 							<reference ref="955185196"/>
 							<reference ref="162214946"/>
 							<reference ref="332660511"/>
 							<reference ref="1073544106"/>
+							<reference ref="765625899"/>
 						</object>
 						<reference key="parent" ref="0"/>
 					</object>
@@ -420,7 +428,7 @@
 					</object>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<object class="NSAffineTransform">
-						<bytes key="NSTransformStruct">P4AAAL+AAABDFwAAw1gAAA</bytes>
+						<bytes key="NSTransformStruct">P4AAAL+AAABDFwAAwzYAAA</bytes>
 					</object>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<object class="NSAffineTransform">
@@ -468,7 +476,7 @@
 				</object>
 			</object>
 			<nil key="sourceID"/>
-			<int key="maxID">38</int>
+			<int key="maxID">39</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<object class="NSMutableArray" key="referencedPartialClassDescriptions">
@@ -492,16 +500,14 @@
 						<object class="NSArray" key="dict.sortedKeys">
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<string>extres</string>
-							<string>extresReflex</string>
+							<string>guardarBeguda</string>
 							<string>preu</string>
 							<string>producte</string>
-							<string>producteReflex</string>
 						</object>
 						<object class="NSMutableArray" key="dict.values">
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<string>UILabel</string>
-							<string>UILabel</string>
-							<string>UILabel</string>
+							<string>UIButton</string>
 							<string>UILabel</string>
 							<string>UILabel</string>
 						</object>
@@ -511,10 +517,9 @@
 						<object class="NSArray" key="dict.sortedKeys">
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<string>extres</string>
-							<string>extresReflex</string>
+							<string>guardarBeguda</string>
 							<string>preu</string>
 							<string>producte</string>
-							<string>producteReflex</string>
 						</object>
 						<object class="NSMutableArray" key="dict.values">
 							<bool key="EncodedWithXMLCoder">YES</bool>
@@ -523,8 +528,8 @@
 								<string key="candidateClassName">UILabel</string>
 							</object>
 							<object class="IBToOneOutletInfo">
-								<string key="name">extresReflex</string>
-								<string key="candidateClassName">UILabel</string>
+								<string key="name">guardarBeguda</string>
+								<string key="candidateClassName">UIButton</string>
 							</object>
 							<object class="IBToOneOutletInfo">
 								<string key="name">preu</string>
@@ -532,10 +537,6 @@
 							</object>
 							<object class="IBToOneOutletInfo">
 								<string key="name">producte</string>
-								<string key="candidateClassName">UILabel</string>
-							</object>
-							<object class="IBToOneOutletInfo">
-								<string key="name">producteReflex</string>
 								<string key="candidateClassName">UILabel</string>
 							</object>
 						</object>

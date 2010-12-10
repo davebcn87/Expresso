@@ -13,6 +13,7 @@
 	IBOutlet UILabel *producte;
 	IBOutlet UILabel *preu;
 	IBOutlet UILabel *extres;
+	IBOutlet UIButton *guardarBeguda;
 	
 	ExpressoAppDelegate *appDelegate;
 	
@@ -23,6 +24,7 @@
 @property (nonatomic, retain) IBOutlet UILabel *producte;
 @property (nonatomic, retain) IBOutlet UILabel *preu;
 @property (nonatomic, retain) IBOutlet UILabel *extres;
+@property (nonatomic, retain) IBOutlet UIButton *guardarBeguda;
 
 -(IBAction) guardaBeguda;
 
