@@ -75,7 +75,7 @@
 			{
 				$data['result'] = 1;
 				$data['message'] = 'Client exist';
-				$data['credits'] = 24;
+				$data['credits'] = 4;
 			}
 			else
 			{
