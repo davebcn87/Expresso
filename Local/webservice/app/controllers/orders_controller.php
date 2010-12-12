@@ -84,25 +84,33 @@
 		
 		function ident_client()
 		{
+	
 			if(isset($_POST[0])) 
 				$this->data['Client'] = $_POST[0];
 
-			//Sustituir por la llamada al webservice del servidr global
-			if($_POST['user']=='alba' && $_POST['pass']=='albapass')
+			$data2['user'] = 'albarinm@gmail.com';
+			$data2['password'] = '041187';
+			
+			$HttpSocket = new HttpSocket();
+			$data2 = $HttpSocket->post('http://88.18.101.84:8080/servlets/login',$data2);
+			
+			$xml = new Xml($data2);
+			$ret = $xml->toArray();
+			
+			if($ret['User']['email']==$_POST['user'] && $ret['User']['credits']>0)
 			{
 				$data['result'] = 1;
 				$data['message'] = 'Client exist';
-				$data['credits'] = 40;
+				$data['credits'] = $ret['User']['credits'];
 				$data['sessio'] = md5(time().$_POST['user']);
 				$this->Session->write('sessio_id',$data['sessio']);
-
 			}
 			else
 			{
 				$data['result'] = -1;
 				$data['message'] = 'Error, wrong username or password';
 			}
-				
+			
 			$this->set('data',$data);
 			$this->RequestHandler->renderAs($this,'xml');
 		}
