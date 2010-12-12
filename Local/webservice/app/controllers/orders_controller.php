@@ -45,18 +45,18 @@
 			
 			//Retorna los créditos actuales del usuarios después del pedido
 			
-			/*
-			$data = array();
 			
-			$data['user'] = 'albarinm@gmail.com';
-			$data['password'] = '041187';
-			$data['preu'] = '6';
+			$data2 = array();
+			
+			$data2['user'] = 'albarinm@gmail.com';
+			$data2['password'] = '041187';
+			$data2['preu'] = $this->data['Order']['preu'];
 			
 			$HttpSocket = new HttpSocket();
-			$ret = $HttpSocket->post('http://88.18.101.84:8080/servlets/restaCredits',$data);
+			$ret = $HttpSocket->post('http://88.18.101.84:8080/servlets/restaCredits',$data2);
 			
-			$data['ret'] = $ret;*/
-			
+			$data['ret'] = $ret;
+						
 			
 			$this->set('data',$data);
 			$this->set('credits',$credits);
