@@ -1,8 +1,9 @@
 <?php
+	App::import('Core',array('HttpSocket','Xml'));
 	class OrdersController extends AppController {
 		var $name = 'Orders';
 		var $helpers = array('form','time','html','xml');		
-		var $components = array('RequestHandler');
+		var $components = array('RequestHandler','Session');
 
 		function index()
 		{		
@@ -23,12 +24,14 @@
 			if(isset($_POST[0])) 
 				$this->data['Order'] = $_POST[0];
 
-			if($this->data)
+			if($this->data &&  $this->Session->read('sessio_id')==$this->data['Order']['sessio'])
 			{
+				$data['sessio'] = "";
 				if($this->Order->save($this->data))
 				{
 					$data['result'] = 1;
 					$data['message'] = 'Order has been added';
+					
 				}
 				else
 				{
@@ -41,6 +44,20 @@
 			/* Llamar a la función del webservice del servidor global indicando el usuario y los créditos a restar */
 			
 			//Retorna los créditos actuales del usuarios después del pedido
+			
+			/*
+			$data = array();
+			
+			$data['user'] = 'albarinm@gmail.com';
+			$data['password'] = '041187';
+			$data['preu'] = '6';
+			
+			$HttpSocket = new HttpSocket();
+			$ret = $HttpSocket->post('http://88.18.101.84:8080/servlets/restaCredits',$data);
+			
+			$data['ret'] = $ret;*/
+			
+			
 			$this->set('data',$data);
 			$this->set('credits',$credits);
 			$this->RequestHandler->renderAs($this,'xml');
@@ -75,14 +92,17 @@
 			{
 				$data['result'] = 1;
 				$data['message'] = 'Client exist';
-				$data['credits'] = 4;
+				$data['credits'] = 40;
+				$data['sessio'] = md5(time().$_POST['user']);
+				$this->Session->write('sessio_id',$data['sessio']);
+
 			}
 			else
 			{
 				$data['result'] = -1;
 				$data['message'] = 'Error, wrong username or password';
 			}
-			
+				
 			$this->set('data',$data);
 			$this->RequestHandler->renderAs($this,'xml');
 		}
