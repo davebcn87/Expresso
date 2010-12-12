@@ -88,16 +88,16 @@
 			if(isset($_POST[0])) 
 				$this->data['Client'] = $_POST[0];
 
-			$data2['user'] = 'albarinm@gmail.com';
-			$data2['password'] = '041187';
+			$data2['user'] = $_POST['user'];
+			$data2['password'] = $_POST['pass'];
 			
 			$HttpSocket = new HttpSocket();
-			$data2 = $HttpSocket->post('http://88.18.101.84:8080/servlets/login',$data2);
+			$data2 = $HttpSocket->post('https://88.18.101.84:8080/servlets/login',$data2);
 			
 			$xml = new Xml($data2);
 			$ret = $xml->toArray();
 			
-			if($ret['User']['email']==$_POST['user'] && $ret['User']['credits']>0)
+			if($ret['User']['email']==$_POST['user'] && $ret['User']['credits']>=0)
 			{
 				$data['result'] = 1;
 				$data['message'] = 'Client exist';
@@ -117,8 +117,12 @@
 		
 		function get_carta()
 		{
+		
+			$HttpSocket = new HttpSocket();
+            $carta = $HttpSocket->post('https://88.18.101.84:8080/servlets/getCarta');
+
 			//Llamada al webservice del servidr global
-			$fp_caramel_t = array(
+		/*	$fp_caramel_t = array(
 					"small" => 3.50,
 					"grande" => 4.00,
 					"venti" => 4.50
@@ -211,10 +215,10 @@
 										$extra_1, $extra_2				
 								 	)
 								);
-								
+											
 			$carta = array ( "carta" => $carta );
-								
-			
+			*/					
+
 			$this->set('carta',$carta);
 			$this->RequestHandler->renderAs($this,'xml');
 		}
