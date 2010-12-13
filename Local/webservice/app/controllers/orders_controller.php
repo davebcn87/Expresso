@@ -48,15 +48,15 @@
 			
 			$data2 = array();
 			
-			$data2['user'] = 'albarinm@gmail.com';
-			$data2['password'] = '041187';
+			$data2['user'] = $this->data['Order']['name'];
+			$data2['password'] = $this->Session->Read('password');
 			$data2['preu'] = $this->data['Order']['preu'];
 			
 			$HttpSocket = new HttpSocket();
-			$ret = $HttpSocket->post('http://88.18.101.84:8080/servlets/restaCredits',$data2);
+			$ret = $HttpSocket->post('https://88.18.101.84:8080/servlets/restaCredits',$data2);
 			
-			$data['ret'] = $ret;
-						
+			$data['user'] = $this->data['Order']['name'];
+			$data['pass'] = $this->Session->Read('password');
 			
 			$this->set('data',$data);
 			$this->set('credits',$credits);
@@ -96,7 +96,7 @@
 			
 			$xml = new Xml($data2);
 			$ret = $xml->toArray();
-			
+						
 			if($ret['User']['email']==$_POST['user'] && $ret['User']['credits']>=0)
 			{
 				$data['result'] = 1;
@@ -104,6 +104,7 @@
 				$data['credits'] = $ret['User']['credits'];
 				$data['sessio'] = md5(time().$_POST['user']);
 				$this->Session->write('sessio_id',$data['sessio']);
+				$this->Session->write('password',$_POST['pass']);
 			}
 			else
 			{
