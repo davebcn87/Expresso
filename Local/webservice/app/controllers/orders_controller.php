@@ -53,7 +53,8 @@
 			$data2['preu'] = $this->data['Order']['preu'];
 			
 			$HttpSocket = new HttpSocket();
-			$ret = $HttpSocket->post('https://88.18.101.84:8080/servlets/restaCredits',$data2);
+		//	$ret = $HttpSocket->post('https://88.18.101.84:8080/servlets/restaCredits',$data2);
+			$ret = $HttpSocket->post('https://10.0.2.5:8080/servlets/restaCredits',$data2);
 			
 			$data['user'] = $this->data['Order']['name'];
 			$data['pass'] = $this->Session->Read('password');
@@ -92,7 +93,8 @@
 			$data2['password'] = $_POST['pass'];
 			
 			$HttpSocket = new HttpSocket();
-			$data2 = $HttpSocket->post('https://88.18.101.84:8080/servlets/login',$data2);
+//			$data2 = $HttpSocket->post('https://88.18.101.84:8080/servlets/login',$data2);
+			$data2 = $HttpSocket->post('https://10.0.2.5:8080/servlets/login',$data2);
 			
 			$xml = new Xml($data2);
 			$ret = $xml->toArray();
@@ -120,7 +122,8 @@
 		{
 		
 			$HttpSocket = new HttpSocket();
-            $carta = $HttpSocket->post('https://88.18.101.84:8080/servlets/getCarta');
+        //    $carta = $HttpSocket->post('https://88.18.101.84:8080/servlets/getCarta');
+            $carta = $HttpSocket->post('https://10.0.2.5:8080/servlets/getCarta');
 
 			//Llamada al webservice del servidr global
 		/*	$fp_caramel_t = array(
