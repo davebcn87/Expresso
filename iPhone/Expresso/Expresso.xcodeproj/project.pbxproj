@@ -27,7 +27,6 @@
 		9F312B1512B299BD006AB331 /* tableViewSingle.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F312B1312B299BD006AB331 /* tableViewSingle.png */; };
 		9F312B1612B299BD006AB331 /* tableViewSingle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F312B1412B299BD006AB331 /* tableViewSingle@2x.png */; };
 		9F32129412B565C900653275 /* SHDataMatrixReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F32129312B565C900653275 /* SHDataMatrixReader.m */; };
-		9F3212E612B567B000653275 /* liblibdmtx.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F3212E512B567B000653275 /* liblibdmtx.a */; };
 		9F32133D12B57A4D00653275 /* DatamatrixReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F32133C12B57A4D00653275 /* DatamatrixReader.m */; };
 		9F32A85E12B14BCA0037DE1D /* tableViewHead.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F32A85C12B14BCA0037DE1D /* tableViewHead.png */; };
 		9F32A85F12B14BCA0037DE1D /* tableViewHead@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F32A85D12B14BCA0037DE1D /* tableViewHead@2x.png */; };
@@ -38,6 +37,7 @@
 		9F4A20D712B13F0000940374 /* ExtresViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F4A20D512B13F0000940374 /* ExtresViewController.m */; };
 		9F4A20D812B13F0000940374 /* ExtresViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F4A20D612B13F0000940374 /* ExtresViewController.xib */; };
 		9F5FAFBE12AED87F00C8FE6E /* coins.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F5FAFBD12AED87F00C8FE6E /* coins.png */; };
+		9F67A02A12B6868B00CC37E2 /* liblibdmtx.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F67A02912B6868B00CC37E2 /* liblibdmtx.a */; };
 		9F7C7C4E12B2C4DF00BC117B /* Favorits.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C7C4B12B2C4DF00BC117B /* Favorits.m */; };
 		9F7C7C4F12B2C4DF00BC117B /* Extra.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C7C4D12B2C4DF00BC117B /* Extra.m */; };
 		9F95681812AE995500A5AD74 /* FirstView.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F95681612AE995500A5AD74 /* FirstView.png */; };
@@ -104,7 +104,6 @@
 		9F32129112B565B100653275 /* dmtx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dmtx.h; sourceTree = "<group>"; };
 		9F32129212B565C900653275 /* SHDataMatrixReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHDataMatrixReader.h; sourceTree = "<group>"; };
 		9F32129312B565C900653275 /* SHDataMatrixReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHDataMatrixReader.m; sourceTree = "<group>"; };
-		9F3212E512B567B000653275 /* liblibdmtx.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = liblibdmtx.a; sourceTree = "<group>"; };
 		9F32133B12B57A4D00653275 /* DatamatrixReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatamatrixReader.h; sourceTree = "<group>"; };
 		9F32133C12B57A4D00653275 /* DatamatrixReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatamatrixReader.m; sourceTree = "<group>"; };
 		9F32A85C12B14BCA0037DE1D /* tableViewHead.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tableViewHead.png; sourceTree = "<group>"; };
@@ -117,6 +116,7 @@
 		9F4A20D512B13F0000940374 /* ExtresViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExtresViewController.m; sourceTree = "<group>"; };
 		9F4A20D612B13F0000940374 /* ExtresViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ExtresViewController.xib; path = Classes/ExtresViewController.xib; sourceTree = "<group>"; };
 		9F5FAFBD12AED87F00C8FE6E /* coins.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = coins.png; sourceTree = "<group>"; };
+		9F67A02912B6868B00CC37E2 /* liblibdmtx.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = liblibdmtx.a; sourceTree = "<group>"; };
 		9F7C7C4A12B2C4DF00BC117B /* Favorits.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Favorits.h; sourceTree = "<group>"; };
 		9F7C7C4B12B2C4DF00BC117B /* Favorits.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Favorits.m; sourceTree = "<group>"; };
 		9F7C7C4C12B2C4DF00BC117B /* Extra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Extra.h; sourceTree = "<group>"; };
@@ -168,7 +168,7 @@
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
 				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
 				28D801B40F44B63D00FB423F /* CoreData.framework in Frameworks */,
-				9F3212E612B567B000653275 /* liblibdmtx.a in Frameworks */,
+				9F67A02A12B6868B00CC37E2 /* liblibdmtx.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,7 +253,7 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				9F3212E512B567B000653275 /* liblibdmtx.a */,
+				9F67A02912B6868B00CC37E2 /* liblibdmtx.a */,
 				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
 				1D30AB110D05D00D00671497 /* Foundation.framework */,
 				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
