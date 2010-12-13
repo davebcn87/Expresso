@@ -226,5 +226,20 @@
 			$this->set('carta',$carta);
 			$this->RequestHandler->renderAs($this,'xml');
 		}
+		function tauler()
+		{
+			if($this->RequestHandler->isXml())
+				$this->set('orders',$this->Order->find('all'));
+			else
+				$this->set('orders',$this->paginate());
+		
+			$fetes = $this->Order->findAllByFeta("1",null,array('updated DESC LIMIT 10')); //Es mostren les últimes 10 comandes ja fetes
+			$pendents = $this->Order->findAllByFeta("0",null,array('updated DESC LIMIT 10')); //Es mostren les 10 últimes comandes pendents
+			
+			$all = $this->Order->find('all');
+			
+			$this->set('fetes',$fetes);
+			$this->set('pendents',$pendents);
+		}
 	}
 ?>

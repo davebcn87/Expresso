@@ -23,14 +23,14 @@
 
 /** General Style Info **/
 body {
-	background: #003d4c;
+	background: #be1238;
 	color: #fff;
 	font-family:'lucida grande',verdana,helvetica,arial,sans-serif;
 	font-size:90%;
 	margin: 0;
 }
 a {
-	color: #003d4c;
+	color: #be1238;
 	text-decoration: underline;
 	font-weight: bold;
 }
@@ -45,9 +45,13 @@ h1, h2, h3, h4 {
 	font-weight: normal;
 	margin-bottom:0.5em;
 }
+h5{
+	font-size: 300%;
+	padding-top: 65px;
+}
 h1 {
 	background:#fff;
-	color: #003d4c;
+	color: #be1238;
 	font-size: 100%;
 }
 h2 {
@@ -70,41 +74,56 @@ ul, li {
 }
 
 /** Layout **/
+.title{
+	font-size: 130%;
+	font-weight: bold;
+	color: #960523;
+}
+.pad{
+	padding: 10px;
+}
 #container {
 	text-align: left;
 }
 
 #header{
 	padding: 10px 20px;
+	height: 80px;	
 }
-#header h1 {
-	line-height:20px;
-	background: #003d4c url('../img/cake.icon.png') no-repeat left;
-	color: #fff;
-	padding: 0px 30px;
+#logo{
+	float: left;
+	padding-right: 35px;	
+	padding-top: 20px;	
+	padding-left: 15px;
+	padding-bottom: 30px;	
 }
 #header h1 a {
 	color: #fff;
-	background: #003d4c;
+	background: #be1238;
 	font-weight: normal;
 	text-decoration: none;
 }
 #header h1 a:hover {
 	color: #fff;
-	background: #003d4c;
+	background: #be1238;
 	text-decoration: underline;
 }
 #content{
-	background: #fff;
+	border: 6px solid #960523;
+	-moz-border-radius: 20px;
+	background: #ECE0BA;
 	clear: both;
 	color: #333;
-	padding: 10px 20px 40px 20px;
+	margin-left: 80px;
+	margin-right: 80px;
+	padding: 20px;
 	overflow: auto;
 }
 #footer {
 	clear: both;
 	padding: 6px 10px;
 	text-align: right;
+	height: 60px;
 }
 
 /** containers **/
@@ -129,7 +148,7 @@ div.actions h3 {
 
 /** Tables **/
 table {
-	background: #fff;
+	background: #ECE0BA;
 	border-right:0;
 	clear: both;
 	color: #333;
@@ -141,6 +160,7 @@ th {
 	border-bottom:2px solid #555;
 	text-align: left;
 	padding:4px;
+	color: #4C4646;
 }
 th a {
 	display: block;
@@ -343,7 +363,7 @@ div.message {
 	font-size: 140%;
 	font-weight: bold;
 	margin: 0 0 1em 0;
-	background: #c73e14;
+	background: #87ea00;
 	padding: 5px;
 }
 div.error-message {
