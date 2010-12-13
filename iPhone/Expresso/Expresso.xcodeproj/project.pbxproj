@@ -37,13 +37,13 @@
 		9F4A20D712B13F0000940374 /* ExtresViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F4A20D512B13F0000940374 /* ExtresViewController.m */; };
 		9F4A20D812B13F0000940374 /* ExtresViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F4A20D612B13F0000940374 /* ExtresViewController.xib */; };
 		9F5FAFBE12AED87F00C8FE6E /* coins.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F5FAFBD12AED87F00C8FE6E /* coins.png */; };
-		9F67A02A12B6868B00CC37E2 /* liblibdmtx.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F67A02912B6868B00CC37E2 /* liblibdmtx.a */; };
 		9F7C7C4E12B2C4DF00BC117B /* Favorits.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C7C4B12B2C4DF00BC117B /* Favorits.m */; };
 		9F7C7C4F12B2C4DF00BC117B /* Extra.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C7C4D12B2C4DF00BC117B /* Extra.m */; };
 		9F95681812AE995500A5AD74 /* FirstView.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F95681612AE995500A5AD74 /* FirstView.png */; };
 		9F95681912AE995500A5AD74 /* FirstView@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F95681712AE995500A5AD74 /* FirstView@2x.png */; };
 		9F95681D12AE997300A5AD74 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F95681B12AE997300A5AD74 /* FirstViewController.m */; };
 		9F95681E12AE997300A5AD74 /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F95681C12AE997300A5AD74 /* FirstViewController.xib */; };
+		9FA80DBE12B6D6A400B2EE82 /* liblibdmtx.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FA80DBD12B6D6A400B2EE82 /* liblibdmtx.a */; };
 		9FBB71F812AFC392004FD188 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FBB71F612AFC392004FD188 /* background.png */; };
 		9FBB71F912AFC392004FD188 /* background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FBB71F712AFC392004FD188 /* background@2x.png */; };
 		9FBB71FE12AFC3AD004FD188 /* ProducteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FBB71FC12AFC3AD004FD188 /* ProducteViewController.m */; };
@@ -116,7 +116,6 @@
 		9F4A20D512B13F0000940374 /* ExtresViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExtresViewController.m; sourceTree = "<group>"; };
 		9F4A20D612B13F0000940374 /* ExtresViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ExtresViewController.xib; path = Classes/ExtresViewController.xib; sourceTree = "<group>"; };
 		9F5FAFBD12AED87F00C8FE6E /* coins.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = coins.png; sourceTree = "<group>"; };
-		9F67A02912B6868B00CC37E2 /* liblibdmtx.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = liblibdmtx.a; sourceTree = "<group>"; };
 		9F7C7C4A12B2C4DF00BC117B /* Favorits.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Favorits.h; sourceTree = "<group>"; };
 		9F7C7C4B12B2C4DF00BC117B /* Favorits.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Favorits.m; sourceTree = "<group>"; };
 		9F7C7C4C12B2C4DF00BC117B /* Extra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Extra.h; sourceTree = "<group>"; };
@@ -126,6 +125,7 @@
 		9F95681A12AE997300A5AD74 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
 		9F95681B12AE997300A5AD74 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 		9F95681C12AE997300A5AD74 /* FirstViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = FirstViewController.xib; path = Classes/FirstViewController.xib; sourceTree = "<group>"; };
+		9FA80DBD12B6D6A400B2EE82 /* liblibdmtx.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = liblibdmtx.a; sourceTree = "<group>"; };
 		9FBB71F612AFC392004FD188 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
 		9FBB71F712AFC392004FD188 /* background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background@2x.png"; sourceTree = "<group>"; };
 		9FBB71FB12AFC3AD004FD188 /* ProducteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProducteViewController.h; sourceTree = "<group>"; };
@@ -168,7 +168,7 @@
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
 				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
 				28D801B40F44B63D00FB423F /* CoreData.framework in Frameworks */,
-				9F67A02A12B6868B00CC37E2 /* liblibdmtx.a in Frameworks */,
+				9FA80DBE12B6D6A400B2EE82 /* liblibdmtx.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,7 +253,7 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				9F67A02912B6868B00CC37E2 /* liblibdmtx.a */,
+				9FA80DBD12B6D6A400B2EE82 /* liblibdmtx.a */,
 				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
 				1D30AB110D05D00D00671497 /* Foundation.framework */,
 				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
