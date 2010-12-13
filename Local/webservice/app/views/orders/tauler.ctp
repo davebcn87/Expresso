@@ -15,7 +15,7 @@
 				<td><?php echo $p['Order']['id'] ?></td>
 				<td><?php echo $p['Order']['name'] ?></td>
 				<td><?php echo $p['Order']['product'] ?></td>
-				<td><?php echo $p['Order']['extra'] ?></td>				
+				<td><?php echo $p['Order']['complement1'] ?></td>				
 				<td><?php echo $time->format('j M Y, H:i:s',$p['Order']['created']) ?></td>				
 				<td><?php echo $this->Html->link('Feta', array('controller'=>'orders','action'=>'checkOrder',$p['Order']['id']), array(), "Segur que vols acabar la comanda?"); ?></td>
 			</tr>
@@ -45,7 +45,7 @@
 				<td><?php echo $f['Order']['id'] ?></td>
 				<td><?php echo $f['Order']['name'] ?></td>
 				<td><?php echo $f['Order']['product'] ?></td>
-				<td><?php echo $f['Order']['extra'] ?></td>
+				<td><?php echo $f['Order']['complement1'] ?></td>
 				<td><?php echo $time->format('j M Y, H:i:s',$f['Order']['created']) ?></td>
 				<td><?php echo $time->format('j M Y, H:i:s',$f['Order']['updated']) ?></td>				
 				<td><?php echo $date->getDiff($f['Order']['updated'],$f['Order']['created']) ?></td>

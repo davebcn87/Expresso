@@ -2,7 +2,7 @@
 	App::import('Core',array('HttpSocket','Xml'));
 	class OrdersController extends AppController {
 		var $name = 'Orders';
-		var $helpers = array('form','time','html','xml');		
+		var $helpers = array('form','time','html','xml','date');		
 		var $components = array('RequestHandler','Session');
 
 		function index()
@@ -226,6 +226,7 @@
 			$this->set('carta',$carta);
 			$this->RequestHandler->renderAs($this,'xml');
 		}
+		
 		function tauler()
 		{
 			if($this->RequestHandler->isXml())
@@ -233,13 +234,27 @@
 			else
 				$this->set('orders',$this->paginate());
 		
-			$fetes = $this->Order->findAllByFeta("1",null,array('updated DESC LIMIT 10')); //Es mostren les últimes 10 comandes ja fetes
-			$pendents = $this->Order->findAllByFeta("0",null,array('updated DESC LIMIT 10')); //Es mostren les 10 últimes comandes pendents
+			$fetes = $this->Order->findAllByFeta("1",null,array('updated ASC LIMIT 10')); //Es mostren les últimes 10 comandes ja fetes
+			$pendents = $this->Order->findAllByFeta("0",null,array('updated ASC LIMIT 10')); //Es mostren les 10 últimes comandes pendents
 			
 			$all = $this->Order->find('all');
 			
 			$this->set('fetes',$fetes);
 			$this->set('pendents',$pendents);
+		}
+		
+		function checkOrder($id=null)
+		{
+			$this->Order->id = $id;
+
+			$this->data = $this->Order->read();
+
+			if($this->Order->saveField('feta',1))
+			{			
+				$this->Session->setFlash('Comanda '.$id.' feta');
+			}
+			
+			$this->redirect(array('controller'=>'orders','action'=>'tauler'));
 		}
 	}
 ?>
