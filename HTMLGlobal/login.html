@@ -4,40 +4,32 @@
         <title>
             Starbucks Expresso - Log In
         </title>
+        <link href="reset.css" type="text/css" rel="stylesheet" media="all">
+        <link href="expresso.css" type="text/css" rel="stylesheet" media="all">
+        
     <head>
     <body>
-        <div class="header">
-            Zona Cliente
-            <div class="home">
-                <a href="/index.html">Inicio</a>
-            </div>
-        </div>
-        <div class="body">
-            <div class="form">
-                <form action="/cgi-bin/auth.cgi" method="POST">
-                    <div class="field">
-                        <div class="tag">
-                            Email:
-                        </div>
-                        <div class="content">
-                            <input type="text" name="email" maxlength=50 />
-                        </div>
-                    </div>
-                    <div class="field">
-                        <div class="tag">
-                            Contraseña:
-                        </div>
-                        <div class="content">
-                            <input type="password" name="password" maxlength=50 />
-                        </div>
-                    </div>
-                    <div class="field">
-                        <div class="submit">
-                            <input type="submit" name="aceptar" value="Aceptar" />
-                        </div>
-                    </div>
-                </form>
-            </div>
-        </div>
+	    <div class="content-div">
+	        <div class="header">
+	        </div>
+	        <div class="body">
+	            <div class="form">
+	                <form action="/cgi-bin/auth.cgi" method="POST">
+	                        <div class="left">
+	                            <input type="text" placeholder="email" name="email" maxlength=50 />
+	                        </div>
+	                        <div class="right">
+	                            <input type="password" placeholder="contrasenya" name="password" maxlength=50 />
+	                        </div>
+	                    <div class="clear"></div>
+	                    <div class="field">
+	                        <div class="right">
+	                            <input type="submit" name="aceptar" value="" />
+	                        </div>
+	                    </div>
+	                </form>
+	            </div>
+	        </div>
+	    </div>
     </body>
 </html>
