@@ -2,31 +2,41 @@
 <html>
     <head>
         <title>Starbucks Expresso - Comprar Cŕeditos</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link href="reset.css" type="text/css" rel="stylesheet" media="all">
+        <link href="expresso.css" type="text/css" rel="stylesheet" media="all">
+        
     </head>
     <body>
-        <div class="header">
-            Créditos disponibles: 0.200001
-        </div>
-        <div class="form">
-            <form action="/servlets/purchaseCredits" method="POST">
-                <div class="field">
-                    <div class="tag">
-                        Comprar:
-                    </div>
-                    <div class="content">
-                        <input type="text" name="credits" maxlength=20 />
-                    </div>
-                </div>
-                <div class="field">
-                    <div class="submit">
-                        <input type="submit" name="aceptar" value="Aceptar" />
-                    </div>
-                </div>
-            </form>
-        </div>
-        <div class="error">
-             
-        </div>
+	    <div class="content-div compraCredits">
+	        <div class="header">
+
+	        </div>
+	       
+	        <div class="credits">
+	         	<h1>Saldo actual</h1>
+		        <img src="monedas.png" />
+	            <p class="saldo">21<span class="moneda">€</span></p>
+	        </div>
+	        <div class="clear"></div>
+	        <div class="form">
+	            <form action="/servlets/purchaseCredits" method="POST">
+                    <h1>Comprar crèdits per Starbucks Expresso</h1>
+	                <div class="left field">
+	                    <div class="content">
+	                        <input placeholder="quantitat" type="text" name="credits" maxlength=20 />
+	                    </div>
+	                </div>
+	                <div class="left field">
+	                    <div class="submit">
+	                        <input type="submit" name="aceptar" value="Compra" />
+	                    </div>
+	                </div>
+	            </form>
+	        </div>
+	        <div class="error">
+	             
+	        </div>
+	    </div>
     </body>
 </html>
