@@ -73,3 +73,46 @@ input[type="submit"]{
     font-size:1.1em;    
     text-shadow: rgba(255,255,255,0.5) 0 1px;
 }
+/*=============CREDITS=============*/
+.compraCredtis{
+    font-family: "Helvetica,Arial";
+
+}
+.compraCredits .credits{
+	width:300px;
+	color: #023b2b;
+	margin:20px auto;
+}
+.compraCredits .form{
+	margin:20px auto;
+	width:580px;
+}
+.compraCredits h1{
+	color:#023b2b;
+	font-size:20px;
+    font-weight: bold;
+	width:100%;
+	text-align: center;
+    text-shadow: rgba(255,255,255,0.3) 0 1px;
+    margin-bottom:5px;
+}
+.compraCredits .credits .saldo{	
+	font-family: "Helvetica Neue";
+	float:right;
+	font-size:70px;
+	padding-top:50px;
+    text-shadow: rgba(255,255,255,0.3) 0 1px;
+	
+}
+.compraCredits .credits img{
+	float:right;
+	margin-top:15px;
+	margin-left:20px;
+}
+.compraCredits .field input[type="text"]{
+	display:block;	
+	margin-left:60px;
+}
+.moneda{
+	color: #0f231d;
+}
