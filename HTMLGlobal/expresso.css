@@ -16,6 +16,12 @@ body{
 	width: 520px;
 	margin: 0 auto;
 }
+.form_row{
+	margin-top: 10px;
+}
+.submit_row{
+	margin-top: 20px;
+}
 .field{
 	margin-top: 10px;
 }
