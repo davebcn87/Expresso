@@ -22,6 +22,7 @@
 		5538ED2512A6C10F007C04B3 /* fons.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5538ED2312A6C10F007C04B3 /* fons.jpg */; };
 		5538ED2612A6C10F007C04B3 /* fons@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5538ED2412A6C10F007C04B3 /* fons@2x.jpg */; };
 		554A5D9D12B1237800C87970 /* favorite.png in Resources */ = {isa = PBXBuildFile; fileRef = 554A5D9C12B1237800C87970 /* favorite.png */; };
+		557EC009148650F90078CDB7 /* YAJLiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 557EC008148650F90078CDB7 /* YAJLiOS.framework */; };
 		5596CE8912B1447D005C3478 /* FavoritsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5596CE8812B1447D005C3478 /* FavoritsViewController.xib */; };
 		9F22582B12A70550004E3649 /* XML2NSDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F22582A12A70550004E3649 /* XML2NSDictionary.m */; };
 		9F312B1512B299BD006AB331 /* tableViewSingle.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F312B1312B299BD006AB331 /* tableViewSingle.png */; };
@@ -92,6 +93,7 @@
 		5538ED2312A6C10F007C04B3 /* fons.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fons.jpg; sourceTree = "<group>"; };
 		5538ED2412A6C10F007C04B3 /* fons@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "fons@2x.jpg"; sourceTree = "<group>"; };
 		554A5D9C12B1237800C87970 /* favorite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = favorite.png; sourceTree = "<group>"; };
+		557EC008148650F90078CDB7 /* YAJLiOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = YAJLiOS.framework; sourceTree = "<group>"; };
 		5596CE8812B1447D005C3478 /* FavoritsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FavoritsViewController.xib; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Expresso-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Expresso-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 		9F22582912A70550004E3649 /* XML2NSDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XML2NSDictionary.h; sourceTree = "<group>"; };
@@ -159,6 +161,7 @@
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
 				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
 				28D801B40F44B63D00FB423F /* CoreData.framework in Frameworks */,
+				557EC009148650F90078CDB7 /* YAJLiOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,6 +245,7 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				557EC008148650F90078CDB7 /* YAJLiOS.framework */,
 				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
 				1D30AB110D05D00D00671497 /* Foundation.framework */,
 				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
@@ -428,6 +432,10 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -437,6 +445,11 @@
 					"$(inherited)",
 					"\"$(SRCROOT)/Classes\"",
 					"\"$(SRCROOT)\"",
+				);
+				OTHER_CODE_SIGN_FLAGS = "";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
 				);
 				PRODUCT_NAME = Expresso;
 				SDKROOT = iphoneos5.0;
@@ -448,6 +461,10 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Expresso_Prefix.pch;
 				INFOPLIST_FILE = "Expresso-Info.plist";
@@ -455,6 +472,10 @@
 					"$(inherited)",
 					"\"$(SRCROOT)/Classes\"",
 					"\"$(SRCROOT)\"",
+				);
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
 				);
 				PRODUCT_NAME = Expresso;
 				SDKROOT = iphoneos5.0;
