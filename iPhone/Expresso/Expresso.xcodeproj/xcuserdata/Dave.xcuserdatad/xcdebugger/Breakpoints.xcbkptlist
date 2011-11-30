@@ -23,11 +23,11 @@
          continueAfterRunningActions = "No"
          isPathRelative = "1"
          filePath = "Classes/ExpressoAppDelegate.m"
-         timestampString = "344348906.425336"
+         timestampString = "344381307.93811"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "42"
-         endingLineNumber = "42"
+         startingLineNumber = "50"
+         endingLineNumber = "50"
          landmarkName = "-actualitzaVistes"
          landmarkType = "5">
       </FileBreakpoint>
