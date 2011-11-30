@@ -465,6 +465,7 @@
 					"\"$(SRCROOT)\"",
 				);
 				PRODUCT_NAME = Expresso;
+				SDKROOT = iphoneos5.0;
 			};
 			name = Debug;
 		};
@@ -482,6 +483,7 @@
 					"\"$(SRCROOT)\"",
 				);
 				PRODUCT_NAME = Expresso;
+				SDKROOT = iphoneos5.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;

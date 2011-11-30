@@ -54,7 +54,7 @@
 			
 			$HttpSocket = new HttpSocket();
 		//	$ret = $HttpSocket->post('https://88.18.101.84:8080/servlets/restaCredits',$data2);
-			$ret = $HttpSocket->post('https://10.0.2.5:8080/servlets/restaCredits',$data2);
+		//	$ret = $HttpSocket->post('https://10.0.2.5:8080/servlets/restaCredits',$data2);
 			
 			$data['user'] = $this->data['Order']['name'];
 			$data['pass'] = $this->Session->Read('password');
@@ -94,11 +94,11 @@
 			
 			$HttpSocket = new HttpSocket();
 //			$data2 = $HttpSocket->post('https://88.18.101.84:8080/servlets/login',$data2);
-			$data2 = $HttpSocket->post('https://10.0.2.5:8080/servlets/login',$data2);
+//			$data2 = $HttpSocket->post('https://10.0.2.5:8080/servlets/login',$data2);
 			
 			$xml = new Xml($data2);
 			$ret = $xml->toArray();
-						
+/*						
 			if($ret['User']['email']==$_POST['user'] && $ret['User']['credits']>=0)
 			{
 				$data['result'] = 1;
@@ -113,6 +113,13 @@
 				$data['result'] = -1;
 				$data['message'] = 'Error, wrong username or password';
 			}
+*/
+			$data['result'] = 1;
+			$data['message'] = 'Client exist';
+			$data['credits'] = 100;
+			$data['sessio'] = md5(time().$_POST['user']);
+			$this->Session->write('sessio_id',$data['sessio']);
+			$this->Session->write('password',$_POST['pass']);
 			
 			$this->set('data',$data);
 			$this->RequestHandler->renderAs($this,'xml');
