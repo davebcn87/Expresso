@@ -21,11 +21,13 @@
          continueAfterRunningActions = "No"
          isPathRelative = "1"
          filePath = "Classes/ExpressoAppDelegate.m"
-         timestampString = "315706834.174947"
+         timestampString = "344345821.775916"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "90"
-         endingLineNumber = "90">
+         startingLineNumber = "72"
+         endingLineNumber = "72"
+         landmarkName = "-importarComanda:"
+         landmarkType = "5">
       </FileBreakpoint>
    </FileBreakpoints>
 </Bucket>
